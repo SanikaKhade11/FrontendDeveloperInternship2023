@@ -1,0 +1,682 @@
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+nav .nav-item{
+    font-size: 17px;
+}
+h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+#listing{
+    width: 60%;
+    margin-left: 350px;
+}
+.dropdown-submenu::after{
+    content: ">";
+    color: gray;
+    float: right;
+    cursor: pointer;
+}
+.dropdown-submenu {
+    position: relative;
+  }
+  .dropdown-submenu .dropdown-menu {
+    left: 105%;
+    top: -6px;
+  }
+  .dropdown-submenu:hover .dropdown-menu, .dropdown-submenu  a:focus + .dropdown-menu {
+    display: block;
+  }
+  .dropdown-menu{
+    border: 0;
+    padding: 20px;
+  }
+  .dropdown-submenu{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 19px;
+  }
+.dropdown-item:hover{
+    background: none !important;
+    color: #1967d2;
+}
+.dropdown-submenu .dropdown-item{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 19px;
+}
+.dropdown-submenu .dropdown-item:hover{
+    color: #1967d2;
+}
+#popular, #active{
+    margin-top: 150px;
+}
+#buy .btn{
+    background-color: #82b440;
+}
+#buy .btn:hover{
+    background-color: #43631a;
+}
+.are{
+    margin-top: 150px;
+}
+.are h1 , .are h1 span{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+.are p{
+    font-size: 17px;
+}
+.are span{
+    font-size: 16px;
+}
+
+.work .card{
+    border-radius: 10px;
+    border: none;
+}
+.work .img-banner{
+    height: 90vh;
+    width: 95%;
+}
+.work .envelope{
+    background-color: rgba(249,171,0,.15);
+    color: #f9ab00;
+    padding: 8px 13px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+.work .briefcase{
+    color: #d93025;
+    background: rgba(217,48,37,.2);
+    padding: 10px 13px;
+    font-size: 24px;
+    border-radius: 50%;
+}
+.work .check{
+    color: #d93025;
+    background: rgba(217,48,37,.2);
+    padding: 5px;
+    font-size: 27px;
+    border-radius: 50%;
+}
+.work #c1{
+    width: 45%;
+    left: -45px;
+}
+.work #c2{
+    width: 50%;
+    right: -360px;
+}
+.work #c3{
+    width: 50%;
+    top:30%;
+    right: -360px;
+}
+.work #c4{
+    top:20%;
+    width: 45%;
+}
+.work #c5{
+    top:23%;
+    left: -45px;
+    width: 12%;
+}
+.work #c5 .bi{
+    font-size: 30px;
+}
+.work #c1 h6, .work #c2 p, .work #c4{
+font-size: 17px;
+line-height: 25px;
+}
+.img-banner{
+    background: url(../img/image/banner-img-1.png);
+}
+.select{
+    border-radius: 12px;
+    border: 0.5px solid rgb(221, 220, 220);
+}
+.select .form-control{
+    border: none;
+    justify-content: center;
+    font-size: 15.5px; 
+    color: gray;
+}
+.select .btn{
+    background-color: #1967d2;
+    border-color: #1967d2;
+    padding: 14px 20px;
+    font-size: 15px;
+}
+.select .btn:hover{
+    background-color: #0f4084;
+}
+#end1{
+    font-size: 14px;
+    font-weight: 600;
+}
+#end{
+    font-size: 20px;
+}
+#search #place{
+    width: 70%;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: 1px solid rgb(190, 186, 186);
+    font-size: 16px;
+}
+#login{
+    background-color: #ecedf2;
+    padding: 11px 20px;
+    border-radius: 8px;
+    color: #1967d2;
+    font-size: 14px;
+}
+#login:hover{
+    background-color: #1967d2;
+    color: white;
+}
+nav .btn{
+    background-color: #1967d2;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+nav .btn:hover{
+    background-color: #0f4084;
+}
+#category .card{
+    border-radius: 10px;
+}
+#category h6{
+    font-size: 19px;
+    font-weight: 600;
+}
+#category p{
+    font-size: 14.5px;
+}
+#category img{
+    background: #ecedf2;
+    padding: 17px;
+    border-radius: 10px;
+}
+#category img:hover{
+    background: #1967d2;
+    color: white;
+}
+.feature .card{
+    border-radius: 10px;
+    border: 1px solid #ecedf2;
+}
+.feature .float-end a:hover{
+    background-color: #a8acaf;
+    padding: 8px;
+    border-radius: 50%;
+    color: black;
+}
+.feature h6{
+    font-size: 17px;
+    font-weight: 600;
+}
+.feature span{
+    font-size: 15px;
+    font-weight: 400;
+}
+.feature .part, .feature .private, .feature .urgent{
+    padding: 7px 20px;
+    border-radius: 30px;
+}
+.feature .part{
+    background-color: rgba(25,103,210,.15);
+}
+.feature .private{
+    background-color: rgba(52,168,83,.15);
+}
+.feature .urgent{
+    background-color: rgba(249,171,0,.15);
+}
+.text-center .btn, #one .open .btn{
+    background-color: #1967d2;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+.text-center .btn:hover, #one .open .btn:hover, .recruter .btn:hover{
+    background-color: #0f4084;
+}
+#img-owl .owl-dot.active span {
+    width: 20px !important;
+    background: black !important;
+}
+#img-owl .card{
+    border-radius: 9px;
+    width: 100%;
+}
+#img-owl h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+#img-owl p{
+    font-size: 16px;
+    line-height: 26px;
+}
+#one h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+#one p{
+    font-size: 15px;
+    line-height: 26px;
+}
+#one .open{
+    width: 435px;
+}
+#one .card{
+    width: 50%; 
+    margin-top: -65px;
+    margin-left: 400px;
+    border-radius: 10px;
+    border: 1px solid rgba(118, 116, 116, 0.125);
+}
+#one .check{
+    left: 6px;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+}
+#one .check .bi{
+    padding: 5px;
+}
+#active span{
+    font-size: 53px;
+    font-weight: 600;
+}
+#active p{
+    font-size: 16px;
+}
+.recent .card{
+   padding: 13px;
+   border: none;
+}
+.recent img, .recent .card{
+    border-radius: 10px;
+}
+.recent h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+.recent p{
+    font-size: 14px;
+}
+#company img{
+    height: 45px;
+}
+.mobile{
+    background: url(../img/image/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    left: -30px;
+    top: 0;
+    right: -10px;
+    height: 100%;
+}
+#enjoy #right{
+    padding: 100px 0px 100px 50px;
+}
+#enjoy span{
+    font-size: 18px;
+    font-weight: 600;
+}
+#enjoy h1{
+    font-size: 46px;
+    font-weight: 600;
+}
+.recruter .start{
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+}
+.recruter .card {
+    background-color: #ecedf2;
+    border-color: #ecedf2;
+    border-radius: 10px;
+}
+.recruter .start{
+    width: 48%;
+}
+.recruter h3{
+    font-weight: 600;
+}
+.recruter .btn{
+    background-color: #1967d2;
+    border-radius: 8px;
+}
+.footer-col-1 h5{
+    font-size: 18px;
+    font-weight: 600;  
+}
+ .footer-col-2 h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.footer a{
+    color: #6c757d;
+    font-size: 14px;
+}
+.footer a:hover{
+    color: blue;
+}
+.footer-col-1{
+    width: 28%;
+}
+.footer-col-2{
+    width: 18%;
+}
+.footer-col-1 span{
+    font-size: 16px;
+    line-height: 26px;
+}
+.footer-col-1 a, .footer-col-2{
+    font-size: 15px;
+}
+.footer #all{
+    font-size: 14px;
+}
+hr:not([size]) {
+    height: 0.4px !important;
+}
+.recent .card-img-top{
+    transition: all 1.3s ease-in-out;
+}
+.recent .img{
+    overflow: hidden;
+}
+.recent .card-img-top:hover{
+    transform: scale(1.1);
+}
+
+
+@media only screen and (min-width:200px) and (max-width:768px){
+    nav .justify-content-end{
+        display: none;
+    } 
+   .navbar .nav-item .bi{
+        float: right;
+    }
+    #listing {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    h2 {
+        font-size: 27px;
+    }
+    p{
+        font-size: 14.5px;
+    }
+    .work{
+        display: none;
+    }
+    .are h1, .are h1 span {
+        font-size: 27px;
+    }
+    .are p {
+        font-size: 15px;
+    }
+    .are span {
+        font-size: 14px;
+        padding-bottom: 12px;
+    }
+    .feature .part, .feature .private, .feature .urgent {
+        padding: 2px 20px;
+    }
+    #category h6 {
+        font-size: 17px;
+    }
+    .feature .float-end{
+        display: none;
+    }
+    .feature h6 {
+        font-size: 15px;
+    }
+    .feature .part, .feature .private, .feature .urgent {
+        padding: 5px 20px;
+        margin-top: 12px;
+    }
+    .feature span {
+        font-size: 14px;
+    }
+    #img-owl p {
+        font-size: 15px;
+    }
+    #company .col-sm-6{
+        width: 50%;
+    }
+    #one .card {
+        width: 80%;
+        margin-top: -65px;
+        margin-left: 50px;
+        border-radius: 10px;
+        border: 1px solid rgba(118, 116, 116, 0.125);
+    }
+    #one .card img{
+        width: 60%;
+    }
+    #one .check {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+    #one h1{
+        font-size: 27px;
+    }
+    #one .open {
+        width: 300px;
+    }
+    #one .open li{
+        font-size: 14px;
+    }
+    .mobile{
+       display: none;
+    }
+    #enjoy span {
+        font-size: 16px;
+    }
+    #enjoy h1 {
+        font-size: 27px;
+    }
+    #enjoy .d-flex{
+        flex-direction: column;
+    }
+    #enjoy .d-flex img{
+        height: 50px;
+    }
+    .recruter .d-flex{
+        flex-direction: column;
+    }
+    .recruter .start{
+        width: 100%;
+    }
+    .recruter .img img{
+        width: 250px;
+        margin-left: 20px;
+    }
+     .footer-col-2 h5{
+        margin-top: 15px;
+        margin-bottom: 1.5rem;
+    }
+    .footer-col-1, .footer-col-2{
+        width: 100%;
+    } 
+    .footer .d-flex{
+        flex-direction: column;
+    }
+    .footer-col-1 span{
+        font-size: 15px;
+    }
+    .footer-col-1 a, .footer-col-2{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+    nav .justify-content-end{
+        display: none;
+    }
+   .navbar .nav-item .bi{
+        float: right;
+    }
+    #listing {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    .work{
+        display: none;
+    }
+    /* .are h1, .are h1 span {
+        font-size: 27px;
+    } */
+    .are p {
+        font-size: 15px;
+    }
+    .are span {
+        font-size: 14px;
+        padding-bottom: 12px;
+    } 
+    #category h6 {
+        font-size: 17px;
+    }
+    .feature .part, .feature .private, .feature .urgent {
+        padding: 2px 20px;
+    }
+    #one .card {
+        width: 50%;
+        margin-top: -65px;
+        margin-left: 200px;
+    }
+    #one .card img{
+        width: 50%;
+    }
+    #one .check {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+    .footer-col-1, .footer-col-2{
+        width: 50%;
+    }
+}
+@media only screen and (min-width:993px) and (max-width:1200px){
+    nav .justify-content-end{
+        display: none;
+    } 
+    #category h6 {
+        font-size: 17px;
+    }
+    .are h1, .are h1 span {
+        font-size: 27px;
+    }
+    .are p {
+        font-size: 15px;
+    }
+    .are span {
+        font-size: 14px;
+    } 
+    .work .img-banner {
+        height: 100vh;
+        width: 100%;
+    }
+    .work #c1{
+        width: 60%;
+        left: -55px;
+    }
+    .work #c2{
+        top: 20%;
+        width: 45%;
+        right: -310px;
+    }
+    .work #c2 img{
+        width: 130px;
+    }
+    .work #c3{
+        width: 55%;
+        top:30%;
+        right: -300px;
+    }
+    .work #c3 span{
+        font-size: 14px;
+    }
+    .work #c4{
+        top:7%;
+        width: 70%;
+    }
+    .work #c5{
+        top:9%;
+        left: -30px;
+        width: 15%;
+    }
+    .work #c1 h6, .work #c2 p, .work #c4{
+        font-size: 15px;
+        line-height: 24px;
+        }
+    #one .card img{
+        width: 60%;
+    }
+    #one .check {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    } 
+    #one .card {
+        width: 50%;
+        margin-top: -65px;
+        margin-left: 290px;
+    } 
+    .recent h6 {
+        font-size: 15px;
+    }
+    .recent .august{
+        font-size: 14px;
+    }
+    #one h1 {
+        font-size: 32px;
+    }
+    #one p , #one li{
+        font-size: 14.5px;
+    }
+    #company img {
+        height: 40px;
+    }
+    .select .form-control, .select .btn, #search #place {
+        font-size: 14px;
+    }
+    .select .btn{
+        padding: 10px 12px;
+    }
+    #end1{
+        font-size: 12px;
+    }
+    .feature .part, .feature .private, .feature .urgent {
+    padding: 2px 20px;
+}
+    .footer-col-2 h5{
+        font-size: 16.8px;
+    }
+    .footer-col-1 span {
+        font-size: 15px;
+    }
+}

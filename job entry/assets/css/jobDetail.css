@@ -1,0 +1,227 @@
+:root{
+    --black:#2B3940;
+    --green:green;
+    --font-600:600;
+    --font-15:15px;
+    --font-16:16px;
+    --font-17:17px;
+    --font-18:18px;
+    --font-19:19px;
+    --font-20:20px;
+}
+body{
+    font-size: var(--font-17);
+    font-weight: 500;
+    font-family: sans-serif;
+    background-color: rgb(239, 253, 245);
+}
+.btn{
+    font-size: var(--font-18);
+}
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black !important;
+    font-weight: var(--font-600);
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--green) !important;
+}
+#listing h3{
+    /* font-size: 21px; */
+    font-weight: var(--font-600);
+}
+#listing span{
+    font-size: var(--font-19);
+}
+.manage p,.manage li, .summary p{
+    font-size:var(--font-18);
+    line-height: 1.5;
+}
+.form-control{
+    font-size: var(--font-18);
+    color: gray;
+}
+.summary{
+    background-color: rgb(239, 253, 245);
+}
+ .footer{
+    background-color: #2B3940;
+}
+.footer .container-fluid{
+    padding-top: 30px;
+}
+.footer h5{
+    font-weight: bold;
+    font-size: 23px;
+}
+ #frow a{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: var(--font-18);
+    font-weight: var(--font-600);
+    text-decoration: none;
+}
+#frow a:hover{
+    margin-left: 2px;
+}
+#frow1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: var(--font-18);
+}
+.footer .input-group{
+    width: 100%;
+}
+#frow1 .btn-group .btn{
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 2px;
+}
+#frow1 .btn-group .btn:hover{
+    color: var(--green);
+    background-color: white;
+}
+#frow2 p{
+    color: rgba(255, 255, 255, 0.5);
+}
+#frow2 .col-lg-7 a{
+    text-decoration: none;
+}
+#frow2 .col-lg-7 div{
+    float: right;
+}
+
+@media only screen and (min-width:200px) and (max-width:567px){
+    .navbar-toggler{
+        margin-left: 100px;
+    } 
+    .navbar .btn{
+        display: none;
+    }
+   
+    #listing h5{
+        font-size:var(--font-20);
+    }
+    #listing span{
+        font-size: var(--font-17);
+    }
+    .manage p,.manage li, .summary p{
+        font-size:var(--font-16);
+        line-height: 1.5;
+    }
+    .form-control{
+        font-size: var(--font-16);
+    }
+    .footer .container-fluid{
+        padding-top:0px;
+    }
+    .footer h5{
+        font-size: var(--font-20);
+        margin-top: 30px;
+    }
+    #frow a,  #frow1 p{
+        font-size: var(--font-17);
+    }
+    
+    #frow2 p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    #frow2 .col-lg-7 div{
+        float: left;
+    }
+}
+@media only screen and (min-width:568px) and (max-width:992px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-toggler{
+        margin-left: 400px;
+    }
+    .navbar .btn{
+        display: none;
+    }
+    #listing h5{
+        font-size:var(--font-20);
+    }
+    #listing span{
+        font-size: var(--font-17);
+    }
+    .manage p, .manage li, .summary p{
+        font-size:var(--font-16);
+        line-height: 1.5;
+    }
+    .form-control{
+        font-size: var(--font-16);
+    }
+    .footer .container-fluid{
+        padding-top:0px;
+    }
+    .footer h5{
+        font-size: var(--font-20);
+        margin-top: 30px;
+    }
+   #frow a,  #frow1 p{
+        font-size: var(--font-17);
+    }
+   
+    #frow2 p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    #frow2 .col-lg-7 div{
+        float: left;
+    }
+    .footer .container-fluid, .footer hr{
+        padding-left: 50px;
+        margin-right: 50px;
+    }
+   
+}
+@media only screen and (min-width:993px) and (max-width:1200px){
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    .navbar .btn{
+        display: none;
+    }
+    #listing h5{
+        font-size:var(--font-20);
+    }
+    #listing span{
+        font-size: var(--font-16);
+    }
+    .manage p, .manage li, .summary p{
+        font-size:var(--font-16);
+        line-height: 1.5;
+    }
+    .form-control{
+        font-size: var(--font-16);
+    }
+.footer .container-fluid{
+    padding-top:0px;
+}
+.footer h5{
+    font-size: var(--font-20);
+    margin-top: 30px;
+}
+#frow a,  #frow1 p{
+    font-size: var(--font-17);
+}
+
+#frow2 p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+}

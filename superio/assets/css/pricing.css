@@ -1,0 +1,41 @@
+.card{
+    border-radius: 10px;
+    border: 1px solid rgb(232, 230, 230);
+}
+.card:hover{
+    border-color: blue;
+}
+h6{
+    font-size: 18px;
+}
+span{
+    font-size: 18px;
+}
+.card li{
+    font-size: 16px;
+}
+.card .btn{
+    font-size: 16px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #ecedf2;
+    padding: 18px 15px;
+    color: blue;
+}
+.card .btn:hover{
+    background-color: blue;
+    color: white;
+}
+#middle{
+border: 1px solid blue;
+}
+#middle .badge{
+    background-color: #ecedf2;
+    padding: 10px 25px;
+    font-size: 13px;
+    font-weight: 530;
+}
+.mon{
+    font-size: 32px;
+    font-weight: 550;
+}

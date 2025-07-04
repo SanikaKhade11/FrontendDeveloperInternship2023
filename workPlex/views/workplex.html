@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/workplex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <title>WorkPlex</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../assets/img/logo/logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown me-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      home <i class="bi bi-chevron-down ms-1"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Home 1</a></li>
+                      <li><a class="dropdown-item" href="#">Home 2</a></li>
+                      <li><a class="dropdown-item" href="#">Home 3</a></li>
+                      <li><a class="dropdown-item" href="#">Home 4</a></li>
+                      <li><a class="dropdown-item" href="#">Home 5</a></li>
+                      <li><a class="dropdown-item" href="#">Home 6</a></li>
+                      <li><a class="dropdown-item" href="#">Home 7</a></li>
+                      <li><a class="dropdown-item" href="#">Home 8</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown me-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Find Jobs <i class="bi bi-chevron-down ms-1"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Job Search V1</a></li>
+                        <li><a class="dropdown-item" href="#">Job Search V2</a></li>
+                        <li><a class="dropdown-item" href="#">Job Search v3</a></li>
+                        <li><a class="dropdown-item" href="#">Job Search v4</a></li>
+                        <li><a class="dropdown-item" href="#">Job Search v5</a></li>
+                        <li><a class="dropdown-item" href="#">Job Search v6</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#">Map Styles</a>
+                            <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                              <li><a class="dropdown-item" href="#">Search On Map V1</a></li>
+                              <li><a class="dropdown-item" href="#">Search On Map V2</a></li>
+                              <li><a class="dropdown-item" href="#">Search On Map V3</a></li>
+                              <li><a class="dropdown-item" href="#">Search On Map V4</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                            <a href="#">Single Job</a>
+                            <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                              <li><a class="dropdown-item" href="#">Single Job V1</a></li>
+                              <li><a class="dropdown-item" href="#">Single Job V2</a></li>
+                              <li><a class="dropdown-item" href="#">Single Job V3</a></li>
+                              <li><a class="dropdown-item" href="#">Single Job V4</a></li>
+                            </ul>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown me-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Candidates <i class="bi bi-chevron-down ms-1"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Browse Jobs</a></li>
+                      <li><a class="dropdown-item" href="#">Browse Resume</a></li>
+                      <li><a class="dropdown-item" href="#">Browse Categories</a></li>
+                      <li><a class="dropdown-item" href="#">Candidates Detail</a></li>
+                      <li><a class="dropdown-item" href="#">Candidates Dashboard</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown me-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Employers <i class="bi bi-chevron-down ms-1"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Browse Employers V1</a></li>
+                      <li><a class="dropdown-item" href="#">Browse Employers V2</a></li>
+                      <li><a class="dropdown-item" href="#">Browse Categories</a></li>
+                      <li><a class="dropdown-item" href="#">Employers Detail</a></li>
+                      <li><a class="dropdown-item" href="#">Employers Dashboard</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown me-3">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages <i class="bi bi-chevron-down ms-1"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Blog Style</a></li>
+                      <li><a class="dropdown-item" href="#">About Us</a></li>
+                      <li><a class="dropdown-item" href="#">Contact</a></li>
+                      <li><a class="dropdown-item" href="#">404 Page</a></li>
+                      <li><a class="dropdown-item" href="#">FAQs</a></li>
+                      <li><a class="dropdown-item" href="#">Docs</a></li>
+                    </ul>
+                  </li>
+            </ul>
+          </div>
+          <div class="justify-content-end">
+            <a href="" class="me-4"><i class="bi bi-person me-2"></i>Sign In</a>
+            <a href="" class="btn btn-success text-white py-3 px-4"><i class="bi bi-plus-circle"></i> Post a Job</a>
+          </div>
+        </div>
+      </nav>
+      <div class="s1">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-9">
+                  <h1 class=" text-dark">Get The <span class="text-success"> Right Jobs</span> On Killore</h1>
+                  <p class="text-secondary mt-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                       deleniti atque</p>
+                       </div>
+                       <div class="col-sm-12 col-md-12 col-lg-9 mt-4">
+                        <form class="bg-white p-2">
+                         <div class="row select">
+                            <div class="col-sm-12 col-md-5 col-lg-5">
+                                <input type="text" class="form-control border-end" id="name" placeholder="Job Title,Keywords or Company">
+                            </div>
+                            <div class="col-sm-12 col-md-5 col-lg-5">
+                                <select class="form-select form-control" aria-label="Default select example">
+                                    <option selected>Choose Categories</option>
+                                    <option value="1">Information Technology</option>
+                                    <option value="2">Cloud Computing</option>
+                                    <option value="3">Engineering Services</option>
+                                    <option value="4">Health/Pharma</option>
+                                    <option value="5">Telcom/Internet</option>
+                                    <option value="6">Finance/Insurance</option>
+                                  </select>
+                            </div>
+                            <div class="col-sm-12 col-md-2 col-lg-2">
+                                <a href="" class="btn btn-success text-white">Find Jobs</a>
+                            </div>
+                         </div>
+                        </form>
+            </div>
+        </div>
+        <div class="mt-4 top">
+        <span class="text-dark me-3">Top Searches:</span>
+        <a href="" class="me-3"><span class="badge text-success">WordPress</span></a>
+        <a href="" class="me-3"><span class="badge text-success">Magento</span></a>
+        <a href=""><span class="badge text-success">HTML5</span></a>
+      </div>
+        </div>
+      </div>
+      <div class="container" id="category">
+        <p class="text-center text-secondary">Popular Categories</p>
+        <h2 class="text-center text-dark">Browse Top <span class="text-success"> Categories</span> </h2>
+    <div class="row gx-4 gy-4 mt-4">
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+        <div class="card px-2 py-3">
+          <div class="card-body text-center">
+            <i class="lni lni-laptop-phone text-success"></i>
+            <div class="mt-3">
+              <h6 class="text-dark">Software Company</h6>
+              <span class="text-secondary">607 Jobs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+        <div class="card px-2 py-3">
+          <div class="card-body text-center">
+            <i class="lni lni-cloud text-success"></i>
+            <div class="mt-3">
+              <h6 class="text-dark">Cloud Computing</h6>
+              <span class="text-secondary">960 Jobs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+        <div class="card px-2 py-3">
+          <div class="card-body text-center">
+            <i class="lni lni-shopify text-success"></i>
+            <div class="mt-3">
+              <h6 class="text-dark">Logistics/Shipping</h6>
+              <span class="text-secondary">438 Jobs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+        <div class="card  py-3">
+          <div class="card-body text-center">
+            <i class="lni lni-construction text-success"></i>
+            <div class="mt-3">
+              <h6 class="text-dark">Engineering Services</h6>
+              <span class="text-secondary">644 Jobs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+        <div class="card px-2 py-3">
+          <div class="card-body text-center">
+            <i class="lni lni-phone-set text-success"></i>
+            <div class="mt-3">
+              <h6 class="text-dark">Telecom/ Internet</h6>
+              <span class="text-secondary">380 Jobs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+        <div class="card py-3">
+          <div class="card-body text-center">
+            <i class="lni lni-sthethoscope fs-5 text-success"></i>
+            <div class="mt-3">
+              <h6 class="text-dark">Healthcare/Pharma</h6>
+              <span class="text-secondary">472 Jobs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+        <div class="card px-2 py-3">
+          <div class="card-body text-center">
+            <i class="lni lni-money-protection text-success"></i>
+            <div class="mt-3">
+              <h6 class="text-dark">Finance/Insurance</h6>
+              <span class="text-secondary">654 Jobs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+        <div class="card px-2 py-3">
+          <div class="card-body text-center">
+            <i class="lni lni-diamond-shape text-success"></i>
+            <div class="mt-3">
+              <h6 class="text-dark">Product Software</h6>
+              <span class="text-secondary">732 Jobs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+        <div class="card px-2 py-3">
+          <div class="card-body text-center">
+            <i class="lni lni-briefcase text-success"></i>
+            <div class="mt-3">
+              <h6 class="text-dark">Diversified/Retail</h6>
+              <span class="text-secondary">610 Jobs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+        <div class="card px-2 py-3">
+          <div class="card-body text-center">
+            <i class="lni lni-graduation text-success"></i>
+            <div class="mt-3">
+              <h6 class="text-dark">Education</h6>
+              <span class="text-secondary">960 Jobs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+        <div class="card px-2 py-3">
+          <div class="card-body text-center">
+            <i class="lni lni-mastercard text-success"></i>
+            <div class="mt-3">
+              <h6 class="text-dark">Banking/BPO</h6>
+              <span class="text-secondary">740 Jobs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-6 col-lg-3 col-xl-2">
+        <div class="card  py-3">
+          <div class="card-body text-center">
+            <i class="lni lni-gallery text-success"></i>
+            <div class="mt-3">
+              <h6 class="text-dark">Printing & Packaging</h6>
+              <span class="text-secondary">425 Jobs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5" id="tbtn">
+      <a href="" class="btn text-white">Browse All Categoeries<i class="bi bi-arrow-right-circle ms-2"></i></a>
+    </div>
+  </div>
+  <section class="s2">
+     <div class="container">
+      <p class="text-center text-secondary">Trending Jobs</p>
+      <h2 class="text-center text-dark">All Popular <span class="text-success"> Listed jobs</span></h2>
+      <div class="row gx-4 gy-4 mt-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card" id="full">
+            <div class="card-body">
+              <div class="d-flex justify-content-between" id="df1">
+                <a href="" class="btn"><i class="bi bi-heart-fill text-secondary"></i></a>
+                <div>
+                <span class="badge text-success">Full Time</span>
+              </div>
+              </div>
+              <div class="text-center px-3 pt-3 mb-3">
+                <a href=""><img width="75px" src="../assets/img/c/c-1.png">
+                <h6 class="text-dark mt-3">UI/UX Web Designer</h6></a>
+                <span class="text-secondary"><i class="bi bi-geo-alt me-1"></i>San Francisco</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-4">
+                <span><i class="bi bi-briefcase me-1"></i>Web Design</span>
+                <span><i class="bi bi-wallet2 me-1"></i>3-4 Lakhs PA.</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-2">
+                <span><i class="bi bi-people me-1"></i>02 Vacancy</span>
+                <span><i class="bi bi-stopwatch me-1"></i>3 days ago.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card" id="part">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <a href="" class="btn"><i class="bi bi-heart-fill text-secondary"></i></a>
+                <div>
+                <span class="badge text-warning">Part Time</span>
+              </div>
+              </div>
+              <div class="text-center px-3 pt-3 mb-3">
+                <a href=""><img width="75px" src="../assets/img/c/c-2.png">
+                <h6 class="text-dark mt-3">UI/UX Web Designer</h6></a>
+                <span class="text-secondary"><i class="bi bi-geo-alt me-1"></i>San Francisco</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-4">
+                <span><i class="bi bi-briefcase me-1"></i>Web Design</span>
+                <span><i class="bi bi-wallet2 me-1"></i>3-4 Lakhs PA.</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-2">
+                <span><i class="bi bi-people me-1"></i>02 Vacancy</span>
+                <span><i class="bi bi-stopwatch me-1"></i>3 days ago.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card" id="contract">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <a href="" class="btn"><i class="bi bi-heart-fill text-secondary"></i></a>
+                <div>
+                <span class="badge text-primary">Contract</span>
+              </div>
+              </div>
+              <div class="text-center px-3 pt-3 mb-3">
+                <a href=""><img width="75px" src="../assets/img/c/c-3.png">
+                <h6 class="text-dark mt-3">UI/UX Web Designer</h6></a>
+                <span class="text-secondary"><i class="bi bi-geo-alt me-1"></i>San Francisco</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-4">
+                <span><i class="bi bi-briefcase me-1"></i>Web Design</span>
+                <span><i class="bi bi-wallet2 me-1"></i>3-4 Lakhs PA.</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-2">
+                <span><i class="bi bi-people me-1"></i>02 Vacancy</span>
+                <span><i class="bi bi-stopwatch me-1"></i>3 days ago.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card" id="entern">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <a href="" class="btn"><i class="bi bi-heart-fill text-secondary"></i></a>
+                <div>
+                <span class="badge text-danger">Enternship</span>
+              </div>
+              </div>
+              <div class="text-center px-3 pt-3 mb-3">
+                <a href=""><img width="75px" src="../assets/img/c/c-4.png">
+                <h6 class="text-dark mt-3">UI/UX Web Designer</h6></a>
+                <span class="text-secondary"><i class="bi bi-geo-alt me-1"></i>San Francisco</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-4">
+                <span><i class="bi bi-briefcase me-1"></i>Web Design</span>
+                <span><i class="bi bi-wallet2 me-1"></i>3-4 Lakhs PA.</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-2">
+                <span><i class="bi bi-people me-1"></i>02 Vacancy</span>
+                <span><i class="bi bi-stopwatch me-1"></i>3 days ago.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card" id="contract">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <a href="" class="btn"><i class="bi bi-heart-fill text-secondary"></i></a>
+                <div>
+                <span class="badge text-primary">Contract</span>
+              </div>
+              </div>
+              <div class="text-center px-3 pt-3 mb-3">
+                <a href=""><img width="75px" src="../assets/img/c/c-5.png">
+                <h6 class="text-dark mt-3">UI/UX Web Designer</h6></a>
+                <span class="text-secondary"><i class="bi bi-geo-alt me-1"></i>San Francisco</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-4">
+                <span><i class="bi bi-briefcase me-1"></i>Web Design</span>
+                <span><i class="bi bi-wallet2 me-1"></i>3-4 Lakhs PA.</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-2">
+                <span><i class="bi bi-people me-1"></i>02 Vacancy</span>
+                <span><i class="bi bi-stopwatch me-1"></i>3 days ago.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card" id="full">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <a href="" class="btn"><i class="bi bi-heart-fill text-secondary"></i></a>
+                <div>
+                <span class="badge text-success">Full Time</span>
+              </div>
+              </div>
+              <div class="text-center px-3 pt-3 mb-3">
+                <a href=""><img width="75px" src="../assets/img/c/c-6.png">
+                <h6 class="text-dark mt-3">UI/UX Web Designer</h6></a>
+                <span class="text-secondary"><i class="bi bi-geo-alt me-1"></i>San Francisco</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-4">
+                <span><i class="bi bi-briefcase me-1"></i>Web Design</span>
+                <span><i class="bi bi-wallet2 me-1"></i>3-4 Lakhs PA.</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-2">
+                <span><i class="bi bi-people me-1"></i>02 Vacancy</span>
+                <span><i class="bi bi-stopwatch me-1"></i>3 days ago.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card" id="part">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <a href="" class="btn"><i class="bi bi-heart-fill text-secondary"></i></a>
+                <div>
+                <span class="badge text-warning">Part Time</span>
+              </div>
+              </div>
+              <div class="text-center px-3 pt-3 mb-3">
+                <a href=""><img width="75px" src="../assets/img/c/c-7.png">
+                <h6 class="text-dark mt-3">UI/UX Web Designer</h6></a>
+                <span class="text-secondary"><i class="bi bi-geo-alt me-1"></i>San Francisco</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-4">
+                <span><i class="bi bi-briefcase me-1"></i>Web Design</span>
+                <span><i class="bi bi-wallet2 me-1"></i>3-4 Lakhs PA.</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-2">
+                <span><i class="bi bi-people me-1"></i>02 Vacancy</span>
+                <span><i class="bi bi-stopwatch me-1"></i>3 days ago.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card" id="entern">
+            <div class="card-body">
+              <div class="d-flex justify-content-between">
+                <a href="" class="btn"><i class="bi bi-heart-fill text-secondary"></i></a>
+                <div>
+                <span class="badge text-danger">Enternship</span>
+              </div>
+              </div>
+              <div class="text-center px-3 pt-3 mb-3">
+                <a href=""><img width="75px" src="../assets/img/c/c-8.png">
+                <h6 class="text-dark mt-3">UI/UX Web Designer</h6></a>
+                <span class="text-secondary"><i class="bi bi-geo-alt me-1"></i>San Francisco</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-4">
+                <span><i class="bi bi-briefcase me-1"></i>Web Design</span>
+                <span><i class="bi bi-wallet2 me-1"></i>3-4 Lakhs PA.</span>
+              </div>
+              <div class="d-flex justify-content-between text-secondary mt-2">
+                <span><i class="bi bi-people me-1"></i>02 Vacancy</span>
+                <span><i class="bi bi-stopwatch me-1"></i>3 days ago.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5" id="tebtn">
+        <a href="" class="btn btn-success">Explore More Jobs<i class="bi bi-arrow-right-circle ms-2"></i></a>
+      </div>
+     </div>
+    </section>
+     <section class="s3 bg-success">
+      <div class="container">
+        <p class="text-white text-center">Current Openings</p>
+        <h2 class="text-center text-white">We Have Worked with 10,000+ Trusted Companies</h2>
+            <div class="row gy-4 mt-4">
+              <div class="col-sm-12 col-md-12 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex">
+                      <div class="me-2"><a href=""><img width="55px" src="../assets/img/c/c-9.png"></a></div>
+                      <div class="mt-2">
+                        <a href=""><h6 class="text-dark">Web Designing</h6>
+                        <span class="text-secondary">302 Jobs</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex">
+                      <div class="me-2"><a href=""><img width="55px" src="../assets/img/c/c-4.png"></a></div>
+                      <div class="mt-2">
+                        <a href=""><h6 class="text-dark">Web Designing</h6>
+                        <span class="text-secondary">302 Jobs</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex">
+                      <div class="me-2"><a href=""><img width="55px" src="../assets/img/c/c-2.png"></a></div>
+                      <div class="mt-2">
+                        <a href=""><h6 class="text-dark">Web Designing</h6>
+                        <span class="text-secondary">302 Jobs</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="d-flex">
+                      <div class="me-2"><a href=""><img width="55px" src="../assets/img/c/c-5.png"></a></div>
+                      <div class="mt-2">
+                        <a href=""><h6 class="text-dark">Web Designing</h6>
+                        <span class="text-secondary">302 Jobs</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4 justify-content-center">
+              <div class="col-sm-12 col-md-12 col-lg-9">
+               <div class="row  gy-4">
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex">
+                        <div class="me-2"><a href=""><img width="55px" src="../assets/img/c/c-10.png"></a></div>
+                        <div class="mt-2">
+                          <a href=""><h6 class="text-dark">Web Designing</h6>
+                          <span class="text-secondary">302 Jobs</span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex">
+                        <div class="me-2"><a href=""><img width="55px" src="../assets/img/c/c-12.png"></a></div>
+                        <div class="mt-2">
+                          <a href=""><h6 class="text-dark">Web Designing</h6>
+                          <span class="text-secondary">302 Jobs</span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex">
+                        <div class="me-2"><a href=""><img width="55px" src="../assets/img/c/c-17.png"></a></div>
+                        <div class="mt-2">
+                          <a href=""><h6 class="text-dark">Web Designing</h6>
+                          <span class="text-secondary">302 Jobs</span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     <div class="container" id="review">
+      <p class="text-secondary text-center">Our Reviews</p>
+      <h2 class="text-center text-dark">What Our Customer <span class="text-success"> Saying</span></h2>
+      
+      <div class="owl-carousel owl-theme mt-5">
+        <div class="item">
+          <div class="text-center">
+            <img class="rounded-circle mb-3" width="70px" src="../assets/img/team/team-3.jpg">
+            <div class="float-start ms-4">
+            <i class="bi bi-quote mb-5"></i>
+          </div><br>
+            <p class="text-secondary mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <div class="mt-4">
+                  <h4 class="text-dark">John Cenna</h4>
+                  <span class="text-secondary">CEO of Plike</span>
+                </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="text-center">
+            <img class="rounded-circle mb-3" width="70px" src="../assets/img/team/team-1.jpg">
+            <div class="float-start ms-4">
+              <i class="bi bi-quote mb-5"></i>
+            </div><br>
+            <p class="text-secondary mx-auto mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <div class="mt-4">
+                  <h4 class="text-dark">Mark Jevenue</h4>
+                  <span class="text-secondary">CEO of Addle</span>
+                </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="text-center">
+            <img class="rounded-circle mb-3" width="70px" src="../assets/img/team/team-4.jpg">
+            <div class="float-start ms-4">
+              <i class="bi bi-quote mb-5"></i>
+            </div><br>
+            <p class="text-secondary mx-auto mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <div class="mt-4">
+                  <h4 class="text-dark">Madhu Sharma</h4>
+                  <span class="text-secondary">Team Manager</span>
+                </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="text-center">
+            <img class="rounded-circle mb-3" width="70px" src="../assets/img/team/team-2.jpg">
+            <div class="float-start ms-4">
+              <i class="bi bi-quote mb-5"></i>
+            </div><br>
+            <p class="text-secondary mx-auto mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+               magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                <div class="mt-4">
+                  <h4 class="text-dark">Henna Bajaj</h4>
+                  <span class="text-secondary">Aqua Founder</span>
+                </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <div class="container" id="latest">
+     <p class="text-secondary text-center">Latest News</p>
+     <h2 class="text-center text-dark">Pickup New <span class="text-success"> Updates</span> </h2>
+     <div class="row gx-4 gy-4 mt-4" id="latest">
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img class="card-img-top" src="../assets/img/c/b-4.jpg">
+          <div class="body mt-4 px-4">
+            <span class="badge text-success">Marketing</span>
+            <a href="" class="link text-dark"><h6 class="mt-2">How To Register on WorkPlex Step by Step?</h6></a>
+            <p class="text-secondary mt-2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+          </div>
+          <hr class="text-secondary">
+          <div class="d-flex justify-content-between px-3 mb-2">
+            <div><a href=""><img width="35px" class="rounded-circle" src="../assets/img/team/team-2.jpg"></a></div>
+            <div class="float-end mt-2">
+              <span class="me-4 text-dark"><i class="bi bi-eye-fill text-success me-2"></i>10k Views</span>
+              <span class="text-dark"><i class="bi bi-clock-fill me-2"></i>10 July 2021</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img class="card-img-top img-fluid" src="../assets/img/c/b-5.jpg">
+          <div class="body mt-4 px-4">
+            <span class="badge text-success">Business</span>
+            <a href="" class="link text-dark"><h6 class="mt-2">Let's Know How WorkPlex Work Fast and Secure?</h6></a>
+            <p class="text-secondary mt-2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+          </div>
+          <hr class="text-secondary">
+          <div class="d-flex justify-content-between px-3 mb-2">
+            <div><a href=""><img width="35px" class="rounded-circle" src="../assets/img/team/team-3.jpg"></a></div>
+            <div class="float-end mt-2">
+              <span class="me-4 text-dark"><i class="bi bi-eye-fill text-success me-2"></i>10k Views</span>
+              <span class="text-dark"><i class="bi bi-clock-fill me-2"></i>10 July 2021</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card">
+          <img class="card-img-top" src="../assets/img/c/b-6.jpg">
+          <div class="body mt-4 px-4">
+            <span class="badge text-success">Accounting</span>
+            <a href="" class="link text-dark"><h6 class="mt-2">How To Improove Digital Marketing for Fast SEO</h6></a>
+            <p class="text-secondary mt-2">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+          </div>
+          <hr class="text-secondary">
+          <div class="d-flex justify-content-between px-3 mb-2">
+            <div><a href=""><img width="35px" class="rounded-circle" src="../assets/img/team/team-5.jpg"></a></div>
+            <div class="float-end mt-2">
+              <span class="me-4 text-dark"><i class="bi bi-eye-fill text-success me-2"></i>10k Views</span>
+              <span class="text-dark"><i class="bi bi-clock-fill me-2"></i>10 July 2021</span>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+    <section class="s4 bg-success">
+      <div class="container">
+        <div class="text-center">
+          <p class="text-white">Subscribr Now</p>
+          <h2 class="text-white">Get All New Job Notification</h2>
+          <div class="input-group position-relative  mt-4">
+            <input type="text" class="form-control bg-white w-100 py-4  pe-5" placeholder="Enter your email here"
+             aria-label="Your email" aria-describedby="button-addon2">
+            <button class="btn btn-lg btn-dark text-white mt-2 position-absolute top-0 end-0 me-2" type="button"
+             id="button-addon2">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer bg-dark">
+      <div class="container pt-5 pb-5">
+        <div class="row gx-4 gy-4 mt-3">
+          <div class="fcol-1 text-secondary">
+            <img width="150px" src="../assets/img/logo/logo-light.png">
+            <p class=" mt-3">3298 Grant Street Longview, New Texox
+              United Kingdom 75601</p>
+              <span class="mt-4">1-202-555-0106</span><br>
+              <span>support@workplex.com</span>
+              <div class="mt-4">
+                <a href="" class="text-success me-3"><i class="bi bi-facebook"></i></a>
+                <a href="" class="text-success me-3"><i class="bi bi-twitter"></i></a>
+                <a href="" class="text-success me-3"><i class="bi bi-youtube"></i></a>
+                <a href="" class="text-success me-3"><i class="lni lni-instagram-fill"></i></a>
+                <a href="" class="text-success"><i class="bi bi-linkedin"></i></a>
+              </div>
+          </div>
+          <div class="fcol-2">
+            <h6 class="text-white mb-3">For Employers</h6>
+            <p>
+              <a href="">Explore Candidates</a>
+            </p>
+            <p>
+              <a href="">Job Pricing</a>
+            </p>
+            <p>
+              <a href="">Submit Job</a>
+            </p>
+            <p>
+              <a href="">Shortlisted</a>
+            </p>
+            <p>
+              <a href="">Dashboard</a>
+            </p>
+          </div>
+          <div class="fcol-2">
+            <h6 class="text-white mb-3">For Candidates</h6>
+            <p>
+              <a href="">Explore All Jobs</a>
+            </p>
+            <p>
+              <a href="">Browse Categories</a>
+            </p>
+            <p>
+              <a href="">Saved Jobs</a>
+            </p>
+            <p>
+              <a href="">Dashboard</a>
+            </p>
+          </div>
+          <div class="fcol-2">
+            <h6 class="text-white mb-3">About Company</h6>
+            <p>
+              <a href="">Who We'r?</a>
+            </p>
+            <p>
+              <a href="">Our Mission</a>
+            </p>
+            <p>
+              <a href="">Our team</a>
+            </p>
+            <p>
+              <a href="">Packages</a>
+            </p>
+            <p>
+              <a href="">Dashboard</a>
+            </p>
+          </div>
+          <div class="fcol-2">
+            <h6 class="text-white mb-3">Helpful Topics</h6>
+            <p>
+              <a href="">Site Map</a>
+            </p>
+            <p>
+              <a href="">Security</a>
+            </p>
+            <p>
+              <a href="">Contact</a>
+            </p>
+            <p>
+              <a href="">FAQ's Page</a>
+            </p>
+            <p>
+              <a href="">Privacy</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr class="text-secondary">
+      <div class="container pb-3">
+        <div class="text-center text-secondary">
+          <span>© 2023 Workplex. Designd By ThemezHub.</span>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

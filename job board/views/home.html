@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <title>Job Board</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand py-4 px-4 ms-3" href="#">
+            <img class="img-fluid" width="250" src="../assets/img/logo/logo.png">
+          </a>
+          <button class="navbar-toggler   me-4 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="nav-item dropdown py-2 px-2 ms-4">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 English
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item py-3 px-3" href="#">English</a></li>
+                    <li><a class="dropdown-item py-3 px-3" href="#">हिंदी</a></li>
+                    <li><a class="dropdown-item py-3 px-3" href="#">मराठी</a></li>
+                    <li><a class="dropdown-item py-3 px-3 " href="#">ગુજરાતી</a></li>
+                    <li><a class="dropdown-item py-3 px-3 " href="#">తెలుగు(Telugu)</a></li>
+                    <li><a class="dropdown-item py-3 px-3" href="#">ಕನ್ನಡ(Kannada)</a></li>
+                    <li><a class="dropdown-item py-3 px-3" href="#">বাংলা(Bengali)</a></li>
+                </ul>
+            </div>
+                  
+              <a class="nav-link py-2 px-2 ms-4 me-4" aria-current="page" href="#">
+                <button class="btn btn-outline-dark">For Employer </button>
+              </a>
+              <a class="nav-link py-2 px-2 me-4 ms-4" href="#"> 
+                 <button class="btn text-white bg-primary ">Candidates Login</button>
+            </a>
+            </div>
+          </div>
+      </nav>
+    <div class="container">
+       <div class="text-center py-4 px-4" id="popular">
+        <h1 class="mb-4">YOU CAN CHOOSE YOUR JOB</h1>
+        <h5 class=" text-secondary pb-4">Find perfect job for build your skills. Have many job in this platform.</h5>
+        <div class="row pt-4 mt-4 pb-2 mt-2">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="card py-4 px-4 pt-4 pb-4" id="row1">
+                    <div class="row mt-2 mb-2 me-2 ms-2">
+                <div class="col-sm-4 col-md-4 col-lg-4">
+                    <input type="text" id="skill" class="form-control" placeholder="Search by skills">
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <input type="text" id="city" class="form-control" placeholder="City">
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Experience</option>
+                        <option value="1">0 years</option>
+                        <option value="2">5 years</option>
+                        <option value="3">10 years</option>
+                        <option value="4">15 yearst</option>
+                        <option value="5">20 years</option>
+                        <option value="6">25 years</option>
+                      </select>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                   <a href="" class="btn bg-primary text-white text-center" id="b1"><i class="bi bi-search me-3"></i>Find Job</a>
+                </div>
+                </div>
+                </div>
+                </div>
+              </div>
+              <div class="row ms-5 me-5 pt-5 pb-5" >
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="d-flex" id="none">
+                        <h6 class="ms-4 me-5">Popular Searches :</h6>
+                        <a href="" class="link text-success me-4 ms-4"><h6>Designer</h6></a>
+                        <a href="" class="link text-success me-4 ms-4" id="t4"><h6>Developer</h6></a>
+                        <a href="" class="link text-success me-4 ms-4"  id="t4"><h6>Web</h6></a>
+                        <a href="" class="link text-success me-4 ms-4"  id="t4"><h6>PHP</h6></a>
+                        <a href="" class="link text-success me-4 ms-4" id="t4"><h6>IOS</h6></a>
+                        <a href="" class="link text-success me-4 ms-4"  id="t4"><h6>Engineer</h6></a>
+                      </div>
+                    </div>
+              </div>
+              <h1 id="popular">Popular Job Categories</h1>
+              <p class=" text-secondary mt-3" id="know">Know your really worth and find the job that qualify your life.</p>
+              </div>
+              <div class="row gy-4" id="row2">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body py-4 px-4 pt-4 mt-4 me-2 ms-2 pb-4">
+                            <img class=" icon1 rounded-3 " src="../assets/img/category/icon-01.png" id="catagory">
+                            <div class="card-title mt-4 mb-4">
+                                <a href="" class="link mb-3"> <h5>Accounting</h5></a>
+                                <p >(2 open positions)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body py-4 px-4 pt-4 mt-4 me-2 ms-2 pb-4">
+                            <img class="icon2 rounded-3" src="../assets/img/category/icon-02.png"  id="catagory">
+                            <div class="card-title mt-4 mb-4">
+                                <a href="" class="link mb-3"> <h5>Marketing</h5></a>
+                                <p >(86 open positions)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body py-4 px-4 pt-4 mt-4 me-2 ms-2 pb-4">
+                            <img class="icon3 rounded-3" src="../assets/img/category/icon-03.png"  id="catagory"> 
+                            <div class="card-title mt-4 mb-4">
+                                <a href="" class="link mb-3"> <h5>Design</h5></a>
+                                <p >(20 open positions)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body py-4 px-4 pt-4 mt-4 me-2 ms-2 pb-4">
+                            <img class="icon2 rounded-3" src="../assets/img/category/icon-04.png"  id="catagory">
+                            <div class="card-title mt-4 mb-4">
+                                <a href="" class="link mb-3"><h5>Development</h5></a>
+                                <p >(12 open positions)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body py-4 px-4 pt-4 mt-4 me-2 ms-2 pb-4">
+                            <img class="icon1 rounded-3" src="../assets/img/category/icon-05.png"  id="catagory">
+                            <div class="card-title mt-4 mb-4">
+                                <a href="" class="link mb-3"> <h5>Construction</h5></a>
+                                <p >(55 open positions)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body py-4 px-4 pt-4 mt-4 me-2 ms-2 pb-4">
+                            <img class="icon5 rounded-3" src="../assets/img/category/icon-06.png"  id="catagory">
+                            <div class="card-title mt-4 mb-4">
+                                <a href="" class="link mb-3"> <h5>Customer Services</h5></a>
+                                <p >(43 open positions)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body py-4 px-4 pt-4 mt-4 me-2 ms-2 pb-4">
+                            <img class=" icon4 rounded-3"id="catagory" src="../assets/img/category/icon-07.png">
+                            <div class="card-title mt-4 mb-4">
+                                <a href="" class="link mb-3"> <h5>Charity & Voluntary</h5></a>
+                                <p >(12 open positions)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <div class="card text-center">
+                        <div class="card-body py-4 px-4 pt-4 mt-4 me-2 ms-2 pb-4">
+                                <img class="icon1 rounded-3" id="catagory" src="../assets/img/category/icon-08.png">
+                            <!-- </div> -->
+                            <div class="card-title mt-4 mb-4">
+                              <h5>
+                                <a href="" class="link mb-3"> Health & Care</a></h5>
+                                <p >(25 open positions)</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="text-center pt-4 mt-4 pb-5 mb-5">
+                <a href="" class="btn bg-primary text-white mt-5">
+                    View More Catagory
+                </a>
+              </div>
+    </div>
+    <div class="container-fluid pt-4 mt-4 pb-4 mb-5" id="job">
+        <div class="container pt-4 mt-5 pb-4 mb-5">
+            <h1 class="text-center mb-3">Featured Jobs</h1>
+            <p class="text-center text-secondary pb-4 mb-5">Know your really worth and find the job that qualify your life.</p>
+        <div class="row" id="row3">
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="card py-2 px-2 mb-4">
+                    <a class="nav-link  text-dark mt-2 "
+                     data-bs-toggle="collapse" href="#collapseOne" role="button" aria-expanded="false" aria-controls="collapseOne">
+                        <h5><img class=" rounded-3 me-3" src="../assets/img/job/job-01.jpg">
+                        Assistant Manager<span class="badge bg-primary rounded-pill mt-2 " id="right-icon">featured</span></h5>
+                    </a>
+                      <div class="collapse" id="collapseOne">
+                        <div>
+                            <div class="hide py-4 px-4 text-secondary">
+                                <p>Start taking a while for your job search to request and agenda informational
+                                    interviews with human beings withinside the fields you’re interested by to find out about their profession 
+                                    paths and get profession advice.</p>
+                                    <div class="footer d-flex justify-content-between">
+                                        <a href="" class="link">
+                                             <p class="text-secondary"><i class="bi bi-geo-alt-fill me-2"></i>Canada
+                                        <i class="bi bi-cash me-2 ms-4"></i>$ 2.5K</p></a>
+                                        <a href="" class="link text-danger" id="right-icon"><i class="bi bi-heart"></i></a>    
+                                            
+                                    </div>
+                            </div>
+                            </div>
+                            </div>
+                </div>
+                <div class="card py-2 px-2 mb-4">
+                    <a class="nav-link  text-dark mt-2"
+                     data-bs-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false" aria-controls="collapseTwo">
+                        <h5><img class=" rounded-3  me-3" src="../assets/img/job/job-02.jpg">
+                            Sr. Project Manager
+                            <span class="badge bg-danger rounded-pill mt-2" id="right-icon">hot</span></h5>
+                    </a>
+                      <div class="collapse" id="collapseTwo">
+                        <div>
+                            <div class="hide py-4 px-4 text-secondary">
+                                <p>Start taking a while for your job search to request and agenda informational 
+                                    interviews with human beings withinside the fields you’re interested by to find out about their
+                                     profession paths and get profession advice.</p>
+                                    <div class="footer d-flex justify-content-between">
+                                        <a href="" class="link">
+                                             <p class="text-secondary"><i class="bi bi-geo-alt-fill me-2"></i>California
+                                        <i class="bi bi-cash me-2 ms-4"></i>$ 15K</p></a>
+                                        <a href="" class="link text-danger" id="right-icon"><i class="bi bi-heart"></i></a>    
+                                            
+                                    </div>
+                            </div>
+                            </div>
+                            </div>
+                </div>
+                <div class="card py-2 px-2 mb-4">
+                    <a class="nav-link  text-dark mt-2"
+                     data-bs-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false" aria-controls="collapseThree">
+                        <h5><img class=" rounded-3  me-3" src="../assets/img/job/job-03.jpg">
+                            UI/UX Designer
+                            <span class="badge bg-primary rounded-pill mt-2" id="right-icon">featured</span></h5>
+                    </a>
+                      <div class="collapse" id="collapseThree">
+                        <div>
+                            <div class="hide py-4 px-4 text-secondary">
+                                <p>Start taking a while for your job search to request and agenda informational 
+                                    interviews with human beings withinside the fields you’re interested by to find out about their
+                                     profession paths and get profession advice.</p>
+                                    <div class="footer d-flex justify-content-between">
+                                        <a href="" class="link">
+                                             <p class="text-secondary"><i class="bi bi-geo-alt-fill me-2"></i>New York
+                                        <i class="bi bi-cash me-2 ms-4"></i>$ 18K</p></a>
+                                        <a href="" class="link text-danger" id="right-icon"><i class="bi bi-heart"></i></a>    
+                                            
+                                    </div>
+                            </div>
+                            </div>
+                            </div> 
+                </div>
+                <div class="card  mb-4">
+                    <a class="nav-link  text-dark mt-2"
+                    data-bs-toggle="collapse" href="#collapseFour" role="button" aria-expanded="false" aria-controls="collapseFour">
+                       <h5><img class=" rounded-3  me-3" src="../assets/img/job/job-04.jpg">
+                        Software Engineer
+                           <span class="badge bg-primary rounded-pill mt-2" id="right-icon">featured</span></h5>
+                   </a>
+                     <div class="collapse" id="collapseFour">
+                       <div>
+                           <div class="hide py-4 px-4 text-secondary">
+                               <p>Start taking a while for your job search to request and agenda informational 
+                                   interviews with human beings withinside the fields you’re interested by to find out about their
+                                    profession paths and get profession advice.</p>
+                                   <div class="footer d-flex justify-content-between">
+                                       <a href="" class="link">
+                                            <p class="text-secondary"><i class="bi bi-geo-alt-fill me-2"></i>London
+                                       <i class="bi bi-cash me-2 ms-4"></i>$ 20K</p></a>
+                                       <a href="" class="link text-danger" id="right-icon"><i class="bi bi-heart"></i></a>    
+                                           
+                                   </div>
+                           </div>
+                           </div>
+                           </div> 
+                </div>
+                <div class="card py-2 px-2 mb-4">
+                    <a class="nav-link  text-dark mt-2"
+                    data-bs-toggle="collapse" href="#collapseFive" role="button" aria-expanded="false" aria-controls="collapseFive">
+                       <h5><img class=" rounded-3  me-3" src="../assets/img/job/job-05.jpg">
+                           Content Writer
+                           <span class="badge bg-danger rounded-pill mt-2" id="right-icon">hot</span></h5>
+                   </a>
+                     <div class="collapse" id="collapseFive">
+                       <div>
+                           <div class="hide py-4 px-4 text-secondary">
+                               <p>Start taking a while for your job search to request and agenda informational 
+                                   interviews with human beings withinside the fields you’re interested by to find out about their
+                                    profession paths and get profession advice.</p>
+                                   <div class="footer d-flex justify-content-between">
+                                       <a href="" class="link">
+                                            <p class="text-secondary"><i class="bi bi-geo-alt-fill me-2"></i>UK
+                                       <i class="bi bi-cash me-2 ms-4"></i>$ 40K</p></a>
+                                       <a href="" class="btn text-danger" id="right-icon"><i class="bi bi-heart"></i></a>    
+                                           
+                                   </div>
+                           </div>
+                           </div>
+                           </div> 
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6">
+                <div class="text-center">
+                    <img id="t2" src="../assets/img/job/job.png">
+                </div>
+                <div class="text-start ms-5">
+                <h2 class="mb-4">Find Talent From The Featured Ones For Your Dream Job</h2>
+                <h5 class=" text-secondary mb-5">Create best resume and take step toward finding your skills job !</h5>
+                <a href="" class="btn bg-primary text-white py-2 px-4">Post Resume</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container pt-5 mt-5">
+    <h1 class="text-center">Top Hiring Companies</h1>
+    <p class="text-center text-secondary">Know your really worth and find the job that qualify your life.</p>
+    <div class="company">
+    <div class="row gx-4 gy-4 mt-4">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card py-2 px-2">
+                <div class="card-body">
+               <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <img src="../assets/img/company/company-01.jpg">
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <a href="" class="link"><h5>Conzio construction</h5></a>
+                    <div class="text mb-4 mt-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span class="badge bg-success rounded-pill me-4 ms-4">4.0</span>
+                    <h7 class="text-secondary"><i class="bi bi-geo-alt me-2"></i>Boston, USA</h7>
+                    </div>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad">Full Time</span>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad1">Private</span>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad2">Argent</span>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                   <a href="" class="link ms-5"> <i class="bi bi-bookmark"></i></a>
+                </div>
+               </div> 
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card py-2 px-2">
+                <div class="card-body">
+               <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <img src="../assets/img/company/company-02.jpg">
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <a href="" class="link"><h5>Midway Overline</h5></a>
+                    <div class="text mb-4 mt-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span class="badge bg-success rounded-pill  me-4 ms-4">4.0</span>
+                    <h7 class="text-secondary"><i class="bi bi-geo-alt me-2"></i>Boston, USA</h7>
+                    </div>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad">Full Time</span>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad1">Private</span>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad2">Argent</span>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                   <a href="" class="link ms-5"> <i class="bi bi-bookmark"></i></a>
+                </div>
+               </div> 
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="row gx-4 gy-4 mt-2">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card py-2 px-2">
+                <div class="card-body">
+               <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <img src="../assets/img/company/company-03.jpg">
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <a href="" class="link"><h5>Ktone Software</h5></a>
+                    <div class="text mb-4 mt-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span class="badge bg-success rounded-pill  me-4 ms-4">4.0</span>
+                    <h7 class="text-secondary"><i class="bi bi-geo-alt me-2"></i>London UK</h7>
+                    </div>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad">Full Time</span>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad1">Private</span>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad2">Argent</span>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                   <a href="" class="link ms-5"> <i class="bi bi-bookmark"></i></a>
+                </div>
+               </div> 
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card py-2 px-2">
+                <div class="card-body">
+               <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <img src="../assets/img/company/company-04.jpg">
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <a href="" class="link"><h5>Alpha Kem</h5></a>
+                    <div class="text mb-4 mt-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span class="badge bg-success rounded-pill me-4 ms-4">4.0</span>
+                    <h7 class="text-secondary"><i class="bi bi-geo-alt me-2"></i>Nizhny, Russia</h7>
+                    </div>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad">Full Time</span>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad1">Private</span>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad2">Argent</span>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                   <a href="" class="link ms-5"> <i class="bi bi-bookmark"></i></a>
+                </div>
+               </div> 
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="row gx-4 gy-4 mt-2">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card py-2 px-2">
+                <div class="card-body">
+               <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <img src="../assets/img/company/company-05.jpg">
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <a href="" class="link"><h5>Waft Technologies</h5></a>
+                    <div class="text mb-4 mt-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span class="badge bg-success rounded-pill me-4 ms-4">4.0</span>
+                    <h7 class="text-secondary"><i class="bi bi-geo-alt me-2"></i>Utrecht, Netherlands</h7>
+                    </div>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad">Full Time</span>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad1">Private</span>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad2">Argent</span>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                   <a href="" class="link ms-5"> <i class="bi bi-bookmark"></i></a>
+                </div>
+               </div> 
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card py-2 px-2">
+                <div class="card-body">
+               <div class="row">
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                    <img src="../assets/img/company/company-06.jpg">
+                </div>
+                <div class="col-sm-8 col-md-8 col-lg-8">
+                    <a href="" class="link"><h5>Sai Web Infotech</h5></a>
+                    <div class="text mb-4 mt-3">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <span class="badge bg-success rounded-pill me-4 ms-4">4.0</span>
+                    <h7 class="text-secondary"><i class="bi bi-geo-alt me-2"></i>Vienna, Australia</h7>
+                    </div>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad">Full Time</span>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad1">Private</span>
+                    <span class="rounded-pill py-2 px-4 me-2 ms-2" id="bad2">Argent</span>
+                </div>
+                <div class="col-sm-2 col-md-2 col-lg-2">
+                   <a href="" class="link ms-5"> <i class="bi bi-bookmark"></i></a>
+                </div>
+               </div> 
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="text-center pt-4 mt-5 pb-5 mb-5">
+        <a href="" class="btn bg-primary text-white">Load More Companies</a>
+    </div>
+  
+</div>
+<div class="container-fluid pt-4 mt-4 pb-4 mb-5" id="job">
+    <div class="container pt-4 mt-5 pb-4 mb-5">
+        <h2 class="text-center mb-3">What Our Client Review</h2>
+        <p class="text-center text-secondary pb-4 mb-5">Know your really worth and find the job that qualify your life.</p>
+        <div class="row py-4 px-4 pb-4 pt-4 mt-4 mb-4">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card py-4 px-4  me-4">
+                            <div class="card-body">
+                                <img class="img-fluid mt-2 mb-4" src="../assets/img/logo/66.jpg" style="width: 40px; height: 40px;">
+                            <p>Wow what great service, I love it! You guys rock! I am completely blown away. 
+                                Jobboard is exactly what our business has been lacking. Thank you.</p>
+                        </div>
+                        <hr>
+                            <div class="d-flex ">
+                                <img class="img rounded-circle" style="height: 70px; width: 70px;" src="../assets/img/review/avatar-01.jpg">
+                                <div class="text-start ms-3 mt-2">
+                                    <h5 class="text-success mb-1">Eva Kleist</h5>
+                                    <p class="text-secondary">Senior Manager</p>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                    <div class="item">
+                        <div class="card py-4 px-4  me-4">
+                                <div class="card-body">
+                                    <img class="img-fluid mt-2 mb-4" src="../assets/img/logo/66.jpg" style="width: 40px; height: 40px;">
+                                <p>I would gladly pay over 600 dollars for jobboard. Jobboard is worth much more than I paid. 
+                                    The best on the net! I wish I would have thought of it first.</p>
+                            </div>
+                            <hr>
+                                <div class="d-flex ">
+                                    <img class="img rounded-circle" style="height: 70px; width: 70px;" src="../assets/img/review/avatar-02.jpg">
+                                    <div class="text-center ms-3 mt-2">
+                                        <h5 class="text-success mb-1">Marko Konig</h5>
+                                        <p class="text-secondary">Web Designer</p>
+                                    </div>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="item">
+                            <div class="card py-4 px-4  me-4">
+                                    <div class="card-body">
+                                        <img class="img-fluid mt-2 mb-4" src="../assets/img/logo/66.jpg" style="width: 40px; height: 40px;">
+                                    <p>I have gotten at least 50 times the value from jobboard. I didn't even need training.
+                                         Thanks to jobboard, we have just launched our 5th website!</p>
+                                </div>
+                                <hr>
+                                    <div class="d-flex ">
+                                        <img class="img rounded-circle" style="height: 70px; width: 70px;" src="../assets/img/review/avatar-03.jpg">
+                                        <div class="text-center ms-3 mt-2">
+                                            <h5 class="text-success mb-1">Rosa Olsen</h5>
+                                            <p class="text-secondary">App Developer</p>
+                                        </div>
+                                    </div>
+                            </div>
+                            </div>
+                                <div class="item">
+                                    <div class="card py-4 px-4  me-4">
+                                            <div class="card-body">
+                                                <img class="img-fluid mt-2 mb-4" src="../assets/img/logo/66.jpg" style="width: 40px; height: 40px;">
+                                                <p>Since I invested in jobboard I made over 100,000 dollars profits.
+                                                     No matter where you go, jobboard is the coolest, most happening around!</p>
+                                        </div>
+                                        <hr>
+                                            <div class="d-flex ">
+                                                <img class="img rounded-circle" style="height: 70px; width: 70px;" src="../assets/img/review/avatar-04.jpg">
+                                                <div class="text-center ms-3 mt-2">
+                                                    <h5 class="text-success mb-1">Eshan Marshall</h5>
+                                                <p class="text-secondary">Business Manager</p>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    </div>
+                                <div class="item">
+                                    <div class="card py-4 px-4 me-4">
+                                            <div class="card-body">
+                                                <img class="img-fluid mt-2 mb-4" src="../assets/img/logo/66.jpg" style="width: 40px; height: 40px;">
+                                            <p>I like jobboard more and more each day because it makes my life a lot easier.
+                                                 Thank you for making it painless, pleasant and most of all hassle free!</p>
+                                        </div>
+                                        <hr>
+                                            <div class="d-flex ">
+                                                <img class="img rounded-circle" style="height: 70px; width: 70px;" src="../assets/img/review/avatar-05.jpg">
+                                                <div class="text-center ms-3 mt-2">
+                                                    <h5 class="text-success mb-1">Jessika Brandt</h5>
+                                                    <p class="text-secondary">Speicialist</p>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card py-4 px-4  me-4">
+                                                <div class="card-body">
+                                                    <img class="img-fluid mt-2 mb-4" src="../assets/img/logo/66.jpg" style="width: 40px; height: 40px;">
+                                                <p>Thanks for the great service. I strongly recommend jobboard to everyone interested in
+                                                     running a successful online business! It's all good.</p>
+                                            </div>
+                                            <hr>
+                                                <div class="d-flex ">
+                                                    <img class="img rounded-circle" style="height: 70px; width: 70px;" src="../assets/img/review/avatar-06.jpg">
+                                                    <div class="text-center ms-3 mt-2">
+                                                        <h5 class="text-success mb-1">Iwo Maciejewski</h5>
+                                                        <p class="text-secondary">Digital Marketer</p>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        </div>
+                </div>
+                </div>
+        </div>
+        </div>
+        <div class="container mt-5 pt-5">
+            <div class="row mt-4">
+                <div class="col-sm-6 col-md-6 col-lg-6" id="row4">
+                    <h2 class="mb-3">How It Work</h2>
+                    <p class=" text-secondary mb-5">Post a job to tell us about your project. We'll quickly match you with the right freelancers.</p>
+                    <div class="process">
+                   <div class="d-flex mb-5">
+                    <a href="" class="btn text-center bg-success rounded-circle py-2 px-3" id="one">1</a> 
+                    <div class=" text-start ms-3">
+                        <a href="" class="link">
+                        <h4 class="text-success">Register An Account</h4>
+                        <p class="text-secondary">Due to its widespread use as filler text for layouts, non-readability
+                            is of great importance.</p></a>
+                    </div>
+                   </div>
+                   <div class="d-flex mb-5">
+                    <a href="" class="btn text-center rounded-circle py-2 px-3" id="one">2</a> 
+                    <div class=" text-start ms-3">
+                        <a href="" class="link">
+                        <h5>Find your job</h5>
+                        <p class="text-secondary">There are many variations of passages of avaibookmark-label, but the majority
+                            alteration in some form.</p></a>
+                    </div>
+                   </div>
+                   <div class="d-flex mb-5" id="d2">
+                    <a href="" class="btn text-center rounded-circle py-2 px-3" id="one">3</a> 
+                    <div class=" text-start ms-3">
+                    <a href="" class="link">
+                    <h4>Apply for Job</h4>
+                    <p class="text-secondary">Due to its widespread use as filler text for layouts, non-readability
+                    is of great importance.</p></a>
+                    </div>
+                   </div>
+                   <div class="d-flex mb-5">
+                    <a href="" class="btn text-center rounded-circle py-2 px-3"id="one" >4</a> 
+                    <div class=" text-start ms-3">
+                        <a href="" class="link">
+                        <h5>Wait For Interview Call</h5>
+                        <p class="text-secondary">There are many variations of passages of avaibookmark-label, but the majority
+                            alteration in some form.</p></a>
+                    </div>
+                   </div>
+                   <div class="d-flex mb-5">
+                    <a href="" class="btn text-center rounded-circle py-2 px-3"id="one" >5</a> 
+                    <div class=" text-start ms-3">
+                        <a href="" class="link">
+                        <h5>Get Job Confirmation</h5>
+                        <p class="text-secondary">There are many variations of passages of avaibookmark-label, but the majority
+                            alteration in some form.</p></a>
+                    </div>
+                   </div>
+                </div>
+            </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <img class="img-fluid" id="t3" src="../assets/img/logo/process-01.png">
+                </div>
+            </div>
+        </div>
+        <footer class=" footer bg-dark text-center text-white" id="end">
+              <div class="container-fluid pt-4">
+              <div class="row py-4 px-4">
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <a href=" " class="link"><img class=" py-4 px-4  mt-2" id="feet" src="../assets/img/logo/logo-white.png" width="250"></a> 
+                </div>
+                <div class="col-sm-3 col-md-3 col-lg-3">
+                    <p class=" text-start py-4 px-4 mt-2 ">Create a free account to discover lots of Jobs & Career Opportunities around you!</p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="row"id="f3">
+                        <div class="col-sm-4 col-md-4 col-lg-4" >
+                            <div class="d-flex py-4 px-4 ">
+                                <img id="f2" src="../assets/img/category/icon-09.png" width="70px" height="70px">
+                                <div class=" text-start ms-3 me-5">
+                                    <h1>1237</h1>
+                                    <p>Job Posted</p>
+                                </div></div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div class="d-flex py-4 px-4 ">
+                            <img src="../assets/img/category/icon-10.png" width="70px" height="70px">
+                            <div class=" text-start ms-3 me-5">
+                                <h1>150</h1>
+                                <p>Job Filled</p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <div class="d-flex py-4 px-4 ">
+                            <img  src="../assets/img/category/icon-11.png" width="70px" height="70px">
+                            <div class=" text-start ms-3">
+                                <h1>220</h1>
+                                <p>Companies</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="hr me-5 ms-5 mt-5 mb-4">
+              </div>
+            </div>
+            <div class="container pt-4 pb-4" id="f4">
+                <div class="row text-start">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h5 class="fw-bold mt-4 mb-5">
+                           Contact Us
+                    </h5>
+                    <p>Advertise your jobs to hundreds of thousands of monthly customers and 
+                        seek 15.8 million CV in our database.</p>
+                        <div class="d-flex mb-2 mt-4">
+                            <i class="bi bi-house-door-fill fa-1x me-3 mt-2"></i>
+                            <p>Boomerang Building, A 005,Lower Ground, Chandivali, Andheri East, Mumbai, Maharashtra 400072</p>
+                        </div>
+                        <div class="d-flex mb-3">
+                            <i class="bi bi-telephone-fill fa-1x me-3"></i>
+                            <a href="" class="link">+91 7715800004</a>
+                        </div>
+                        <div class="d-flex ">
+                            <i class="bi bi-envelope-fill fa-1x me-3"></i>
+                            <a href="" class="link">info@rozgarkhoj.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-2 col-md-2 col-lg-2">
+                        <h5 class="fw-bold mt-4 mb-5" id="e2">
+                           Employer
+                     </h5>
+                    <p>
+                        <a href=" " class="link">Job Packages</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Company Profile</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Manage Job</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Resume Alerts</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Post a Job</a>
+                    </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-2 col-lg-2">
+                        <h5 class="fw-bold mt-4 mb-5">
+                           Jobseeker
+                     </h5>
+                     <p>
+                        <a href=" " class="link">Applied Job</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">CV Manager</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Shortlisted Job</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Job Alerts</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Dashboard</a>
+                    </p>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2">
+                        <h5 class="fw-bold mt-4 mb-5">
+                           Browse Job
+                      </h5>
+                      <p>
+                        <a href=" " class="link">Jobs by Category</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Jobs by Skills</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Jobs by Role</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Jobs by Cities</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Jobs by Industry</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Gulf Jobs</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Blog</a>
+                    </p>
+                </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2">
+                        <h5 class="fw-bold mt-4 mb-5">
+                            Information
+                      </h5>
+                      <p>
+                        <a href=" " class="link">About us</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Blog</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Our Process</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Our Pricing</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link">Contact Us</a>
+                    </p>
+                </div>
+                </div>
+            </div>
+            
+            <hr>
+                <div class="container">
+                    <div class="row py-4 px-4">
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <p>© 2023 Job Board Powered by<a href="" class="link text-success ms-2">Chitrakoot Web</a></p> 
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <h7>Follow Us On :</h7>
+                            <a href="" class=" text-white">
+                              <i class="bi bi-facebook me-4 ms-3"></i></a>
+                              <a href="" class=" text-white">
+                              <i class="bi bi-twitter me-4"></i></a>
+                              <a href="" class=" text-white">
+                              <i class="bi bi-youtube me-4"></i></a>
+                              <a href="" class=" text-white">
+                              <i class="bi bi-linkedin "></i></a>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              </section>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+       
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script>
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            },
+            992:{
+                items:2
+            }
+        }
+    })
+      </script>
+    
+</body>
+</html>

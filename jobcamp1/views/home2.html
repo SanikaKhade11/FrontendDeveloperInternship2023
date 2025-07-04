@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME-02</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Jost:wght@600&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="../assets/css/jobcamp.css">
+    <link rel="stylesheet" href="../assets/css/home2.css">
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar py-4 navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="../assets/img/logo/logo-main-black.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown me-4">
+                    <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      home <i class="bi bi-chevron-down ms-1"></i>
+                    </a>
+                    <ul class="dropdown-menu text-uppercase" style="width: 220px;" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Homepage 01</a></li>
+                      <li><a class="dropdown-item" href="#">Homepage 02</a></li>
+                      <li><a class="dropdown-item" href="#">Homepage 03</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown me-4">
+                    <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     pages<i class="bi bi-chevron-down ms-1"></i>
+                    </a>
+                    <ul class="dropdown-menu text-uppercase" style="width: 250px;" aria-labelledby="navbarDropdown">
+                      <li class="dropdown-submenu dropdown-item">
+                        <a href="#">Job Pages <i class="bi bi-chevron-right float-end"></i></a>
+                        <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                          <li><a class="dropdown-item" href="#">Job Grid</a></li>
+                          <li><a class="dropdown-item" href="#">job list</a></li>
+                          <li><a class="dropdown-item" href="#">job details</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu dropdown-item">
+                        <a href="#">dashboard <i class="bi bi-chevron-right float-end"></i></a>
+                        <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                          <li><a class="dropdown-item" href="#">dashboard main</a></li>
+                          <li><a class="dropdown-item" href="#">settings</a></li>
+                          <li><a class="dropdown-item" href="#">applicants</a></li>
+                          <li><a class="dropdown-item" href="#">posted jobs</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu dropdown-item">
+                        <a href="#">candidates pages <i class="bi bi-chevron-right float-end"></i></a>
+                        <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                          <li><a class="dropdown-item" href="#">candidate profile</a></li>
+                          <li><a class="dropdown-item" href="#">candidate profile 02</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu dropdown-item">
+                        <a href="#">search pages <i class="bi bi-chevron-right float-end"></i></a>
+                        <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                          <li><a class="dropdown-item" href="#">Search grid</a></li>
+                          <li><a class="dropdown-item" href="#">Search list 01</a></li>
+                          <li><a class="dropdown-item" href="#">Search list 02</a></li>
+                        </ul>
+                      </li>
+
+                      <li><a class="dropdown-item" href="#">company profile</a></li>
+                      <li class="dropdown-submenu dropdown-item">
+                        <a href="#">account <i class="bi bi-chevron-right float-end"></i></a>
+                        <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                          <li><a class="dropdown-item" href="#">Sign in</a></li>
+                          <li><a class="dropdown-item" href="#">Sign up</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu dropdown-item">
+                        <a href="#">essential <i class="bi bi-chevron-right float-end"></i></a>
+                        <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                          <li><a class="dropdown-item" href="#">faq</a></li>
+                          <li><a class="dropdown-item" href="#">404</a></li>
+                          <li><a class="dropdown-item" href="#">pricing page</a></li>
+                          <li><a class="dropdown-item" href="#">contact</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link text-uppercase" aria-current="page" href="#">support</a>
+                  </li>
+                  <li class="nav-item me-4">
+                    <a class="nav-link text-uppercase " aria-current="page" id="log" href="#">log in</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="btn btn-success py-3 px-5 text-white text-uppercase">Sign Up</a>
+                  </li>
+            </ul>
+            </div>
+            <!-- <div class="log">
+                <a href="" class="me-3 text-uppercase text-secondary">log In</a>
+                <a href="" class="btn btn-success text-white text-uppercase">Sign Up</a>
+            </div> -->
+        </div>
+    </nav>
+    <section class="globe">
+        <div class="container-fluid">
+            <div class="d-flex">
+            <div class="job" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                <span class="text-success">#4923 jobs are available right now</span>
+                <h1 class="text-dark mt-4 mb-4">Find the most exciting jobs.</h1>
+                <p class="text-secondary">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative to</p>
+              </div>
+            <img src="../assets/img/logo/globe-pattern.png">
+        </div>
+        <div class="container pt-3" id="hero">
+            <div class="row justify-content-center" id="r1">
+                <div class="col-sm-12 col-md-12 col-lg-11 col-xl-10">
+                    <form class="bg-white p-4" data-aos="fade-up" data-aos-duration="800">
+                        <div class="row gx-4 gy-4">
+                            <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 border-end">
+                                <input type="text" class="form-control mt-2" placeholder="Type Job Title,Keywords">
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5">
+                                <select class="form-select form-control mt-2" aria-label=".form-select-lg example">
+                                    <option selected="">City, State, Zip code or (Remote)</option>
+                                    <option value="1">Mumbai</option>
+                                    <option value="2">Pune</option>
+                                    <option value="3">Thane</option>
+                                  </select>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
+                                <a href="" class="btn btn-success text-uppercase">search</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+   
+    <div class="container border-bottom" id="hire">
+        <h5 class="text-secondary text-center mb-4 pb-5">Get hired in top companies</h5>
+       <div class="row gx-4 gy-4">
+        <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2" data-aos="fade-in" data-aos-duration="800" data-aos-once="true">
+            <img src="../assets/img/company/brand-light-logo-1.png">
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2" data-aos="fade-in" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">
+            <img src="../assets/img/company/brand-light-logo-2.png">
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2" data-aos="fade-in" data-aos-duration="800" data-aos-delay="500" data-aos-once="true">
+            <img src="../assets/img/company/brand-light-logo-3.png">
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2">
+            <img src="../assets/img/company/brand-light-logo-4.png" data-aos="fade-in" data-aos-duration="800" data-aos-delay="700" data-aos-once="true">
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2" data-aos="fade-in" data-aos-duration="800" data-aos-delay="900" data-aos-once="true">
+            <img src="../assets/img/company/brand-light-logo-5.png">
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2 col-xl-2"data-aos="fade-in" data-aos-duration="800" data-aos-delay="1100" data-aos-once="true">
+            <img src="../assets/img/company/brand-light-logo-6.png">
+        </div>
+       </div>
+    </div>
+    <section class="catagory">
+        <div class="container">
+            <div class="row justify-content-center text-center" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                <h1 class="text-dark mb-4">Explore by category</h1>
+                <p class="text-secondary">Leverage agile frameworks to provide a robust synopsis for high level overviews to start.</p>
+            </div>
+            </div>
+            <div class="row gy-4 gx-4 mt-5 pb-5" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card py-3 px-4">
+                        <div class="card-body text-center justify-content-center">
+                            <a href="">
+                                <div class="img text-center mx-auto mb-4 justify-content-center">
+                                    <i class="bi bi-briefcase-fill mt-3 text-white"></i>
+                                </div>
+                            </a>
+                            <a href=""><h5 class="text-dark mb-2">Business Development</h5></a>
+                            <a href=""><span class="text-secondary">415 Vacancy</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                <div class="card py-3 px-4">
+                    <div class="card-body text-center justify-content-center">
+                        <a href="">
+                            <div class="img-1 text-center mx-auto mb-4 justify-content-center">
+                                <i class="bi bi-headset mt-3 text-white"></i>
+                            </div>
+                        </a>
+                        <a href=""><h5 class="text-dark mb-2">Customer Service</h5></a>
+                        <a href=""><span class="text-secondary">415 Vacancy</span></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+            <div class="card py-3 px-4">
+                <div class="card-body text-center justify-content-center">
+                    <a href="">
+                        <div class="img-2 text-center mx-auto mb-4 justify-content-center">
+                            <i class="bi bi-stack mt-3 text-white"></i>
+                        </div>
+                    </a>
+                    <a href=""><h5 class="text-dark mb-2">Development</h5></a>
+                    <a href=""><span class="text-secondary">415 Vacancy</span></a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+        <div class="card py-3 px-4">
+            <div class="card-body text-center justify-content-center">
+                <a href="">
+                    <div class="img-3 text-center mx-auto mb-4 justify-content-center">
+                        <i class="bi bi-vector-pen mt-3 text-white"></i>
+                    </div>
+                </a>
+                <a href=""><h5 class="text-dark mb-2">Design</h5></a>
+                <a href=""><span class="text-secondary">415 Vacancy</span></a>
+        </div>
+    </div>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+    <div class="card py-3 px-3">
+        <div class="card-body text-center justify-content-center">
+            <a href="">
+                <div class="img-4 text-center mx-auto mb-4 justify-content-center">
+                    <i class="bi bi-rocket-takeoff-fill mt-3 text-white"></i>
+                </div>
+            </a>
+            <a href=""><h5 class="text-dark mb-2">Marketing & Management</h5></a>
+            <a href=""><span class="text-secondary">415 Vacancy</span></a>
+    </div>
+</div>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+    <div class="card py-3 px-4">
+        <div class="card-body text-center justify-content-center">
+            <a href="">
+                <div class="img-5 bg-warning text-center mx-auto mb-4 justify-content-center">
+                    <i class="bi bi-briefcase-fill mt-3 text-white"></i>
+                </div>
+            </a>
+            <a href=""><h5 class="text-dark mb-2">Sales & Communication</h5></a>
+            <a href=""><span class="text-secondary">415 Vacancy</span></a>
+    </div>
+</div>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+    <div class="card py-3 px-4">
+        <div class="card-body text-center justify-content-center">
+            <a href="">
+                <div class="img-6 text-center mx-auto mb-4 justify-content-center">
+                    <i class="bi bi-layout-text-sidebar mt-3 text-white"></i>
+                </div>
+            </a>
+            <a href=""><h5 class="text-dark mb-2">Project Management</h5></a>
+            <a href=""><span class="text-secondary">415 Vacancy</span></a>
+    </div>
+</div>
+</div>
+<div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+    <div class="card py-3 px-4">
+        <div class="card-body text-center justify-content-center">
+            <a href="">
+                <div class="img-7 bg-success text-center mx-auto mb-4 justify-content-center">
+                    <i class="bi bi-person-fill mt-3 text-white"></i>
+                </div>
+            </a>
+            <a href=""><h5 class="text-dark mb-2">Human Resource</h5></a>
+            <a href=""><span class="text-secondary">415 Vacancy</span></a>
+    </div>
+</div>
+</div>
+        </div>
+        <div class="text-center mt-5">
+            <a href="" class="btn btn-outline-dark text-uppercase">explore all</a>
+        </div>
+    </div>
+    </section>
+    <div class="container" id="help">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-7" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                <img src="../assets/img/company/content-2-img1.png">
+                <div class="card py-1 px-2" id="alert">
+                    <div class="card-body">
+                        <div class="d-flex">
+                            <div class="me-4">
+                                <div class="icon mt-1 bg-warning rounded-circle">
+                                    <i class="bi bi-check-lg text-white"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="text-success">JOB ALERT!</span>
+                                <p class="text-secondary">104 new jobs are available in this week!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-5 pt-5 mt-4" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                <div class="get">
+                    <h2 class="text-dark">Help you to get the
+                        best job that fits you</h2>
+                        <div class="d-flex mt-5">
+                            <div class="me-3">
+                                <div class="icon">
+                                    <i class="bi bi-columns-gap text-success"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h5 class="text-dark mb-2">#1 Jobs site in UK</h5>
+                                <p class="text-secondary">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-4">
+                            <div class="me-3">
+                                <div class="icon1">
+                                    <i class="bi bi-search text-warning"></i>
+                                </div> 
+                            </div>
+                            <div>
+                                <h5 class="text-dark mb-2">Seamless searching</h5>
+                                <p class="text-secondary">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-4">
+                            <div class="me-3">
+                                <div class="icon2">
+                                    <i class="bi bi-building text-danger"></i>
+                                </div> 
+                            </div>
+                            <div>
+                                <h5 class="text-dark mb-2">Hired in top companies</h5>
+                                <p class="text-secondary">Podcasting operational change management inside of workflows to establish.</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="feature">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-sm-12 col-md-12 col-lg-5" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">
+                <h1 class="text-dark mb-4">Featured Jobs</h1>
+                <p class="text-secondary">Leverage agile frameworks to provide a robust synopsis for high level overviews to start.</p>
+            </div>
+            </div>
+            <div class="row gx-4 gy-4 mt-5 justify-content-center">
+                <div class="col-sm-12 col-md-12 col-lg-10 col-xl-9" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                    <div class="card py-2 px-3 mt-2">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between" id="df1">
+                                <div>
+                                    <div class="d-flex">
+                                        <div class="me-4">
+                                            <img id="logo" src="../assets/img/company/featured-job-logo-1.png">
+                                        </div>
+                                        <div class="mt-2">
+                                            <a href=""><h4 class="mb-1">UI/UX Designer</h4></a>
+                                            <a href=""><span>Apple INC</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pln">
+                                    <p class="h4 mt-2"><img class="me-3" src="../assets/img/company/icon-fire-rounded.svg">120-150K
+                                        <span class="text-secondary ms-1">PLN</span></p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-2" id="df2">
+                                <div class="visual">
+                                    <span  class="me-3 mt-4"><a href="">Visual Design</a></span>
+                                    <span  class="me-3 mt-4"><a href="" >Wireframing</a></span>
+                                    <span  class="me-3 mt-4"><a href="">Scrum</a></span>
+                                </div>
+                                <div class="full">
+                                    <span class="me-3"><i class="bi bi-geo-alt me-2"></i>Berlyn, UK</span>
+                                    <span class="me-3"><i class="bi bi-briefcase me-2"></i>Full-time</span>
+                                    <span><i class="bi bi-clock me-2"></i>9d ago</span>
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-9"  data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                    <div class="card py-2 px-3 mt-2">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between" id="df1">
+                                <div>
+                                    <div class="d-flex">
+                                        <div class="me-4">
+                                            <img id="logo" src="../assets/img/company/featured-job-logo-2.png">
+                                        </div>
+                                        <div class="mt-2">
+                                            <a href=""><h4 class="mb-1">UI/UX Designer</h4></a>
+                                            <a href=""><span>Apple INC</span></a>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div>
+                                    <p class="h4 mt-2"><img class="me-3" src="../assets/img/company/icon-fire-rounded.svg">120-150K
+                                        <span class="text-secondary ms-1">PLN</span></p>
+                                      
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-2" id="df2">
+                                <div class=" visual">
+                                    <span  class="me-3 mt-4"><a href="">Visual Design</a></span>
+                                    <span  class="me-3 mt-4"><a href="" >Wireframing</a></span>
+                                    <span  class="me-3 mt-4"><a href="">Prototyping</a></span>
+                                </div>
+                                <div class="full">
+                                    <span class="me-3"><i class="bi bi-geo-alt me-2"></i>Berlyn, UK</span>
+                                    <span class="me-3"><i class="bi bi-briefcase me-2"></i>Full-time</span>
+                                    <span><i class="bi bi-clock me-2"></i>9d ago</span>
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-9"  data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                    <div class="card py-2 px-3 mt-2">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between" id="df1">
+                                <div>
+                                    <div class="d-flex">
+                                        <div class="me-4">
+                                            <img id="logo" src="../assets/img/company/featured-job-logo-3.png">
+                                        </div>
+                                        <div class="mt-2">
+                                            <a href=""><h4 class="mb-1">iOS Developer</h4></a>
+                                            <a href=""><span>Shofify</span></a>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div>
+                                    <p class="h4 mt-2"><img class="me-3" src="../assets/img/company/icon-fire-rounded.svg">100-120K
+                                        <span class="text-secondary ms-1">PLN</span></p>
+                                      
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-2" id="df2">
+                                <div class="visual">
+                                    <span  class="me-3 mt-4"><a href="">Swift</a></span>
+                                    <span  class="me-3 mt-4"><a href="" >Objective C</a></span>
+                                    <span  class="me-3 mt-4"><a href="">X Code</a></span>
+                                </div>
+                                <div class="full">
+                                    <span class="me-3"><i class="bi bi-geo-alt me-2"></i>Berlyn, UK</span>
+                                    <span class="me-3"><i class="bi bi-briefcase me-2"></i>Full-time</span>
+                                    <span><i class="bi bi-clock me-2"></i>9d ago</span>
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-9" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                    <div class="card py-2 px-3 mt-2">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between" id="df1">
+                                <div>
+                                    <div class="d-flex">
+                                        <div class="me-4">
+                                            <img id="logo" src="../assets/img/company/featured-job-logo-4.png">
+                                        </div>
+                                        <div class="mt-2">
+                                            <a href=""><h4 class="mb-1">Creative Director</h4></a>
+                                            <a href=""><span>Facebook</span></a>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div>
+                                    <p class="h4 mt-2"><img class="me-3" src="../assets/img/company/icon-fire-rounded.svg">80-90K
+                                        <span class="text-secondary ms-1">PLN</span></p>
+                                       
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-2" id="df2">
+                                <div class="visual">
+                                    <span  class="me-3 mt-4"><a href="">Visual Design</a></span>
+                                    <span  class="me-3 mt-4"><a href="" >Wireframing</a></span>
+                                    <span  class="me-3 mt-4"><a href="">Prototyping</a></span>
+                                </div>
+                                <div class="full">
+                                    <span class="me-3"><i class="bi bi-geo-alt me-2"></i>Berlyn, UK</span>
+                                    <span class="me-3"><i class="bi bi-briefcase me-2"></i>Full-time</span>
+                                    <span><i class="bi bi-clock me-2"></i>9d ago</span>
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-9" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                    <div class="card py-2 px-3 mt-2">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between" id="df1">
+                                <div>
+                                    <div class="d-flex">
+                                        <div class="me-4">
+                                            <img id="logo" src="../assets/img/company/featured-job-logo-5.png">
+                                        </div>
+                                        <div class="mt-2">
+                                            <a href=""><h4 class="mb-1">Software Engineer</h4></a>
+                                            <a href=""><span>Oculus</span></a>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                <div>
+                                    <p class="h4 mt-2"><img class="me-3" src="../assets/img/company/icon-fire-rounded.svg">80-90K
+                                        <span class="text-secondary ms-1">PLN</span></p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-2" id="df2">
+                                <div class="visual">
+                                    <span  class="me-3 "><a href="">C++</a></span>
+                                    <span  class="me-3"><a href="" >Javascript</a></span>
+                                    <span  class="me-3"><a href="">React JS</a></span>
+                                </div>
+                                <div class="full">
+                                    <span class="me-3"><i class="bi bi-geo-alt me-2"></i>Berlyn, UK</span>
+                                    <span class="me-3"><i class="bi bi-briefcase me-2"></i>Full-time</span>
+                                    <span><i class="bi bi-clock me-2"></i>9d ago</span>
+                                   </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container" id="tip">
+        <div class="row justify-content-center text-center" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">
+            <div class="col-sm-12 col-md-12 col-lg-7">
+            <h1 class="text-dark mb-4">Quick career tips</h1>
+            <p class="text-secondary">Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate</p>
+        </div>
+        </div>
+        <div class="row gx-4 gy-4 mt-5">
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4" data-aos="fade-right" data-aos-duration="1000">
+                <div class="card1">
+                    <img src="../assets/img/company/blog-img1.png">
+                    <div class="mt-5">
+                        <a href="" class="btn btn-primary mb-4">CV WRITING</a>
+                        <a href=""><h4 class="mb-4">How to make a perfect CV that attracts the attention</h4></a>
+                        <p class="text-secondary">Collaboratively administrate empowered markets via plug-and-play networks. Dynamically 
+                            procrastinate B2C users after installed base.</p>
+                    </div>
+                    <div class="d-flex mt-5">
+                        <div class="me-3">
+                           <a href=""> <img src="../assets/img/person/blog-user-img1.png"></a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <h6 class="mt-1">Anna Frank</h6>
+                                <span>Creative Director</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4" data-aos="fade-up" data-aos-duration="1200">
+                <div class="card1" id="c2">
+                    <a href=""><img src="../assets/img/company/blog-img2.png"></a>
+                    <div class="mt-5">
+                        <a href="" class="btn btn-primary mb-4">MARKETING</a>
+                        <a href=""><h4 class="mb-4">Out bound marketing to get the job you want within 72 days</h4></a>
+                        <p class="text-secondary">Collaboratively administrate empowered markets via plug-and-play networks. Dynamically 
+                            procrastinate B2C users after installed base.</p>
+                    </div>
+                    <div class="d-flex mt-5">
+                        <div class="me-3">
+                           <a href=""> <img src="../assets/img/person/blog-user-img2.png"></a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <h6 class="mt-1">David Herison</h6>
+                                <span>UX Designer</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-4" data-aos="fade-left" data-aos-duration="1000">
+                <div class="card1" id="c2">
+                    <img src="../assets/img/company/blog-img3.png">
+                    <div class="mt-5">
+                        <a href="" class="btn btn-primary mb-4">SOCIAL MEDIA</a>
+                        <a href=""><h4 class="mb-4">Your social media accounts will be your new CV</h4></a>
+                        <p class="text-secondary">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative 
+                            approaches to corporate strategy foster,</p>
+                    </div>
+                    <div class="d-flex mt-5">
+                        <div class="me-3">
+                           <a href=""> <img src="../assets/img/person/blog-user-img3.png"></a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <h6 class="mt-1">Benjamin Linkon</h6>
+                                <span>JavaScript Developer</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="click">
+        <div class="container-fluid">
+            <div class="row bg-success gx-4">
+                <div class="col-sm-12 col-md-12 col-lg-6" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                  <div class="best">
+                    <span class="text-white">Looking for an expert for your company?</span>
+                    <h2 class="text-white fw-bold mt-4 mb-4">Get applications from the world best talents.</h2>
+                    <p class="text-white">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. 
+                        Override the digital divide with additional click throughs from DevOps.</p>
+                        <a href="" class="btn  mt-5 text-uppercase">post a job</a>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+                 <div class="gallery d-flex flex-wrap justify-content-center">
+                    <div class="d-flex">
+                        <img src="../assets/img/gallery/gallery-img1.jpg">
+                        <img src="../assets/img/gallery/gallery-img2.jpg">
+                        <img src="../assets/img/gallery/gallery-img3.jpg">
+                        <img src="../assets/img/gallery/gallery-img4.jpg">
+                        <img src="../assets/img/gallery/gallery-img5.jpg">
+                    </div>
+                    <div class="d-flex">
+                        <img width="162px" src="../assets/img/gallery/gallery-img6.jpg">
+                        <img  src="../assets/img/gallery/gallery-img7.jpg">
+                        <img  src="../assets/img/gallery/gallery-img8.jpg">
+                        <img src="../assets/img/gallery/gallery-img9.jpg">
+                        <img src="../assets/img/gallery/gallery-img10.jpg">
+                    </div>
+                    <div class="d-flex">
+                        <img src="../assets/img/gallery/gallery-img11.jpg">
+                        <img src="../assets/img/gallery/gallery-img12.jpg">
+                        <img src="../assets/img/gallery/gallery-img13.jpg">
+                        <img src="../assets/img/gallery/gallery-img14.jpg">
+                        <img src="../assets/img/gallery/gallery-img15.jpg">
+                    </div>
+                    <div class="d-flex">
+                        <img src="../assets/img/gallery/gallery-img16.jpg">
+                        <img src="../assets/img/gallery/gallery-img17.jpg">
+                        <img src="../assets/img/gallery/gallery-img18.jpg">
+                        <img src="../assets/img/gallery/gallery-img19.jpg">
+                        <img src="../assets/img/gallery/gallery-img20.jpg">
+                    </div>
+                    <div class="d-flex">
+                        <img src="../assets/img/gallery/gallery-img21.jpg">
+                        <img src="../assets/img/gallery/gallery-img22.jpg">
+                        <img src="../assets/img/gallery/gallery-img23.jpg">
+                        <img src="../assets/img/gallery/gallery-img24.jpg">
+                        <img src="../assets/img/gallery/gallery-img25.jpg">
+                    </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark">
+        <div class="container py-4">
+            <div class="row gx-4 gy-4 py-4 mt-4 mb-5" id="fc1">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7"  data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                    <h1 class="text-white fw-bold">Most comprehensive job portal</h1>
+                <p class="text-secondary mt-3">We must explain to you how all this mistaken idea of denouncing</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                   <div  data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                    <a href="" class="btn ms-3 text-uppercase" id="log">log in</a>
+                    <a href="" class="btn ms-3 btn-success text-white text-uppercase">register</a>
+                   </div>
+                </div>
+            </div>
+            <hr class="text-secondary">
+            <div class="row gx-4 gy-4 py-4 mt-5 mb-5">
+                <div class="f-col1">
+                    <img src="../assets/img/icon/logo-main-white.png">
+                    <div class="d-flex mt-5">
+                        <div class="me-4">
+                          <img class="mt-2" src="../assets/img/icon/message.png">
+                        </div>
+                        <div>
+                        <h6 class="text-white">Contact us at</h6>
+                        <a href="">support@uxtheme.net</a>
+                        </div>
+                      </div>
+                      <div class=" follow mt-5">
+                        <h6 class="text-white">Follow us on:
+                          <a href=""><i class="lni lni-facebook-fill ms-3 me-3"></i></a>
+                          <a href=""><i class="lni lni-twitter-fill me-3"></i></a>
+                          <a href=""><i class="bi bi-linkedin"></i></a>
+                        </h6>
+                       </div>
+                </div>
+                <div class="f-col2">
+                    <h6 class="text-secondary pb-4">Company</h6>
+                    <p>
+                      <a href="">About us</a>
+                    </p>
+                    <p>
+                      <a href="">Contact us</a>
+                    </p>
+                    <p>
+                      <a href="">Careers</a>
+                    </p>
+                    <p>
+                      <a href="">Press</a>
+                    </p>
+                  </div>
+                  <div class="f-col2">
+                    <h6 class="text-secondary pb-4">Product</h6>
+                    <p>
+                      <a href="">Features</a>
+                    </p>
+                    <p>
+                      <a href="">Pricing</a>
+                    </p>
+                    <p>
+                      <a href="">News</a>
+                    </p>
+                    <p>
+                      <a href="">Help desk</a>
+                    </p>
+                    <p>
+                      <a href="">Support</a>
+                    </p>
+                  </div>
+                  <div class="f-col2">
+                    <h6 class="text-secondary pb-4">Services</h6>
+                    <p>
+                      <a href="">Digital Marketing</a>
+                    </p>
+                    <p>
+                      <a href="">SEO for Business</a>
+                    </p>
+                    <p>
+                      <a href="">Avasta Dash</a>
+                    </p>
+                    <p>
+                      <a href="">UI Design</a>
+                    </p>
+                  </div>
+                  <div class="f-col2">
+                    <h6 class="text-secondary pb-4">Legal</h6>
+                    <p>
+                      <a href="">Privacy Policy</a>
+                    </p>
+                    <p>
+                      <a href="">Terms & Conditions</a>
+                    </p>
+                    <p>
+                      <a href="">Return Policy</a>
+                    </p>
+                  </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="../assets/js/main.js"></script>
+<script>
+ AOS.init();
+</script>
+</body>
+</html>

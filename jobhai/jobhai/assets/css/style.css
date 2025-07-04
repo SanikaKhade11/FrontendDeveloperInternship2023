@@ -1,0 +1,349 @@
+
+a{
+    text-decoration: none;
+}
+.card{
+    border-radius: 15px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#btn{
+    background-color:orangered;
+    font-weight: bold;
+}
+.navbar-brand{
+    float:right;
+    /* width: 70%; */
+  }
+  #nav:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  #bell, .hidden, .scroll{
+    display: none;
+  }
+#orange{
+    background-color: #fff3cd;
+    border-color: #eaab86;
+}
+#more , #close{
+    color: green;
+    border-color: rgb(116, 189, 116);
+}
+#more{
+    float: right;
+    font-weight: 700;
+}
+#more .btn{
+    border-radius: 6px;
+}
+
+#new{
+    border-color:gainsboro;
+}
+
+#apply{
+    float: right;
+}
+
+#get{
+    background-color: orangered;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: start;
+}
+
+#img{
+    height: 30%;
+    width: 70%;
+}
+
+.card{
+    border-color:gainsboro;
+}
+
+.form-field .input-text{
+    display: block;
+    width: 120%;
+    height: 36px; 
+    border-width:0 0 1px 0 ;
+    border-color: black;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.page-link{
+    border-color: green;
+    color: green;
+}
+.form-field .input-text:focus{
+    outline: none;
+}
+#text{
+    height: 25%;
+}
+
+.text{
+    font-size: 10px;
+}
+
+
+/* Job Details CSS */
+
+.badge{
+    background-color: gainsboro;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+#alert, .navbar, .card{
+    box-shadow: 0px 2px 7px -2px rgba(3, 83, 148, 0.2);
+}
+#alert1{
+    background-color: rgb(192, 216, 222);
+}
+#alert2{
+    border: dashed;
+    border-width: 1px;
+}
+
+/* Profile CSS */
+body{
+    background-color:whitesmoke;
+}
+#skill{
+    font-size: 20px;
+    font-weight: bold;
+}
+.ptop{
+    background-color: darkblue;
+}
+.ptop .img{
+    height: auto;
+    width: 100px;
+}
+.pright{
+    float: right;
+}
+.ptop .hr{
+    width: 85%;
+    height: 1px;
+}
+
+#pbtn{
+    float: right;
+}
+
+.offcanvas-end {
+    width: 500px;
+    text-align: start;
+    border-radius: 25px 0px 0px 25px;
+}
+.offcanvas-end .form-control, .form-select{
+    border: 2px solid gainsboro;
+   border-radius: 6px;
+}
+.offcanvas-footer .btn{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+}
+#offcanvasRight2 #offbtn{
+    border: 1px solid #9da0a8;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+}
+#offimg{
+    width: 100px;
+    border-radius: 4px;
+}
+
+#offcanvasRight2 #customCheck1{
+    width: 40%;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+#offcanvasRight6 .form-control{
+    width: 90%;
+
+}
+/* .profile {
+    position: relative;
+    width: 50%;
+    
+  } */
+  
+  .profile {
+    position: relative;
+    width: 100%;
+  }
+  
+  .profile img {
+    height: auto;
+  }
+  
+  .profile .btn {
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    border-color: white;
+    border-radius: 2px;
+    background-color: darkblue;
+    color: white;
+    padding:1;
+    text-align: center;
+  }
+
+  .add {
+    position: relative;
+    width: 100%;
+  }
+  
+  .add img {
+    height: 10%;
+  }
+  
+  .add .btn {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    border-color: white;
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+    padding:1;
+    text-align: center;
+  }
+  .pleft .form-check-input{
+    background-color: darkgreen;
+  }
+ #footer{
+    font-size: 2px;
+    font-weight: 100;
+ }
+  
+  
+@media (max-width: 575px){
+   
+  /* .navbar-brand{
+    float:right;
+  } */
+  #bell{
+    display: block;
+    float: left;
+  }
+  
+  #icon{
+    margin-right: 2px;
+    float: left;
+  }
+  #btn{
+    content: "";
+    display: table;
+    clear: both;
+  }
+    .stay, #name,#more{
+        display: none;
+    }
+    #btn{
+        float: right;
+    }
+    .hidden{
+        flex: 60%;
+        display: flex;
+        white-space: nowrap;
+        width: 100%;
+    }
+    .near{
+        display: flex;
+        white-space: nowrap;
+    }
+  
+    
+   .scroll{
+    display: flex;
+    width: 220%;
+    margin-right: 4px;
+   }
+    .offcanvas-bottom {
+        bottom: 0;
+        z-index: 1050;
+        display: flex;
+        flex-direction: column;
+       width: 100%;
+       height: 80%;
+       
+    }
+    .offcanvas-bottom .btn{
+        border-color: gainsboro;
+        width: 100%;
+        font-weight: 600;
+        text-align: left;
+    }
+    .offcanvas-bottom .form-check-input{
+        float: right;
+        margin-right: 2px;
+    }
+    .offcanvas-end{
+        width: 90%;
+    }
+    /* .offcanvas-end {
+        bottom: 0;
+        z-index: 1050;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .offcanvas-end .btn{
+        border-color: gainsboro;
+        width: 100%;
+        font-weight: 600;
+        text-align: left;
+    }
+    .offcanvas-end .custom-control-input{
+        float: right;
+        margin-right: 2px;
+    } */
+    .offcanvas-start{
+        top: 0;
+        left: 0;
+        width: 300px;
+    }
+    /* .offcanvas-start .btn{
+        border-color: gainsboro;
+        width: 100%;
+        font-weight: 600;
+        text-align: left;
+    }
+    .offcanvas-start .form-check-input{
+        float: right;
+        margin-right: 2px;  
+    } */
+   /* .head .btn{
+    display: table;
+   } */
+   .form-field .input-text{
+    display: block;
+    width: 100%;
+    height: 36px; 
+    border-width:0 0 1px 0 ;
+    border-color: black;
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.profile {
+    position: relative;
+    width: 40%;
+  }
+}

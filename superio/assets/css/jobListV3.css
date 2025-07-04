@@ -1,0 +1,346 @@
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+nav .nav-item{
+    font-size: 17px;
+}
+#listing{
+    width: 60%;
+    margin-left: 350px;
+}
+.dropdown-submenu::after{
+    content: ">";
+    color: gray;
+    float: right;
+    cursor: pointer;
+}
+.dropdown-submenu {
+    position: relative;
+  }
+  .dropdown-submenu .dropdown-menu {
+    left: 105%;
+    top: -6px;
+  }
+  .dropdown-submenu:hover .dropdown-menu, .dropdown-submenu  a:focus + .dropdown-menu {
+    display: block;
+  }
+  .dropdown-menu{
+    border: 0;
+    padding: 20px;
+  }
+  .dropdown-submenu{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 19px;
+  }
+.dropdown-item:hover{
+    background: none !important;
+    color: #1967d2;
+}
+.dropdown-submenu .dropdown-item{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 19px;
+}
+.dropdown-submenu .dropdown-item:hover{
+    color: #1967d2;
+}
+#buy .btn{
+    background-color: #82b440;
+}
+#buy .btn:hover{
+    background-color: #43631a;
+}
+nav .btn{
+    background-color: #1967d2;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+nav .btn:hover{
+    background-color: #0f4084;
+}
+.place, .offcanvas{
+    background-color: #f5f7fc;
+}
+.place{
+    width: 85%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 50px 60px;
+}
+.default{
+    padding-bottom: 100px;
+}
+#search, .form-select{
+    padding: 14px 20px 14px 54px;
+    border-radius: 9px;
+    border: 0.5px solid #ecedf2 !important;
+    font-size: 15px;
+}
+.form-select, .place .form-range{
+    width: 80%;
+}
+.place h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.place p{
+    font-size: 14px;
+}
+.form-check-label{
+    font-size: 16px;
+    color: dimgray;
+}
+.place .text-center span{
+    background-color: #d4e1f6;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.tags a{
+    background-color: white;
+    padding: 8px 20px;
+    font-size: 14px;
+    color: dimgray;
+    border-radius: 5px;
+}
+.tags a:hover{
+    background-color: #d4e1f6;
+    color: #1967d2;
+}
+.clear .form-select1{
+    padding: 15px 20px;
+    color: dimgray;
+    font-size: 16px;
+    background-color: #f0f5f7;
+    border: 0.5px solid #ecedf2;
+    border-radius: 10px;
+}
+.clear .btn{
+    padding: 13px 20px;
+    border-radius: 10px;
+}
+.feature .card{
+    border-radius: 10px;
+    border: 1px solid #ecedf2;
+}
+.feature .float-end a:hover{
+    background-color: #a8acaf;
+    padding: 8px;
+    border-radius: 50%;
+    color: black;
+}
+.feature h6{
+    font-size: 17px;
+    font-weight: 600;
+}
+.feature span{
+    font-size: 15px;
+    font-weight: 400;
+}
+.feature .part, .feature .private, .feature .urgent{
+    padding: 7px 20px;
+    border-radius: 30px;
+}
+.feature .part{
+    background-color: rgba(25,103,210,.15);
+}
+.feature .private{
+    background-color: rgba(52,168,83,.15);
+}
+.feature .urgent{
+    background-color: rgba(249,171,0,.15);
+}
+.progress{
+    height: 6px;
+     width: 25%;
+     margin-left: 400px;
+}
+.footer-col-1 h5{
+    font-size: 18px;
+    font-weight: 600;  
+}
+ .footer-col-2 h5{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.footer a{
+    color: #6c757d;
+    font-size: 14px;
+}
+.footer a:hover{
+    color: blue;
+}
+.footer-col-1{
+    width: 28%;
+}
+.footer-col-2{
+    width: 18%;
+}
+.footer-col-1 span{
+    font-size: 16px;
+    line-height: 26px;
+}
+.footer-col-1 a, .footer-col-2{
+    font-size: 15px;
+}
+.footer #all{
+    font-size: 14px;
+}
+hr:not([size]) {
+    height: 0.4px !important;
+}
+
+@media only screen and (min-width:200px) and (max-width:768px){
+    nav .justify-content-end{
+        display: none;
+    } 
+    .nav-item .bi{
+        float: right;
+    }
+    #listing {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    .place {
+        width: 100%;
+        padding: 50px 30px;
+    }
+    .form-select, .place .form-range {
+        width: 100%;
+    }
+    .form-check-label {
+        font-size: 15px;
+    }
+    .clear .btn, .clear .form-select1{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .progress {
+        height: 6px;
+        width: 90% !important;
+        margin-left: 4px !important;
+    }
+    .feature .part, .feature .private, .feature .urgent {
+        padding: 2px 20px;
+    }
+    #category h6 {
+        font-size: 17px;
+    }
+    .feature .float-end{
+        display: none;
+    }
+    .feature h6 {
+        font-size: 15px;
+    }
+    .feature .part, .feature .private, .feature .urgent {
+        padding: 5px 20px;
+        margin-top: 12px;
+    }
+    .feature span {
+        font-size: 14px;
+    }
+    .progress{
+        height: 6px;
+         width: 25%;
+         margin-left: 400px;
+    }
+    .footer-col-2 h5{
+        margin-top: 15px;
+        margin-bottom: 1.5rem;
+    }
+    .footer-col-1, .footer-col-2{
+        width: 100%;
+    } 
+    .footer .d-flex{
+        flex-direction: column;
+    }
+    .footer-col-1 span{
+        font-size: 15px;
+    }
+    .footer-col-1 a, .footer-col-2{
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+    nav .justify-content-end{
+        display: none;
+    }
+    .nav-item .bi{
+        float: right;
+    }
+    #listing {
+        width: 100%;
+        margin-left: 0px !important;
+    }
+    .place {
+        width: 80%;
+        padding: 50px 80px;
+        margin-left: 70px;
+        justify-content: center;
+    }
+    .form-select, .place .form-range {
+        width: 55%;
+    }
+    .form-check-label {
+        font-size: 16px;
+    }
+    .progress {
+        height: 6px;
+        width: 40% !important;
+        margin-left: 240px !important;
+    }
+    .feature .part, .feature .private, .feature .urgent {
+        padding: 2px 20px;
+    }
+    .footer-col-1, .footer-col-2{
+        width: 50%;
+    }
+}
+@media only screen and (min-width:993px) and (max-width:1200px){
+    nav .justify-content-end{
+        display: none;
+    } 
+    .place {
+        width: 95%;
+        padding: 50px 40px;
+    }
+    .form-select, .place .form-range {
+        width: 90%;
+    }
+    .form-check-label {
+        font-size: 15px;
+    }
+    .clear1 .col-md-3{
+        width: 20%;
+    }
+    .clear1 .col-md-9{
+        width: 80%;
+    }
+    .progress {
+        height: 6px;
+        width: 25%;
+        margin-left: 280px;
+    }
+    .feature .part, .feature .private, .feature .urgent {
+        padding: 2px 20px;
+    }
+        .footer-col-2 h5{
+            font-size: 16.8px;
+        }
+        .footer-col-1 span {
+            font-size: 15px;
+        }
+}
+

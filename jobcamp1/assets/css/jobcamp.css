@@ -1,0 +1,730 @@
+:root{
+    --font-13:13px;
+    --font-14:14px;
+    --font-15:15px;
+    --font-16:16px;
+    --font-17:17px;
+    --font-18:18px;
+    --font-19:19px;
+    --font-20:20px;
+    --font-21:21px;
+    --font-400:400;
+    --font-500:500;
+    --font-600:600;
+    --font-700:700;
+    --white:white;
+}
+body{
+    font-size: var(--font-17);
+    font-weight: var(--font-400);
+}
+a{
+    text-decoration: none !important;
+}
+.navbar .btn{
+    font-size: var(--font-13);
+    font-weight: var(--font-700);
+}
+#log {
+    color: black;
+}
+#log:hover{
+    color: #6c757d;
+    border-top: none;
+}
+.navbar-light .navbar-nav .nav-link, #header a {
+    color: black;
+    font-size: var(--font-15);
+    font-weight: var(--font-700);
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: green;
+    border-top: 2px solid green;
+}
+.nav-item ul, #header ul{
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 52px 54px rgba(65, 62, 101, 0.3);
+    max-width: 280px !important;
+    padding: 20px 0px;
+    border-top: 3px solid #00b074 !important;
+    border: 1px solid rgb(234, 232, 232);
+}
+.nav-item .dropdown-item, .nav-item .dropdown-submenu .dropdown-item, #header .dropdown-item{
+    font-size: var(--font-14);
+    font-weight: var(--font-700);
+    color: rgb(48, 47, 47);
+    padding: 10px 30px 10px 30px;
+    background: none !important;
+}
+.dropdown-submenu a{
+    color:rgb(48, 47, 47) ;
+}
+.nav-item .dropdown-item:hover, .dropdown-submenu .dropdown-item:hover, .dropdown-submenu a:hover{
+    color: green;
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdown-submenu {
+    position: relative;
+  }
+  .dropdown-submenu .dropdown-menu {
+    right: 100%;
+    top: -6px;
+  }
+  .dropdown-submenu:hover .dropdown-menu, .dropdown-submenu  a:focus + .dropdown-menu {
+    display: block;
+  }
+  .dropdown-submenu a .bi, .nav-link .bi, #header .bi{
+    font-size:var(--font-13) !important;
+  }
+  
+h1{
+    font-size: 50px;
+    font-weight: var(--font-700);
+    line-height: 1.2;
+}
+ p{
+    font-size: var(--font-19);
+    line-height: 1.625;
+}
+#ct1 .hero1{
+    width: 420px;
+    height: 570px;
+}
+#ct1 .hero2{
+    width: 160px;
+    height: 570px;
+}
+#ct1 .form-control{
+    padding: 10px 15px;
+    border: none;
+    height: 60px;
+    font-size: var(--font-16);
+    font-weight: var(--font-400);
+  }
+  #ct1 .btn{
+   padding: 10px 15px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   height: 60px;
+   font-size:  var(--font-15);
+    font-weight:var(--font-600);
+  }
+  #ct1 form{
+    border-radius: 8px;
+    box-shadow: 16px 41px 89px rgba(129, 129, 129, 0.16);
+    border: 1px solid rgb(245, 242, 242);
+  }
+  #ct1 h1{
+    font-size: 60px;
+    font-weight: var(--font-700);
+    line-height: 1.2;
+  }
+  #ct1 p{
+    font-size: var(--font-21);
+    line-height: 1.625;
+  }
+#ct2 h1{
+    font-size: 50px;
+    font-weight: var(--font-700);
+}
+#ct2 p{
+    font-size: var(--font-19);
+    line-height: 1.625;
+}
+#ct2 h4{
+    font-weight: var(--font-700);
+}
+.setting{
+    width: 93px;
+    height: 93px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.s1{
+    background-color: #f4f5f8;
+}
+.s1 h1{
+    padding-top: 15%;
+}
+.s1 .see{
+    padding-bottom: 10%;
+}
+.s1 span{
+    font-size: var(--font-15);
+    font-weight: var(--font-400);
+}
+.s1 h4 a{
+    color: black;
+}
+.s1 h4 a:hover{
+    color: rgb(45, 135, 45);
+}
+.s1 .new, .s1 .full{
+font-size: var(--font-14);
+}
+.s1 .new{
+background-color: rgba(176, 213, 232, 0.15);
+}
+.s1 .full{
+    background-color: rgba(176, 213, 232, 0.15);
+    color: #fa5f1c;
+}
+.s1 .full:hover{
+    color: #a35432;
+}
+.s1 .float-end .bi{
+    color: gray;
+    font-size: var(--font-21);
+}
+.s1 .float-end .bi:hover{
+    color: green;
+}
+.s1 .card{
+    border: none;
+    border-radius: 12px;
+}
+.s1 .card:hover{
+    box-shadow: 0px 5px 15px #bdbdbd;
+}
+.leaf, .fimize, .shark, .thunder, .asiso{
+    border-radius: 6px;
+    width: 52px;
+    height: 52px;
+}
+.leaf{
+    background-color: #fc4980;
+}
+.fimize{
+    background-color: blue;
+}
+.shark{
+    background-color: #b0d5e8 ;
+}
+.thunder{
+    background-color:#fa6032;
+}
+.asiso{
+    background-color: #9C5FFF;
+}
+.s1 .text-center a{
+    font-size: var(--font-15);
+    font-weight: var(--font-700);
+    color: #00b074;
+}
+.s1 .text-center a:hover{
+    color: #0e6246;
+}
+#ct3 h1, #ct4 h1{
+    font-weight: var(--font-700);
+    font-size: 42px;
+    line-height: 1.65;
+    letter-spacing: -0.34px
+}
+#ct3 p,  #ct4 p{
+    font-size: var(--font-20);
+    line-height: 1.66;
+}
+#ct3 .over,  #ct4 .over{
+    padding-right: 2.5rem;
+    padding-left: 2rem;
+}
+#ct3 .over a,  #ct4 .over a{
+    font-size: var(--font-15);
+    font-weight: var(--font-600);
+    color: #00b074;
+}
+#ct3 .over a:hover, #ct4 .over a:hover{
+    color: #095a3f;
+}
+#ct3 .d-flex p{
+    font-size: var(--font-16);
+}
+#ct3 .d-flex{
+    margin-right: 30%;
+}
+#ct3 h6{
+    font-size: var(--font-18);
+}
+.about-2 {
+    margin-top: -90%;
+    margin-left: 40%;
+    border-radius: 10px;
+    border: 10px solid var(--white);
+}
+#ct4 .bg-success{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+}
+.c1 h4{
+    font-weight: var(--font-600);
+}
+.c1 h2{
+    font-weight: var(--font-700);
+    font-size: 45px;
+}
+.c1 h2 span{
+    font-size: var(--font-16);
+    font-weight: var(--font-400);
+}
+.c2 li{
+    font-size: var(--font-18);
+    line-height: 1.625;
+}
+.c2 .btn{
+    height: 60px;
+    font-size: var(--font-15);
+    font-weight: var(--font-600);
+    margin-top: 30px;
+}
+#ct5 .card{
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+#ct5 .card:hover{
+    box-shadow: 0px 5px 10px #bdbdbd;
+}
+#ct5 h1{
+    font-size: 45px;
+    font-weight: var(--font-700);
+}
+#business{
+    border-top: 4px solid blue;
+    border-radius: 0px 0px 10px 10px;
+}
+#ct5 #plan{
+    margin-top: 57px;
+}
+.owl-carousel .card{
+    width: 950px;
+    height: 100%;
+    border-color: var(--white);
+}
+.owl-carousel .img1{
+    background: url(../img/icon/testimonial.png);
+}
+
+.owl-carousel .owl-item #logo {
+    display: block;
+    width: 30% !important;
+}
+#fc1 .col-lg-4 div{
+    float: right;
+}
+#fc1 .col-lg-12 .btn{
+    padding: 24px 70px;
+    font-size: var(--font-13);
+    font-weight: var(--font-700);
+}
+#fc1 .col-lg-12 #log{
+    border-color: var(--white);
+    color:  var(--white);
+}
+#fc1 .col-lg-12 #log:hover{
+    background-color:  var(--white);
+    color: black;
+}
+#fc1 .col-xl-5 div{
+    float: right;
+}
+#fc1 p{
+    font-size: var(--font-19);
+}
+.f-col1{
+    width: 28%;
+}
+.f-col1 h6 {
+    font-size: var(--font-19);
+}
+.f-col1 .d-flex  a{
+    font-size: var(--font-19);
+    font-weight: var(--font-500);
+    color: #00b074;
+}
+.f-col1 .d-flex a:hover{
+    color: var(--white);
+}
+.f-col1 .lni, .f-col1 .bi{
+    color: var(--white);
+    font-size: var(--font-14);
+}
+.f-col1 .lni:hover, .f-col1 .bi:hover{
+    color: #00b074;
+}
+.f-col2{
+    width: 18%;
+}
+.f-col2 h6{
+   font-weight: var(--font-400);
+   font-size: var(--font-19);
+}
+.f-col2 a{
+    font-size: var(--font-18);
+    color:var(--white);
+    font-weight: var(--font-500);
+}
+.f-col2 a:hover{
+    color: green;
+}
+.owl-carousel .owl-item .card-img {
+    width: 450px;
+    height: 100%;
+}
+.owl-carousel .card{
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+}
+.owl-carousel .owl-item .brand img {
+    display: block;
+    width: 30% !important;
+}
+.owl-carousel .card {
+    width: 980px;
+    height: 120%;
+    border: none;
+    border-radius: 8px;
+}
+button.owl-next, button.owl-prev{
+    display: none !important;
+}
+.owl-carousel .owl-item p{
+    font-size: var(--font-21);
+}
+#ct1{
+    margin-top: 80px;
+}
+#ct2, .s1, #first, .s2, #ct5 , footer{
+    margin-top: 130px;
+}
+.s2{
+    padding-bottom: 140px;
+    padding-top: 120px;
+}
+
+@media only screen and (min-width:200px) and (max-width:567px){
+    #ct1 .d-flex{
+        flex-direction: column;
+    }
+    #ct1 .hero1, #ct1 .hero2{
+        width: 90%;
+        height: 90%;
+        margin: 25px 25px 0px 25px;
+    }
+    .nav-link .bi{
+        float: right;
+    }
+    #ct1 p {
+       margin-top: 50px;
+    }
+    #ct1 h1{
+        font-size: 40px;
+    }
+    #ct2 h1, h1{
+        font-size: 30px;
+    }
+    #ct2 p, p {
+        font-size: var(--font-17);
+    }
+    .s1 span {
+        font-size: var(--font-13);
+    }
+    .s1 h4 a {
+        font-size: var(--font-19);
+    }
+    .s1 .new, .s1 .full {
+        font-size: var(--font-13);
+    }
+    .about-1{
+        width: 100%;
+    }
+    .about-2 {
+        margin-top: -120%;
+        margin-left: 30%;
+    }
+    #ct3 .over, #ct4 .over {
+       padding: 0px !important;
+    }
+    #ct3 h1, #ct4 h1 {
+        font-size: 25px;
+    }
+    #ct3 p, #ct4 p {
+        font-size: var(--font-18);
+        line-height: 1.50;
+        margin-top: 20px !important;
+    }
+    #ct3 .d-flex{
+        margin-right: 0% !important;
+    }
+    #ct3 .d-flex p {
+        font-size: var(--font-17);
+    }
+    #ct3 .d-flex img{
+        margin-top: 30px;
+    }
+    #ct3 .over a, #ct4 .over a {
+        font-size: var(--font-14);
+    }
+    #ct4 .d-flex{
+        flex-direction: column;
+    }
+    #ct5 h1 {
+        font-size: 28px;
+    }
+    .c1 h2 {
+        font-size: 30px;
+    }
+    .c2 li {
+        font-size: var(--font-17);
+    }
+    .c2 .btn {
+        font-size: var(--font-14);
+    }
+    #ct5 #plan{
+        margin-top: 0px !important;
+    }
+    #fc1{
+        text-align: center;
+    }
+    #fc1 h1{
+        text-align: center;
+        line-height: 1.76;
+    }
+    #fc1 .col-lg-12 .btn {
+        padding: 22px 70px;
+        margin-top: 15px;
+    }
+    .f-col1, .f-col2{
+        width: 100%;
+    }
+    .f-col2 a {
+        font-size: var(--font-16) !important;
+    }
+    .f-col2 h6 {
+        font-size: var(--font-18);
+    }
+    .f-col1 h6 , .f-col1 .d-flex a {
+        font-size: var(--font-17);
+    }
+    .owl-carousel .card{
+        width: 100% !important;
+    }
+    .owl-carousel .owl-item .brand img {
+        width: 30% !important;
+    }
+    .owl-carousel .card-img {
+        width: 100% !important;
+    }
+    .owl-carousel .owl-item p{
+        font-size: var(--font-20);
+    }
+}
+
+
+@media only screen and (min-width:568px) and (max-width:992px){
+    #ct1 h1 {
+        font-size: 40px;
+    }
+    .nav-link .bi{
+        float: right;
+    }
+    #ct1 p {
+        margin-top: 50px;
+     }
+     #ct1 .hero1 , #ct1 .hero2{
+        width: 280px;
+        height: 280px;
+    }
+     #ct2 h1, h1{
+         font-size: 40px;
+     }
+     #ct2 p, p {
+         font-size: var(--font-18);
+     }
+     #ct2 .col-lg-4{
+        padding: 0px 85px 0px 85px !important;
+     }
+     #ct2 .col-lg-4 p{
+        font-size: var(--font-17);
+     }
+     .s1 span {
+         font-size: var(--font-13);
+     }
+     .s1 h4 a {
+         font-size: var(--font-19);
+     }
+     .s1 .new, .s1 .full {
+         font-size: var(--font-13);
+     }
+     #ct3 .over, #ct4 .over {
+        padding: 0px !important;
+     }
+     #ct3 h1, #ct4 h1 {
+         font-size: 35px;
+     }
+     #ct3 p, #ct4 p {
+         font-size: var(--font-18);
+         line-height: 1.50;
+         margin-top: 20px !important;
+     }
+     #ct3 .d-flex{
+         margin-right: 0% !important;
+     }
+     #ct3 .d-flex p {
+         font-size: var(--font-17);
+     }
+     #ct3 .d-flex img{
+         margin-top: 30px;
+     }
+     #ct3 .over a, #ct4 .over a {
+         font-size: var(--font-14);
+     }
+     #ct5 h1 {
+         font-size: 28px;
+     }
+     .c1 h2 {
+         font-size: 30px;
+     }
+     .c2 li {
+         font-size: var(--font-17);
+     }
+     .c2 .btn {
+         font-size: var(--font-14);
+     }
+     #ct5 #plan{
+         margin-top: 0px !important;
+     }
+     #ct5 .card{
+        margin-right: 55px;
+        margin-left: 55px;
+     }
+     #fc1{
+         text-align: center;
+     }
+     #fc1 h1{
+         text-align: center;
+         line-height: 1.76;
+     }
+     #fc1 .col-lg-12 .btn {
+         padding: 22px 70px;
+         margin-top: 15px;
+     }
+     .f-col1{
+        width: 100%;
+        margin-bottom: 20px;
+     }
+     .f-col2 {
+        width: 25%;
+     }
+     .f-col2 a {
+         font-size: var(--font-16) !important;
+     }
+     .f-col2 h6 {
+         font-size: var(--font-18);
+     }
+     .f-col1 h6 , .f-col1 .d-flex a {
+         font-size: var(--font-17);
+     }
+     .owl-carousel .card{
+        width: 100% !important;
+    }
+    .owl-carousel .owl-item .brand img {
+        width: 30% !important;
+    }
+    .owl-carousel .card-img {
+        width: 100% !important;
+    }
+    .owl-carousel .owl-item p{
+        font-size: var(--font-20);
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width:1200px){
+    h1 {
+        font-size: 40px;
+    }
+    #ct1 .form-control, #ct1 form .btn {
+        font-size: var(--font-13);
+    }
+    #ct1 .hero1 {
+        width: 320px;
+        height: 500px;
+    }
+    #ct1 .hero2 {
+        width: 130px;
+        height: 500px;
+    }
+    #ct1 h1{
+        margin-bottom: 38px;
+        font-size: 55px;
+    }
+    #ct2 h1 {
+        font-size: 40px;
+    }
+    #ct2 p, p {
+        font-size: var(--font-16);
+    }
+    .s1 h4 a {
+        font-size: var(--font-19);
+    }
+    #ct3 h1, #ct4 h1 {
+        font-size: 27px;
+    }
+    #ct3 p, #ct4 p {
+        font-size: var(--font-18);
+        line-height: 1.57 !important;
+        margin-top: 20px !important;
+    }
+    #ct3 .d-flex img{
+        margin-top: 28px !important;
+    }
+    #ct3 .d-flex{
+        margin-right: 0% !important;
+    }
+    .c1 h2 {
+        font-size: 30px;
+    }
+    .c2 li {
+        font-size: var(--font-17);
+    }
+    .c2 .btn {
+        font-size: var(--font-14);
+    }
+    #fc1{
+        text-align: center;
+    }
+    #fc1 h1{
+        text-align: center;
+        line-height: 1.76;
+        font-size: 40px;
+    }
+    #fc1 .col-lg-12 .btn {
+        padding: 22px 70px;
+        margin-top: 15px;
+    }
+    #fc1 .col-xl-5 div{
+        float: none !important;
+    }
+    .f-col2 a {
+        font-size: var(--font-16) !important;
+    }
+    .f-col2 h6 {
+        font-size: var(--font-18);
+    }
+    .f-col1 h6 , .f-col1 .d-flex a {
+        font-size: var(--font-17);
+    }
+    #ct5 h1 {
+        font-size: 40px;
+    }
+    .owl-carousel .owl-item p{
+        font-size: var(--font-18);
+    }
+    .owl-carousel .card {
+        width: 800px;
+    }
+}

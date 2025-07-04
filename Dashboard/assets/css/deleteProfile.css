@@ -1,0 +1,349 @@
+:root{
+    --font-15:15px;
+    --font-16: 16px;
+    --font-17: 17px;
+    --font-18: 18px;
+    --font-19:19px;
+    --font-20:20px;
+    --font-53:53px;
+    --font-400:400;
+    --font-500:500;
+    --font-600:600;
+    --font-700:700;
+    --white:white;
+    --grey:grey;
+    --black:black;
+    --green:green;
+}
+body{
+    font-size: var(--font-17);
+    font-weight: var(--font-400);
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#fluid{
+    background-color: var(--green);
+}
+#fluid img{
+    width: 400px;
+    margin-top: 20%;
+}
+#fluid h1{
+    font-size: var(--font-53);
+}
+#layout{
+    width:70%;
+    margin: auto;
+    padding-bottom: 9%;
+}
+#layout .card{
+    background-color: #fe9703;
+}
+#layout h6{
+    font-size: 19px;
+}
+#fluid1 .fw-bold{
+    font-size: 47px;
+}
+#num{
+    font-weight: bold;
+    font-size: 70px;
+    color: #fe9703;
+}
+#imgcard img{
+    width: 400px;
+    border-radius: 10px;
+    border: 12px solid white;
+    box-shadow: 0px 0px 10px #bdbdbd;
+}
+#imgcard h5{
+    font-size: 19px;
+    font-weight: 600;
+}
+ #card:hover{
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#fluid2 h1{
+    font-size:45px;
+}
+#fluid2 img{
+    width: 500%;
+    height: 500px;
+}
+.owl-carousel .card{
+    border-radius: 10px;
+    border: 12px solid white;
+    box-shadow: 0px 0px 10px #bdbdbd;
+}
+#fluid3 h1{
+    font-weight: 700;
+}
+#fluid3 p{
+    font-size: 25px;
+    font-weight: 300;
+}
+#update{
+    background-color:var(--green);
+    border-radius: 10px;
+    font-size: var(--font-19);
+   padding: 9px 18px;
+}
+#update:hover{
+    background-color: #fe9703;
+}
+
+#element .card{
+    border-radius: 15px;
+}
+#element .card:hover{
+    background-color: #fe9703;
+    cursor: pointer;
+}
+#element a{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--grey);
+}
+#element .card a:hover, #element .card:hover, #element .bi:hover{
+    color: var(--white);
+}
+#element .bi{
+    color: #fe9703;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(254,151,3,0.1);
+    border-radius: 50%;
+    padding: 15px;
+}
+#element .card a:hover, #element .card:hover, #element .bi:hover{
+    color:  var(--white);
+}
+#board .btn{
+    background-color: #fe9703;
+    color:  var(--white);
+    padding:10px 25px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+#board .btn:hover{
+    background-color:  var(--white);
+    color: var(--grey);
+}
+#board .link{
+    color:  var(--white);
+    font-size: 19px;
+}
+#board .link:hover{
+    color: #fe9703;
+}
+#board h6{
+    font-size: 19px;
+}
+@media only screen and (min-width:200px) and (max-width:575px){
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    #fluid{
+        width: 100%;
+        text-align: center;
+    }
+    #fluid img{
+        width: 50%;
+    }
+    #fluid h1{
+        font-size: 35px;
+    }
+    #layout{
+        width: 100%;
+        margin: auto;
+    }
+    #layout .col-sm-6{
+        width: 50%;
+    }
+    #fluid2 h1{
+        font-size:35px;
+    }
+    #fluid2 img{
+        width: 100%;
+        height: 300px;
+    }
+    #fluid3 img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #fluid3 #num{
+        font-size: 30px;
+    }
+    #fluid3 h1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    #fluid3 p{
+        font-size: 22px;
+        font-weight: 100;
+    }
+    #element a{
+        font-size: var(--font-15);
+    }
+    #element .bi{
+        padding: 12px;
+    }
+    #board .btn{
+        padding:8px 18px;
+        font-size: var(--font-15);
+        border-radius: 10px;
+    }
+    #board .btn:hover{
+        background-color: white;
+        color: var(--grey);
+    }
+    #board .link{
+        color: white;
+        font-size: var(--font-17);
+    }
+    #board h6{
+        font-size:var(--font-17);
+    }
+
+}
+
+@media only screen and (min-width:576px) and (max-width:992px){
+   body{
+        width: 100%;
+        margin: 0;
+    }
+    #fluid{
+        width: 100%;
+        text-align: center;
+    }
+    #fluid img{
+        width: 50%;
+    }
+    #fluid h1{
+        font-size: 35px;
+    }
+    #layout{
+        width: 100%;
+        margin: auto;
+    }
+    #layout .col-sm-6{
+        width: 25%;
+    }
+    #fluid2 h1{
+        font-size:28px;
+    }
+    #fluid3 .row{
+        margin: 32px;
+    }
+    #fluid3 img{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    #fluid3 #num{
+        font-size: 30px;
+    }
+    #fluid3 h1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    #fluid3 p{
+        font-size: 19px;
+        font-weight: 100;
+    }
+    #element a{
+        font-size: var(--font-15);
+    }
+    #element .bi{
+        padding: 12px;
+    }
+    #board .btn{
+        padding:8px 18px;
+        font-size: var(--font-15);
+        border-radius: 10px;
+    }
+    #board .btn:hover{
+        background-color: white;
+        color: var(--grey);
+    }
+    #board .link{
+        color: white;
+        font-size: var(--font-17);
+    }
+    #board h6{
+        font-size:var(--font-17);
+    }
+
+}
+
+
+
+@media only screen and (min-width:993px) and (max-width:1199px){
+    body{
+        width: 100%;
+        margin: 0;
+    }
+    #fluid{
+        text-align: center;
+    }
+    #fluid h1{
+        font-size: 32px;
+    }
+    #layout{
+        margin: auto;
+    }
+    #fluid1 .fw-bold{
+        font-size: 35px;
+    }
+    #fluid2 h1{
+        font-size:36px;
+    }
+    #fluid2 img{
+        width: 100%;
+        height: auto;
+    }
+    #fluid3 img{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    #fluid3 #num{
+        font-size: 30px;
+    }
+    #fluid3 h1{
+        font-weight: 600;
+        font-size: 30px;
+    }
+    #fluid3 p{
+        font-size: 19px;
+        font-weight: 100;
+    }
+    #element a{
+        font-size: var(--font-15);
+    }
+    #element .bi{
+        padding: 12px;
+    }
+    #board .btn{
+        padding:8px 18px;
+        font-size: var(--font-15);
+        border-radius: 10px;
+    }
+    #board .btn:hover{
+        background-color: white;
+        color: var(--grey);
+    }
+    #board .link{
+        color: white;
+        font-size: var(--font-17);
+    }
+    #board h6{
+        font-size:var(--font-17);
+    }
+
+}

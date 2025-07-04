@@ -1,0 +1,126 @@
+
+#howdy{
+    background-color: rgba(25,103,210,.1); 
+    padding: 30px 43px ;
+}
+h3{
+    font-size: 36px;
+    font-weight: 600;
+
+}
+.right-sidebar .nav-link{
+    background-color: rgba(38,174,97,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.right-sidebar li a{
+    color: dimgray;
+}
+
+.right-sidebar li{
+    font-size: 18px;
+    padding: 15px 20px;
+}
+.right-sidebar h6{
+    font-size: 20px;
+    font-weight: 600;
+}
+.right-sidebar p{
+    font-size: 16px;
+}
+#flex li:hover{
+    background-color: rgba(38,174,97,0.1);
+    border-radius: 10px;
+}
+#flex li a:hover{
+    color: blue;
+}
+.card{
+    border: none;
+    box-shadow: 0 6px 15px rgba(64,79,104,.05);
+    border-radius: 10px;
+}
+.browse{
+    border: 2px dashed #ced4e1;
+    border-radius: 5px;
+    height: 120px;
+    width: 200px;
+    color: black;
+}
+.browse:hover{
+    border: 2px dashed black;
+}
+.form-control, .form-select{
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #f0f5f7;
+    border-color: #f0f5f7;
+    font-size: 16px;
+    color: dimgray;
+}
+#description p{
+    font-size: 17px;
+    line-height: 30px;
+}
+.card .btn{
+    color: blue;
+    background-color: #e2eaf8;
+    font-size: 16px;
+    padding: 12px 40px ;
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+@media only screen and (min-width:200px) and (max-width:768px){
+    #howdy{
+        padding: 10px 20px ;
+    }
+    .right-sidebar li {
+        font-size: 16px;
+    }
+    .right-sidebar h6 {
+        font-size: 18px;
+    }
+    .right-sidebar p {
+        font-size: 14px;
+    }
+    .profile .d-flex{
+        flex-direction: column;
+        margin-top: 8px;
+    }
+    .form-control, .form-select {
+        font-size: 14px;
+    }
+    #description p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .card .btn {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+    #howdy{
+        padding: 10px 20px ;
+    } 
+}
+@media only screen and (min-width:993px) and (max-width:1200px){
+    .right-sidebar li {
+        font-size: 16px;
+    }
+    .right-sidebar h6 {
+        font-size: 18px;
+    }
+    .right-sidebar p {
+        font-size: 14px;
+    } 
+    .form-control, .form-select {
+        font-size: 14px;
+    }
+    #description p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

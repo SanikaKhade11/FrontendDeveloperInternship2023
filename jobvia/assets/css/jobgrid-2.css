@@ -1,0 +1,308 @@
+:root{
+    --bs-green:#02af74;
+    --bs-grey:grey;
+    --font-400: 400;
+    --font-500: 500;
+    --font-600: 600;
+    --font-700:700;
+    --font-14:14px;
+    --font-17: 17px;
+    --font-20:20px;
+    --font-22: 22px;
+    --font-35: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+.dropdown-item:hover{
+    margin-left: 10px;
+    color: var(--bs-green);
+    background: none;
+}
+.link:hover{
+    color: var(--bs-green);
+    cursor: pointer;
+}
+.nav-link , .navbar .d-flex,#over h6,.submenu .d-flex h6, #main{
+    font-size: var(--font-17);
+    font-weight: var(--font-500);
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdown-item{
+    font-size: 15px;
+    font-weight: 500;
+}
+.dropdown-menu .link{
+    color: black;
+}
+#nav2{
+    box-shadow: 0px 0px 5px #bdbdbd;
+}
+#drop{
+    width: 600px;
+}
+#right-icon{
+    float: right;
+}
+.card{
+    border-radius: 15px;
+}
+#success{
+    background-color: rgba(4,133,101,.15);
+}
+#purple{
+    background-color: rgba(118,109,244,.15);
+    color: #766df4;
+}
+#primary{
+    background-color: rgba(31,134,239,.15);
+}
+.card .card-body .badge{
+    width: 100px;
+    height: 25px;
+    font-size:15px;
+    font-weight:var(--font-600);
+}
+.btn{
+    font-size:18px;
+    font-weight: var(--font-500);
+}
+.page-link {
+    padding: 13px 22px;
+    color: black;
+    border-color: gainsboro;
+}
+.pagination .bi{
+    font-size: 12px;
+}
+#feet{
+    background-color: #343c3f;
+}
+#feet .form-control{
+    padding: 10px;
+    border-radius:10px 0px 0px 10px;
+    color: white;
+}
+#feet .input-group-append .btn{
+    border-radius:0px 5px 5px 0px;
+    width: 120px;
+}
+#e2 .link{
+    color: var(--bs-grey);
+        font-size: 17px;
+        font-weight: 500;
+ }
+ p,#day{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--bs-grey);
+ }
+ #main{
+    font-size: var(--font-17);
+    font-weight: var(--font-500);
+}
+#main h3{
+    font-size: 30px;
+    font-weight:var(--font-600);
+}
+#main .bi{
+    font-size: 10px;
+    font-weight: 800;
+}
+#right-icon:hover{
+    color: var(--bs-green);
+}
+#right-icon:hover{
+  background-color: #dc3545;
+  color: white;
+    cursor: pointer;
+}
+#e2 .link:hover{
+    color: var(--bs-white);
+    margin-left: 2px;
+}
+#fbtn .btn{
+    color: var(--bs-grey);
+}
+#fbtn .btn:hover{
+    background-color: var(--bs-white);
+    color: var(--bs-green);
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow: 0px 5px 15px #bdbdbd;
+   cursor: pointer;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width:200px) and (max-width:567px){
+    body{
+        padding: 20px;
+        width: 100%;
+    }
+    #none{
+        display: none;
+    }
+    #left{
+        float: right;
+    }
+    #span{
+        flex-direction: column;
+    }
+
+    #row2 .col-sm-8 .d-flex .link,p{
+        margin-top: 14px;
+    }
+    .navbar-brand{
+        width: 200px;
+    }
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+    .navbar .d-flex img{
+        width: 40px;
+    }
+   
+    .card{
+        margin-top: 10px;
+    }
+    .row .col-sm-4 .card-body p, #day{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    h5{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .card .card-body .badge{
+        width: 100px;
+        height: 25px;
+        font-size:14px;
+        font-weight:var(--font-500);
+    }
+    #right-icon{
+        font-size:14px;
+        font-weight:var(--font-500);
+    }
+  
+    #feet .container .row p, #wide3 p{
+        font-size: 15px;
+        font-weight: 400;
+       }
+       #wide3 p , #wide3  .link{
+        font-size: 15px;
+        font-weight: 500;
+       }
+      #last{
+        /* width: 100%; */
+        font-size: 16px;
+        font-weight: 500;
+      }
+       #feet .input-group{
+        width: 100%;
+       }
+       /* #feet .container p{
+        font-size: 14px;
+       } */
+   #e2{
+    width: 50%;
+   }
+  
+}
+@media only screen and (min-width:568px) and (max-width:992px){
+
+body{
+    width: 100%;
+    padding: 20px;
+}
+.col-sm-4 {
+    width: 50%;
+}
+#none{
+    display: none;
+}
+#left{
+    float: right;
+}
+#span{
+    flex-direction: column;
+}
+
+#row2 .col-sm-8 .d-flex .link,p{
+    margin-top: 14px;
+}
+.navbar-brand{
+    width: 200px;
+}
+.navbar-toggler-icon{
+    width: 20px;
+}
+.navbar .d-flex img{
+    width: 40px;
+}
+
+.card{
+    margin-top: 10px;
+}
+.row .col-sm-4 .card-body p, #day{
+    font-size: 16px;
+    font-weight: var(--font-400);
+}
+h5{
+    font-size: 18px;
+    font-weight:var(--font-600);
+}
+.card .card-body .badge{
+    width: 90px;
+    height: 20px;
+    font-size:12px;
+    font-weight:var(--font-500);
+}
+.text-2{
+    width: 100%;
+}
+#right-icon{
+    font-size:15px;
+    font-weight:var(--font-500);
+}
+
+#feet .container .row p, #wide3 p{
+    font-size: 15px;
+    font-weight: 400;
+   }
+    #wide3 p , #wide3  .link{
+        font-size: 15px;
+        font-weight: 500;
+       }
+      #last{
+        /* width: 100%; */
+        font-size: 16px;
+        font-weight: 500;
+      }
+      #feet .row .col-sm-6{
+        width: 100%;
+      }
+       #feet .input-group{
+        width: 100%;
+       }
+       #wide3 .col-sm-4{
+        width: 100%;
+       }
+       /* #feet .container p{
+        font-size: 14px;
+       } */
+   #e2{
+    width: 50%;
+   }
+
+}

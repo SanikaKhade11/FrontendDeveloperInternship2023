@@ -1,0 +1,138 @@
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.card h6{
+    font-size: 19px;
+    font-weight: 600;
+}
+#primary .bi{
+    background-color: rgba(25,103,210,.15);
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+#success .bi{
+    background-color: rgba(52,168,83,.15);
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+#notification .text-secondary{
+    font-size: 15px;
+}
+#view .form-select1{
+    padding: 15px 20px;
+    font-size: 15px;
+    color: dimgray;
+    background-color: #f0f5f7;
+    border-color: #777c7d;
+    border-radius: 8px;
+}
+.right-sidebar .nav-link{
+    background-color: rgba(38,174,97,0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.right-sidebar li a{
+    color: dimgray;
+}
+
+.right-sidebar li{
+    font-size: 18px;
+    padding: 15px 20px;
+}
+.right-sidebar h6{
+    font-size: 20px;
+    font-weight: 600;
+}
+.right-sidebar p{
+    font-size: 16px;
+}
+#flex li:hover{
+    background-color: rgba(38,174,97,0.1);
+    border-radius: 10px;
+}
+#flex li a:hover{
+    color: blue;
+}
+.card{
+    border: none;
+    box-shadow: 0 6px 15px rgba(64,79,104,.05);
+    border-radius: 10px;
+}
+#howdy{
+    background-color: rgba(25,103,210,.1); 
+    padding: 30px 43px ;
+}
+.jump .card{
+    border: 1px solid #ecedf2;
+    box-shadow: 0 6px 15px rgba(64,79,104,.05);
+    border-radius: 10px;
+}
+.jump h4{
+    font-size: 33px;
+    font-weight: 600;
+}
+.jump p{
+    font-size: 15px;
+}
+.jump .briefcase, .jump .earmark, .jump .chat, .jump .bookmark{
+    height: 70px;
+    width: 70px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 3em;
+}
+.jump .briefcase{
+    background-color: rgba(25,103,210,.1);
+}
+.jump .earmark{
+    background-color: rgba(217,48,37,.1);
+}
+.jump .chat{
+    background-color: rgba(249,171,0,.1);
+}
+.jump .bookmark{
+    background-color: rgba(52,168,83,.1);
+}
+
+@media only screen and (min-width:200px) and (max-width:768px){
+    #howdy{
+        padding: 10px 20px ;
+    }
+    .right-sidebar li {
+        font-size: 16px;
+    }
+    .right-sidebar h6 {
+        font-size: 18px;
+    }
+    .right-sidebar p {
+        font-size: 14px;
+    }
+    #view .d-flex{
+        flex-direction: column;
+        margin-top: 8px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:992px){
+    #howdy{
+        padding: 10px 20px ;
+    } 
+}
+@media only screen and (min-width:993px) and (max-width:1200px){
+    .right-sidebar li {
+        font-size: 16px;
+    }
+    .right-sidebar h6 {
+        font-size: 18px;
+    }
+    .right-sidebar p {
+        font-size: 14px;
+    } 
+    .jump .col-sm-12{
+        width: 50%;
+    }
+    #notification .text-secondary {
+        font-size: 13px;
+    }
+}

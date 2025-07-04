@@ -1,0 +1,316 @@
+:root{
+    --font-13:13px;
+    --font-14:14px;
+    --font-15:15px;
+    --font-16:16px;
+    --font-17:17px;
+    --font-18:18px;
+    --font-19:19px;
+    --font-20:20px;
+    --font-21:21px;
+    --font-400:400;
+    --font-500:500;
+    --font-600:600;
+    --font-700:700;
+    --white:white;
+    --black:#2b3940;
+    --grey:#6c757d;
+    --green:#00b074;
+}
+.card{
+    border-radius: 10px;
+    border: none;
+}
+
+#col-1 a h4{
+    color:var(--black);
+}
+#col-1 a span{
+color: var(--grey);
+}
+#col-1 a span:hover{
+   color: #4f5254; 
+}
+#col-1 .d-flex{
+    justify-content: center;
+}
+#col-1 #icon a{
+    background-color: #F2F2F2;
+    color: var(--grey);
+    max-width: 34px;
+    min-width: 34px;
+    max-height: 34px;
+    min-height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#col-1 #icon a:hover{
+color: white;
+background-color: green;
+}
+#col-1 h4{
+    font-weight: var(--font-600) !important;
+}
+#col-1 h5{
+    font-size: var(--font-21);
+    font-weight: var(--font-600);
+}
+#col-1 span{
+    font-size:var(--font-19);
+}
+#col-1 h6{
+    font-size: var(--font-18);
+}
+#col-1 #link{
+    color: var(--green);
+}
+#col-1 #link:hover{
+    color: #0e6246;
+}
+#col-2 #df1 a{
+    font-size: var(--font-15);
+    font-weight: var(--font-700);
+    color: #6b6e6f;
+}
+#col-2 #df1 a:hover{
+    color: var(--green);
+    border-bottom: 1px solid var(--green);
+}
+#col-2 h5{
+    font-size: 24px;
+}
+#col-2 #skill a{
+    font-size: var(--font-15);
+    background-color: #F3F9FC;
+    color: var(--black);
+    /* padding: 8px 18px; */
+    border-radius: 3px;
+}
+#col-2 #skill a:hover{
+    background-color:#b0d5e8;
+}
+#col-2 #work a h4{
+    color: var(--black);
+    font-weight: var(--font-600);
+}
+#col-2 #work a h4:hover, #col-3 h5:hover{
+    color: black;
+}
+#col-2 #work a span{
+    font-size: var(--font-18);
+    color: var(--grey);
+}
+#col-2 #work a span:hover{
+   color: #4f5254; 
+}
+#col-3 .d-flex{
+    border-bottom: 1px solid rgb(179, 176, 176);
+    margin-top: 35px;
+}
+#col-3 span{
+    color: var(--black);
+    font-size: var(--font-17);
+}
+#col-3 h5{
+    color: var(--black);
+}
+#col-3 p{
+    color:#7e8989;
+    font-size: var(--font-16);
+}
+#col-2 .form-label{
+    font-weight: var(--font-600);
+    font-size: var(--font-17);
+}
+#col-2 .form-control{
+    color: var(--grey);
+    font-size: var(--font-16);
+    font-weight: var(--font-400);
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 20px;
+    border: 1px solid #e5e5e5;
+}
+.contact .btn{
+    font-weight: var(--font-700);
+    font-size: var(--font-15);
+
+}
+.back a{
+    font-size: var(--font-16);
+    font-weight: var(--font-600);
+}
+.back .bi{
+    font-size: var(--font-14);
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 14px 16px;
+    box-shadow: 2px 2px 4px rgba(130, 130, 130, 0.16);
+}
+
+
+@media only screen and (min-width:200px) and (max-width:567px){
+    .navbar .border-start{
+        display: none;
+    }
+    #col-1 span {
+        font-size: var(--font-17);
+    }
+    #col-1 .d-flex{
+        justify-content: center;
+    }
+    #col-1 h5 {
+        font-size: var(--font-18);
+        font-weight: var(--font-700);
+    }
+    #col-1 h6 {
+        font-size: var(--font-17);
+    }
+    #col-2 #df1 a {
+        font-size: var(--font-14);
+    }
+    #ct2 p, p {
+        font-size: var(--font-16);
+    }
+    #work .d-flex{
+        flex-direction: column;
+        justify-content: start;
+        text-align: start;
+    }
+    #col-2 #work a h4{
+        margin-top: 20px;
+        font-size: var(--font-20);
+    }
+    #col-2 #work a span {
+        font-size: var(--font-15);
+       margin-top: 10px;
+    }
+    #col-3 span {
+        font-size: var(--font-14);
+    }
+    #col-3 p{
+        font-size: var(--font-13);
+    }
+    #col-3 h5{
+        font-size: var(--font-18);
+    }
+    #col-2 .form-label {
+        font-size: var(--font-15);
+    }
+    #col-2 .form-control{
+        font-size: var(--font-14);
+    }
+    .contact .btn {
+        font-size: var(--font-13);
+    }
+    #col-2 #skill a{
+        padding-right: 0.8rem!important;
+    padding-left: 0.8rem!important;
+    }
+}
+
+@media only screen and (min-width:568px) and (max-width:992px){
+    .navbar-light .navbar-toggler {
+        margin-left: 75px;
+    }
+    #header{
+        display: none;
+    }
+    #col-1 span {
+        font-size: var(--font-17);
+    }
+    #col-1 .d-flex{
+        justify-content: center;
+    }
+    #col-1 h5 {
+        font-size: var(--font-18);
+        font-weight: var(--font-700);
+    }
+    #col-1 h6 {
+        font-size: var(--font-17);
+    }
+    #col-2 #df1 a {
+        font-size: var(--font-14);
+    }
+    #ct2 p, p {
+        font-size: var(--font-16);
+    }
+    #col-2 #work a h4{
+        font-size: var(--font-20);
+    }
+    #col-2 #work a span {
+        font-size: var(--font-15);
+       margin-top: 10px;
+    }
+    #col-3 span {
+        font-size: var(--font-15);
+    }
+    #col-3 p{
+        font-size: var(--font-14);
+    }
+    #col-3 h5{
+        font-size: var(--font-19);
+    }
+    #col-3{
+        justify-content: end;
+        margin: auto;
+        padding-left: 78px;
+        padding-top: 20px;
+    }
+    #col-2 #skill a{
+        padding-right: 0.8rem!important;
+    padding-left: 0.8rem!important;
+    font-size: var(--font-13);
+    }
+    
+}
+
+@media only screen and (min-width:993px) and (max-width:1200px){
+    #col-1 span {
+        font-size: var(--font-17);
+    }
+    #col-1 .d-flex{
+        justify-content: center;
+    }
+    #col-1 h5 {
+        font-size: var(--font-18);
+        font-weight: var(--font-700);
+    }
+    #col-1 h6 {
+        font-size: var(--font-17);
+    }
+    #col-2 #df1 a {
+        font-size: var(--font-14);
+    }
+    #ct2 p, p {
+        font-size: var(--font-16);
+    }
+    #col-2 #work a h4{
+        font-size: var(--font-20);
+    }
+    #col-2 #work a span {
+        font-size: var(--font-15);
+       margin-top: 10px;
+    }
+    #col-3 span {
+        font-size: var(--font-15);
+    }
+    #col-3 p{
+        font-size: var(--font-14);
+    }
+    #col-3 h5{
+        font-size: var(--font-19);
+    }
+    #col-3{
+        justify-content: center;
+        margin: auto;
+    }
+     #col-2 #skill a{
+        padding-right: 0.8rem!important;
+    padding-left: 0.8rem!important;
+    font-size: var(--font-15);
+    }
+}
+

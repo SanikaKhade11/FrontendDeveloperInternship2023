@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .container{
+            position: relative;
+            border-radius: 5px;
+            background-color: lightgrey;
+            padding: 20px 0 30px 0;
+        }
+        input, .btn{
+            width: 100%;
+            padding: 12px;
+            border: none;
+            font-size: 17px;
+            display: inline-block;
+            text-decoration: none;
+            line-height: 20px;
+            border-radius: 4px;
+            margin: 5px 0;
+            opacity: 0.85;
+        }
+        input:hover,
+        .btn:hover {
+            opacity: 1;
+}
+        .facebook{
+            background-color: blue;
+            color: black;
+        }
+        .twitter{
+            background-color: lightblue;
+            color: black;
+        }
+        .google{
+            background-color: red;
+            color:white;
+        }
+        
+        input[type=submit]{
+            background-color: green;
+            color: black;
+        }
+        .text{
+            float:right;
+            width: 50%;
+            padding: 0 50px;
+            margin-top: 6px;
+            margin: auto;
+        }
+        .a:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .b{
+            height: 220px;
+            border: 1px solid black;
+            left: 50%;
+            transform: translate(-50%);
+            position: absolute;
+        }
+        .b-innertext{
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color:white;
+            border: 1px solid rgb(52, 45, 45);
+            border-radius: 50%;
+            padding: 8px 10px;
+        }
+        .c{
+            display: none;
+        }
+        .base{
+            text-align: center;
+            background-color:lightgray;
+            /* color: white; */
+            border-radius: 0px 4px 0px 4px;
+        }
+        .d{
+            /* background-color: blue; */
+            color: white;
+            background-color: orange;
+            width: 100%;
+            padding: 12px;
+            border: none;
+            font-size: 17px;
+            display: inline-block;
+            text-decoration: none;
+            line-height: 20px;
+            border-radius: 4px;
+            margin: 5px 0;
+            opacity: 0.85;
+
+        }
+       
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+    <form>
+        <div class="a">
+            <h1 style="text-align: center;">Login With Social Media or Manually</h1>
+        </div>
+
+        <div class="b">
+            <span class="b-innertext">or</span>
+        </div>
+
+        <div class="text">
+            <a href="#" class="facebook btn">
+                <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+              </a>
+              <a href="#" class="twitter btn">
+                <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+              </a>
+              <a href="#" class="google btn">
+                <i class="fa fa-google fa-fw"></i> Login with Google
+              </a>
+            
+        </div>
+
+        <div class="text">
+            <div class="c">
+                <p>or sign in manually</p>
+            </div>
+            <input type="text" id="uname" name="uname" placeholder="UserName">
+            <input type="text" id="pw" name="pw" placeholder="Password">
+            <input type="submit" class="submit" value="Login">
+        </div>
+    </div>
+    </form>
+    <div class="base">
+       <div class="btn">
+        <div class="text1">
+            <a href="#" style="color: white;" class="d">Forget password</a>
+        </div>
+        <div class="text1">
+            <a href="#" style="color: white;" class="d">Sign up</a>
+        </div>
+        
+       </div>
+            
+        </div>
+    <!-- </div>  -->
+</body>
+</html>

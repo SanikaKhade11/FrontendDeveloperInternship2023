@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/jobgrid.css">
+    <title>job grid</title>
+</head>
+<body>
+    <div class="container-fluid bg-light  pt-2 pb-2" id="none">
+        <div class="row justify-content-between">
+            <div class="col-lg-6">
+                <small><i class="bi bi-geo-alt-fill text-secondary ms-4 me-1"></i></small>
+                <h7>Your Location:</h7>
+                <a href="" class="link text-secondary ms-1">New Caledonia</a>
+                <small><a href="" class="link text-secondary me-2 ms-3"><i class="bi bi-whatsapp"></i></a></small>
+                <small><a href="" class="link text-secondary me-2 ms-2"><i class="bi bi-messenger"></i></a></small>
+                <small><a href="" class="link text-secondary me-2 ms-2"><i class="bi bi-instagram"></i></a></small>
+                <small><a href="" class="link text-secondary me-2 ms-2"><i class="bi bi-envelope"></i></a></small>
+                <small><a href="" class="link text-secondary me-2 ms-2"><i class="bi bi-twitter"></i></a></small>
+            </div>
+            <div class="col-lg-3">
+                <div class="d-flex">
+                <a href="" class="nav-link dropdown text-secondary ms-5"><small><i class="bi bi-lock me-3"></i>Sign Up</small></a>
+                <a class="nav-link dropdown-toggle ms-3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img class="img-fluid" width="30px" height="30px" src="../assets/img/flag/us.jpg">
+                     </a>
+                     <ul class="dropdown-menu text-uppercase pt-4 pb-4" aria-labelledby="navbarDropdownMenuLink">
+                             <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">
+                                <img class="img-fluid me-2 ms-2" width="30px" height="30px" src="../assets/img/flag/us.jpg">english</a></li>
+                         <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">
+                             <img class="img-fluid me-2 ms-2" width="30px" height="30px" src="../assets/img/flag/spain.jpg">spanish</a></li>
+                         <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">
+                             <img class="img-fluid me-2 ms-2" width="30px" height="30px" src="../assets/img/flag/germany.jpg">german</a></li>
+                         <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">
+                             <img class="img-fluid me-2 ms-2" width="30px" height="30px" src="../assets/img/flag/russia.jpg">russia</a></li>
+                         <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">
+                             <img class="img-fluid me-2 ms-2" width="30px" height="30px" src="../assets/img/flag/italy.jpg">italian</a></li>
+                     </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+  
+   <nav class="navbar navbar-expand-lg navbar-light bg-white  sticky-top" id="nav2">
+      <a class="navbar-brand py-2 px-2 ms-3" href="#"><img class="img-fluid" src="../assets/img/logo/logo-dark.png"></a>
+      <button class="navbar-toggler border-0 " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center  py-2 px-2" id="navbarNav">
+        <ul class="navbar-nav ">
+          <li class="nav-item dropdown">
+            <a class="nav-link text-dark text-uppercase py-2 px-2 ms-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            home<small><i class="bi bi-chevron-down ms-2"id="left"></i></small>
+            </a>
+            <ul class="dropdown-menu text-uppercase pt-4 pb-4" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">home 1</a></li>
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">home 2</a></li>
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">home 3</a></li>
+            </ul>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-dark text-uppercase py-2 px-2 ms-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           company<small><i class="bi bi-chevron-down ms-2" id="left"></i></small>
+            </a>
+            <ul class="dropdown-menu text-uppercase pt-4 pb-4" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">about us</a></li>
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">services</a></li>
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">team</a></li>
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">pricing</a></li>
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">privacy & policy</a></li>
+            </ul>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-dark text-uppercase py-2 px-2 ms-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            pages<small><i class="bi bi-chevron-down ms-2"id="left"></i></small>
+            </a>
+            <ul class="dropdown-menu text-uppercase pt-4 pb-4 " id="drop" aria-labelledby="navbarDropdownMenuLink">
+                <div class="row py-4 px-4 ">
+                    <div class="col-lg-3">
+                        <span class="header ms-3">
+                            jobs
+                        </span>
+                        <a href="" class="dropdown-item mt-3 mb-3">job list</a>
+                        <a href="" class="dropdown-item mt-3 mb-3">job list-2</a>
+                        <a href="" class="dropdown-item mt-3 mb-3">job grid</a>
+                        <a href="" class="dropdown-item mt-3 mb-3">job grid-2</a>
+                        <a href="" class="dropdown-item mt-3 mb-3">job details</a>
+                        <a href="" class="dropdown-item mt-3 mb-3">job categories</a>
+                    </div>
+                    <div class="col-lg-5 ">
+                        <span class="header ms-3">
+                           candidates/company
+                        </span>
+                        <a href="" class="dropdown-item  mt-3 mb-3"> candidate list</a>
+                        <a href="" class="dropdown-item mt-3 mb-3"> candidate grid</a>
+                        <a href="" class="dropdown-item mt-3 mb-3"> candidate details</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <span class="header ms-3">
+                           extra pages
+                        </span>
+                        <a href="" class="dropdown-item mt-3 mb-3">sign up</a>
+                        <a href="" class="dropdown-item mt-3 mb-3">sign out</a>
+                        <a href="" class="dropdown-item mt-3 mb-3">reset password</a>
+                        <a href="" class="dropdown-item mt-3 mb-3">coming soon</a>
+                        <a href="" class="dropdown-item mt-3 mb-3">404 error</a>
+                        <a href="" class="dropdown-item mt-3 mb-3">components</a>
+                    </div>
+                </div>
+            </ul>
+          <li class="nav-item dropdown">
+            <a class="nav-link text-dark text-uppercase py-2 px-2 ms-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            blog<small><i class="bi bi-chevron-down ms-2"id="left"></i></small>
+            </a>
+            <ul class="dropdown-menu text-uppercase pt-4 pb-4" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">blog</a></li>
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">blog grid</a></li>
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">blog modern</a></li>
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">blog masonry</a></li>
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">blog details</a></li>
+                <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">blog author</a></li>
+
+            </ul>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark text-uppercase py-2 px-2 me-4 ms-4" href="#">contact</a>
+          </li>
+        </ul>
+      </div>
+      <a href="" class="text-dark  py-2 px-2 me-4  position-relative" id="n3">
+            <i class="bi bi-bell-fill fs-4"></i>
+        <span class="badge rounded-pill badge-notification bg-danger position-absolute top-49 start-50">3</span>
+        </a>
+    <div class="d-flex  py-2 px-2 me-4 ">
+       <a href="" class="link text-dark"><img  id="n3" class="img-fluid rounded-circle" width="50px" height="50px" src="../assets/img/logo/profile.jpg">
+    <h7 id="none">Hi, Jennifier </h7></a> 
+    </div>
+  </nav>
+  <div class="container-fluid bg-success py-4 px-4 pt-4">
+    <div class="row pb-5" id="main">
+        <div class="text-center">
+            <h3 class="text-white pt-3 mb-4">Job Grid</h3>
+            <a href="" class="link text-white text-uppercase me-2"><small>Home</small></a>
+            <i class="bi bi-chevron-right text-white text-uppercase me-2"></i>
+            <a href="" class="link text-white text-uppercase me-2"><small>Pages</small></a>
+            <i class="bi bi-chevron-right text-white text-uppercase me-2"></i>
+            <h7 class="text-white text-uppercase"><small>Job Grid</small></h7>
+        </div>
+    </div>
+   </div>
+   <div class="container pt-4 mt-4">
+    <div class="row">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="form-group">
+                <input type="text" class="form-control mb-4" id="exampleFormControlInput1" placeholder="&#xF1CC; Job,Company name...">
+            </div>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <select class="form-select mb-4" aria-label="Default select example">
+                <option selected>&#xF3E8; Afganistan</option>
+                <option value="1">Aland Island</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <select class="form-select mb-4" aria-label="Default select example">
+                <option selected> &#xF290; Acccounting</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+        </div>
+        <div class="col-sm-3 col-md-3 col-lg-3">
+            <a href="" class="btn bg-success text-white mb-4" id="btn1"><i class="bi bi-funnel"></i> Filter</a>
+        </div>
+    </div>
+    <h5 class="pt-2 pb-2">Your Selected</h5>
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <select class="form-select" aria-label="Default select example">
+               <option value="1">Accounting</option>
+               <option value="2">IT & Software</option>
+               <option value="3">Accounting</option>
+               <option value="4">Accounting</option>
+               <option value="4">Accounting</option>
+               <option value="5">Accounting</option>
+            </select>
+        </div>
+    </div>
+    <h5 class="pt-3 pb-3">Showing all results</h5>
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card mt-4" id="row2">
+                <div class="card-body py-4 px-4">
+                    <div class="row mt-2 mb-2">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <img class="img-fluid" src="../assets/img/icon/img-01.png">
+                        </div>
+                        <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="d-flex">
+                                 <a href="" class="link text-dark"><h5 class="font-weight-bold">Magento Developer</h5></a>
+                                <p class="text-secondary ms-2">(0-2 yrs. Exp.)</p>
+                           </div>
+                           <div class="d-flex " id="span">
+                            <h6 class="text-secondary  me-3">Jobvia Technology Pvt.Ltd</h6>
+                            <h6 class="text-secondary me-3"><i class="bi bi-geo-alt-fill"></i> California </h6>
+                            </div>
+                            <h6 class="text-secondary mb-3 mt-2"><i class="bi bi-wallet "></i> $250 - $800 / month</h6>
+                                <span class="badge text-success me-2" id="b4">Full Time</span>
+                                <span class="badge me-2" id="b2">Private</span>
+                                <span class="badge text-warning me-2" id="b3">Urgent</span>
+                        </div>
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <a href="" class="btn btn-outline-secondary btn-sm ms-5" id="left"><i class="bi bi-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer pt-4 pb-4 bg-light  text-dark">
+                    <h6><i class="bi bi-tag me-1"></i> Keywords:
+                 <a href="" class="link me-2 ms-2">UI Designer,</a>
+                 <a href="" class="link ">Developer</a>
+                 <a href="" class="link  ms-2" id="right-icon">Apply Now<i class="bi bi-chevron-double-right ms-2"></i></a></h6>
+                 </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card mt-4" id="row2">
+                <div class="card-body py-4 px-4">
+                    <div class="row mt-2 mb-2">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <img class="img-fluid" src="../assets/img/icon/img-02.png">
+                        </div>
+                        <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="d-flex">
+                                 <a href="" class="link text-dark"><h5 class="font-weight-bold">Marketing Director</h5></a>
+                                <p class="text-secondary ms-2">(2-4 yrs. Exp.)</p>
+                           </div>
+                           <div class="d-flex " id="span">
+                            <h6 class="text-secondary  me-3">Jobvia Technology Pvt.Ltd</h6>
+                            <h6 class="text-secondary me-3"><i class="bi bi-geo-alt-fill"></i> California </h6>
+                            </div>
+                            <h6 class="text-secondary mb-3 mt-2"><i class="bi bi-wallet "></i> $250 - $800 / month</h6>
+                                  <span class="badge text-danger me-2 ms-2" id="b1">Part Time</span>
+                                <span class="badge me-2 ms-2" id="b2">Private</span>
+                        </div>
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <a href="" class="btn btn-outline-secondary btn-sm ms-5" id="left"><i class="bi bi-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer pt-4 pb-4 bg-light  text-dark">
+                    <h6><i class="bi bi-tag me-1"></i> Keywords:
+                 <a href="" class="link me-2 ms-2">UI Designer,</a>
+                 <a href="" class="link ">Developer</a>
+                 <a href="" class="link  ms-2" id="right-icon">Apply Now<i class="bi bi-chevron-double-right ms-2"></i></a></h6>
+                 </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card mt-4" id="row2">
+                <div class="card-body py-4 px-4">
+                    <div class="row mt-2 mb-2">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <img class="img-fluid" src="../assets/img/icon/img-03.png">
+                        </div>
+                        <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="d-flex">
+                                 <a href="" class="link text-dark"><h5 class="font-weight-bold">HTML Developer</h5></a>
+                                 <p class="text-secondary ms-2">(2-4 yrs. Exp.)</p>
+                            </div>
+                            <div class="d-flex " id="span">
+                                <h6 class="text-secondary  me-3">Jobvia Technology Pvt.Ltd</h6>
+                                <h6 class="text-secondary me-3"><i class="bi bi-geo-alt-fill"></i> California </h6>
+                                </div>
+                                <h6 class="text-secondary mb-3 mt-2"><i class="bi bi-wallet "></i> $250 - $800 / month</h6>
+                                    <span class="badge me-2 " id="b5">Freelance</span>
+                                <span class="badge me-2" id="b6">Internship</span>
+                        </div>
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <a href="" class="btn btn-outline-secondary btn-sm ms-5" id="left"><i class="bi bi-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer pt-4 pb-4 bg-light  text-dark">
+                    <h6><i class="bi bi-tag me-1"></i> Keywords:
+                 <a href="" class="link me-2 ms-2">UI Designer,</a>
+                 <a href="" class="link ">Developer</a>
+                 <a href="" class="link  ms-2" id="right-icon">Apply Now<i class="bi bi-chevron-double-right ms-2"></i></a></h6>
+                 </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card mt-4" id="row2">
+                <div class="card-body py-4 px-4">
+                    <div class="row mt-2 mb-2">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <img class="img-fluid" src="../assets/img/icon/img-04.png">
+                        </div>
+                        <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="d-flex">
+                                 <a href="" class="link text-dark"><h5 class="font-weight-bold">Product Sales Specialist</h5></a>
+                                 <p class="text-secondary ms-2">(5+ yrs. Exp.)</p>
+                            </div>
+                            <div class="d-flex " id="span">
+                                <h6 class="text-secondary  me-3">Jobvia Technology Pvt.Ltd</h6>
+                                <h6 class="text-secondary me-3"><i class="bi bi-geo-alt-fill"></i> California </h6>
+                                </div>
+                                <h6 class="text-secondary mb-3 mt-2"><i class="bi bi-wallet "></i> $250 - $800 / month</h6>
+                                <span class="badge text-success me-2" id="b4">Full Time</span>
+                                <span class="badge me-2" id="b2">Private</span>
+                        </div>
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <a href="" class="btn btn-outline-secondary btn-sm ms-5" id="left"><i class="bi bi-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer pt-4 pb-4 bg-light  text-dark">
+                    <h6><i class="bi bi-tag me-1"></i> Keywords:
+                 <a href="" class="link me-2 ms-2">UI Designer,</a>
+                 <a href="" class="link ">Developer</a>
+                 <a href="" class="link  ms-2" id="right-icon">Apply Now<i class="bi bi-chevron-double-right ms-2"></i></a></h6>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card mt-4" id="row2">
+                <div class="card-body py-4 px-4">
+                    <div class="row mt-2 mb-2">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <img class="img-fluid" src="../assets/img/icon/img-05.png">
+                        </div>
+                        <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="d-flex">
+                                 <a href="" class="link text-dark"><h5 class="font-weight-bold">Product Designer</h5></a>
+                                 <p class="text-secondary ms-2">(0-5 yrs. Exp.)</p>
+                            </div>
+                            <div class="d-flex " id="span">
+                                <h6 class="text-secondary  me-3">Jobvia Technology Pvt.Ltd</h6>
+                                <h6 class="text-secondary me-3"><i class="bi bi-geo-alt-fill"></i> California </h6>
+                                </div>
+                                <h6 class="text-secondary mb-3 mt-2"><i class="bi bi-wallet "></i> $250 - $800 / month</h6>
+                                <span class="badge me-2" id="b6">Internship</span>
+                        </div>
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <a href="" class="btn btn-outline-secondary btn-sm ms-5" id="left"><i class="bi bi-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer pt-4 pb-4 bg-light  text-dark">
+                    <h6><i class="bi bi-tag me-1"></i> Keywords:
+                 <a href="" class="link me-2 ms-2">UI Designer,</a>
+                 <a href="" class="link ">Developer</a>
+                 <a href="" class="link  ms-2" id="right-icon">Apply Now<i class="bi bi-chevron-double-right ms-2"></i></a></h6>
+                 </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card mt-4" id="row2">
+                <div class="card-body py-4 px-4">
+                    <div class="row mt-2 mb-2">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <img class="img-fluid" src="../assets/img/icon/img-06.png">
+                        </div>
+                        <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="d-flex">
+                                 <a href="" class="link text-dark"><h5 class="font-weight-bold">Project Manager</h5></a>
+                                 <p class="text-secondary ms-2">(0-2 yrs. Exp.)</p>
+                            </div>
+                            <div class="d-flex " id="span">
+                                <h6 class="text-secondary  me-3">Jobvia Technology Pvt.Ltd</h6>
+                                <h6 class="text-secondary me-3"><i class="bi bi-geo-alt-fill"></i> California </h6>
+                                </div>
+                                <h6 class="text-secondary mb-3 mt-2"><i class="bi bi-wallet "></i> $250 - $800 / month</h6>
+                                <span class="badge text-success me-2" id="b4">Full Time</span>
+                                <span class="badge me-2" id="b2">Private</span>
+                                <span class="badge text-warning me-2" id="b3">Urgent</span>
+                        </div>
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <a href="" class="btn btn-outline-secondary btn-sm ms-5" id="left"><i class="bi bi-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer pt-4 pb-4 bg-light  text-dark">
+                    <h6><i class="bi bi-tag me-1"></i> Keywords:
+                 <a href="" class="link me-2 ms-2">UI Designer,</a>
+                 <a href="" class="link ">Developer</a>
+                 <a href="" class="link  ms-2" id="right-icon">Apply Now<i class="bi bi-chevron-double-right ms-2"></i></a></h6>
+                 </div>
+            </div> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card mt-4 mb-5" id="row2">
+                <div class="card-body py-4 px-4">
+                    <div class="row mt-2 mb-2">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <img class="img-fluid" src="../assets/img/icon/img-07.png">
+                        </div>
+                        <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="d-flex">
+                                 <a href="" class="link text-dark"><h5 class="font-weight-bold">HTML Developer</h5></a>
+                            </div>
+                            <div class="d-flex " id="span">
+                                <h6 class="text-secondary  me-3">Jobvia Technology Pvt.Ltd</h6>
+                                <h6 class="text-secondary me-3"><i class="bi bi-geo-alt-fill"></i> California </h6>
+                                </div>
+                                <h6 class="text-secondary mb-3 mt-2"><i class="bi bi-wallet "></i> $250 - $800 / month</h6>
+                                <span class="badge text-warning me-2" id="b3">Urgent</span>
+                                <span class="badge text-danger me-2" id="b1">Part Time</span>
+                        </div>
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <a href="" class="btn btn-outline-secondary btn-sm ms-5" id="left"><i class="bi bi-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer pt-4 pb-4 bg-light  text-dark">
+                    <h6><i class="bi bi-tag me-1"></i> Keywords:
+                 <a href="" class="link me-2 ms-2">UI Designer,</a>
+                 <a href="" class="link ">Developer</a>
+                 <a href="" class="link  ms-2" id="right-icon">Apply Now<i class="bi bi-chevron-double-right ms-2"></i></a></h6>
+                 </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6">
+            <div class="card mt-4 mb-5" id="row2">
+                <div class="card-body py-4 px-4">
+                    <div class="row mt-2 mb-2">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <img class="img-fluid" src="../assets/img/icon/img-08.png">
+                        </div>
+                        <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="d-flex">
+                                 <a href="" class="link text-dark"><h5 class="font-weight-bold">Business Associate</h5></a>
+                            </div>
+                            <div class="d-flex " id="span">
+                                <h6 class="text-secondary  me-3">Jobvia Technology Pvt.Ltd</h6>
+                                <h6 class="text-secondary me-3"><i class="bi bi-geo-alt-fill"></i> California </h6>
+                                </div>
+                                <h6 class="text-secondary mb-3 mt-2"><i class="bi bi-wallet "></i> $250 - $800 / month</h6>
+                                <span class="badge text-warning me-2" id="b3">Urgent</span>
+                                <span class="badge text-danger me-2" id="b1">Part Time</span>
+                        </div>
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <a href="" class="btn btn-outline-secondary btn-sm ms-5" id="left"><i class="bi bi-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer pt-4 pb-4 bg-light  text-dark">
+                    <h6><i class="bi bi-tag me-1"></i> Keywords:
+                 <a href="" class="link me-2 ms-2">UI Designer,</a>
+                 <a href="" class="link ">Developer</a>
+                 <a href="" class="link  ms-2" id="right-icon">Apply Now<i class="bi bi-chevron-double-right ms-2"></i></a></h6>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <nav aria-label="page-navigation mt-4">
+        <ul class="pagination pagination justify-content-center mt-4 pt-4">
+          <li class="page-item disabled">
+            <a class="page-link rounded-pill bg-light me-2" href="#!" tabindex="-1"><small><i class="bi bi-chevron-double-left"></i></small></a>
+          </li>
+          <li class="page-item"><a class="page-link rounded-pill me-2" href="#!">1</a></li>
+          <li class="page-item"><a class="page-link rounded-pill bg-success text-white me-2" href="#!">2</a></li>
+          <li class="page-item"><a class="page-link rounded-pill me-2" href="#!">3</a></li>
+          <li class="page-item"><a class="page-link rounded-pill me-2" href="#!">4</a></li>
+          <li class="page-item">
+            <a class="page-link rounded-pill" href="#!"><small><i class="bi bi-chevron-double-right"></i></small></a>
+          </li>
+        </ul>
+      </nav>
+   </div>
+ 
+   <footer class=" footer bg-dark text-center text-white mt-4" id="end">
+    <div class="container-fluid pt-4 pb-4" id="feet">
+        <div class="container">
+            <div class="row justify-content-between py-4 px-4">
+                <div class="col-sm-6 col-md-4 col-lg-4 pt-4">
+                    <h2>Get New Jobs Notification!</h2>
+                    <p>Subscribe & get all related jobs notification.</p>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-6  pt-4">
+                    <div class="text-2 ">
+                        <div class="input-group">
+                            <input type="text" class="form-control bg-dark " placeholder="Enter your email" aria-label="" aria-describedby="basic-addon1">
+                            <div class="input-group-append">
+                              <button class="btn btn-success py-2 px-2" type="button">Subscribe</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+       
+            <div class="container pt-4 pb-4" id="wide3">
+                <div class="row text-start">
+                    <div class="col-sm-4 col-md-4 col-lg-4">
+                        <h4 class="fw-bold mt-4 mb-5">
+                           Jobvia
+                    </h4>
+                    <p class="text-secondary">It is a long established fact that a reader will be of a page reader will be of at its layout.</p>
+                    <p class="text-white">
+                        follow Us On:</p>
+                        <div class="btn-group" id="fbtn">
+                       <a href="" class="btn btn-outline-light rounded-pill me-3"><i class="bi bi-facebook fa-1x"></i></a>
+                        <a href="" class="btn btn-outline-light rounded-pill me-3"><i class="bi bi-linkedin fa-1x"></i></a>
+                        <a href="" class="btn btn-outline-light rounded-pill me-3"><i class="bi bi-google fa-1x"></i></a>
+                        <a href="" class="btn btn-outline-light rounded-pill me-3"><i class="bi bi-twitter fa-1x"></i></a>
+                        </div>
+                    <!-- </p> -->
+                    </div>
+                    
+                    <div class="col-sm-2 col-md-2 col-lg-2" id="e2">
+                        <h5 class="mt-4 mb-4" >
+                           Company
+                     </h5>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>About Us</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Contact Us</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Services</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Blog</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Team</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Pricing</a>
+                    </p>
+                    </div>
+
+                    <div class="col-sm-2 col-md-2 col-lg-2" id="e2">
+                        <h5 class=" mt-4 mb-4">
+                           For Jobs
+                     </h5>
+                     <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Browser Categories</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Browser Jobs</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Job Details</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Job Alerts</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Bookmark Jobs </a>
+                    </p>
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2" id="e2">
+                        <h5 class=" mt-4 mb-4">
+                            For Candidates
+                      </h5>
+                      <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Candidate List</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Candidate Grid</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Candidate Details </a>
+                    </p>
+                </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2" id="e2">
+                        <h5 class=" mt-4 mb-4">
+                            Support
+                      </h5>
+                      <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Help Center</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>FAQ'S</a>
+                    </p>
+                    <p>
+                        <a href=" " class="link"><small><i class="bi bi-chevron-right"></i> </small>Privacy Policy</a>
+                    </p>
+                </div>
+                </div>
+                </div>
+                <hr>
+                <div class="text-center pb-4">
+                    <p class="text-secondary" id="last">2023 © Jobvia - Job Listing Page Template by <a href="" class="link text-secondary ms-1"><u>Pichforest</u></a></p>
+                </div>
+            </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</body>
+</html>

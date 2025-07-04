@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/applicants.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <title>All Applicants</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><img class="img-fluid" src="../assets/img/logo/logo.png" style="width: 200px;height: auto;"></a>
+          <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link text-dark text-uppercase py-2 px-2 ms-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        home<small><i class="bi bi-chevron-down ms-2" id="none"></i></small></a>
+
+                    <ul class="dropdown-menu " id="near" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="row  pt-4 pb-4" >
+                            <div class="col-sm-2 col-md-2 col-lg-2 ">
+                                <a href="">
+                                <span class="header text-dark text-uppercase ms-2">home 01</span><br>
+                                <img class="img-fluid mt-4" id="none" src="../assets/img/home/home-01.jpg" width="100%" height="auto"></a>
+                                </div>
+                                <div class="col-sm-2 col-md-2 col-lg-2 ">
+                                    <a href="">
+                                    <span class="header text-dark text-uppercase ms-2">home 02</span><br>
+                                    <img class="img-fluid mt-4" id="none" src="../assets/img/home/home-02.jpg" width="100%" height="auto"></a>
+                                    </div>
+                                    <div class="col-sm-2 col-md-2 col-lg-2 ">
+                                        <a href="">
+                                        <span class="header text-dark text-uppercase ms-2">home 03</span><br>
+                                        <img class="img-fluid mt-4" id="none" src="../assets/img/home/home-03.jpg" width="100%" height="auto"></a>
+                                        </div>
+                                        <div class="col-sm-2 col-md-2 col-lg-2 ">
+                                            <a href="">
+                                            <span class="header text-dark text-uppercase ms-2">home 04</span><br>
+                                            <img class="img-fluid mt-4" id="none" src="../assets/img/home/home-04.jpg" width="100%" height="auto"></a>
+                                            </div>
+                                            <div class="col-sm-2 col-md-2 col-lg-2 ">
+                                                <a href="">
+                                                <span class="header text-dark text-uppercase ms-2">home 05</span><br>
+                                                <img class="img-fluid mt-4" id="none" src="../assets/img/home/home-05.jpg" width="100%" height="auto"></a>
+                                                </div>
+                                                <div class="col-sm-2 col-md-2 col-lg-2 " id="none">
+                                                    <a href="">
+                                                    <span class="header text-dark text-uppercase ms-2">coming soon</span><br>
+                                                    <img class="img-fluid mt-4" id="none" src="../assets/img/home/comingsoon.jpg" width="100%" height="auto"></a>
+                                                    </div>
+                                </div>
+                </ul>
+            </li>
+            
+              <li class="nav-item dropdown">
+                <a class="nav-link text-dark text-uppercase py-2 px-2 ms-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                pages<small><i class="bi bi-chevron-down ms-2" id="none"></i></small>
+                </a>
+                <ul class="dropdown-menu pt-4 pb-4 pe-4 ps-2" id="page" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item py-2 pe-5 me-5" href="#">About Us</a></li>
+                    <li><a class="dropdown-item py-2 pe-5 me-5" href="#">How It Works</a></li>
+                    <li><a class="dropdown-item py-2 pe-5 me-5" href="#">Testimonials</a></li>
+                    <li><a class="dropdown-item py-2 pe-5 me-5" href="#">Pricing Plan</a></li>
+                    <li><a class="dropdown-item py-2 pe-5 me-5" href="#">FAQ</a></li>
+                    <li><a class="dropdown-item py-2 pe-5 me-5" href="#">Contact Us</a></li>
+                    <!-- <li><a class="dropdown-item py-2 px-2 ms-3 pe-5 me-5" id="right" href="#">User pages</a></li> -->
+                    <li class="dropdown-submenu py-2 ps-3 ">
+                        <a  href="#">User Pages</a>
+                        <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                          <li><a class="dropdown-item pb-2" href="#">Login</a></li>
+                          <li><a class="dropdown-item pb-2" href="#">Register</a></li>
+                          <li><a class="dropdown-item pb-2" href="#">Forgot Password</a></li>
+                        </ul>
+                      </li>
+                    <!-- <li><a class="dropdown-item py-2 pe-5 me-5" href="#">Others</a></li> -->
+                    <li class="dropdown-submenu py-2 ps-3 ">
+                        <a href="#">Others</a>
+                        <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                          <li><a class="dropdown-item pb-2" href="#">Privacy Policy</a></li>
+                          <li><a class="dropdown-item pb-2" href="#">Term & Condition</a></li>
+                          <li><a class="dropdown-item pb-2" href="#">Comming Soon</a></li>
+                          <li><a class="dropdown-item pb-2" href="#">404 Error</a></li>
+                        </ul>
+                      </li>
+                </ul>
+                </li>
+                <li class="nav-item ">
+                    <a href="" class="nav-link text-dark text-uppercase py-2 px-2 ms-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        job listing<small><i class="bi bi-chevron-down ms-2" id="none"></i></small></a>
+                    <ul class="dropdown-menu " id="list" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span class="header text-uppercase ms-3">
+                                   job listing
+                                </span>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Listing 1 - Without Sidebar</a>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Listing 1 - Left Sidebar</a>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Listing 1 - Right Sidebar</a>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Listing 2 - Without Sidebar</a>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Listing 2 - Left Sidebar</a>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Listing 2 - Right Sidebar</a>
+                            </div>
+                            <div class="col-lg-3 ">
+                                <span class="header text-uppercase ms-3">
+                                   job grid
+                                </span>
+                                <a href="" class="dropdown-item  mt-3 mb-3"> Job Grid 1 - Without Sidebar </a>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Grid 1 - Left Sidebar</a>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Grid 1 - Right Sidebar</a>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Grid 2 - Without Sidebar</a>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Grid 2 - Left Sidebar</a>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Grid 2 - Right Sidebar</a>
+                            </div>
+                            <div class="col-lg-3">
+                                <span class="header text-uppercase ms-3">
+                                  job details
+                                </span>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Details 1</a>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Details 2</a>
+                                <a href="" class="dropdown-item mt-3 mb-3">Job Details 3</a>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="owl-carousel owl-theme">
+                                    <div class="item">
+                                        <img src="../assets/img/slider/menu-slider1.jpg" width="350px" height="auto">
+                                    </div>
+                                    <div class="item">
+                                        <img src="../assets/img/slider/menu-slider2.jpg" width="350px" height="auto">
+                                    </div>
+                                    <div class="item">
+                                        <img src="../assets/img/slider/menu-slider3.jpg" width="350px" height="auto">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-dark text-uppercase py-2 px-2 ms-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        explore<small><i class="bi bi-chevron-down ms-2" id="none"></i></small>
+                        </a>
+                        <ul class="dropdown-menu  pt-4 pb-4" aria-labelledby="navbarDropdownMenuLink">
+                            <!-- <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">Candidates<i class="bi bi-plus" id="right-icon"></i></a></li> -->
+                            <li class="dropdown-submenu py-2 ps-3 pe-2">
+                                <a href="#">Candidates</a>
+                                <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                                  <li><a class="dropdown-item pb-2 " href="#">Candidates Grid</a></li>
+                                  <li><a class="dropdown-item pb-2" href="#">Candidates List</a></li>
+                                  <li><a class="dropdown-item pb-2" href="#">Candidates Details</a></li>
+                                  <li><a class="dropdown-item pb-2" href="#">Candidates Dashboard</a></li>
+                                </ul>
+                              </li>
+                            <!-- <li><a class="dropdown-item  pb-3 me-5" href="#">Employers<i class="bi bi-plus" id="right-icon"></i></a></li> -->
+                            <li class="dropdown-submenu py-2 ps-3 pe-2">
+                                <a href="#">Employers</a>
+                                <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                                    <li><a class="dropdown-item pb-2 " href="#">Employers Grid</a></li>
+                                    <li><a class="dropdown-item pb-2" href="#">Employers List</a></li>
+                                    <li><a class="dropdown-item pb-2" href="#">Employers Details</a></li>
+                                    <li><a class="dropdown-item pb-2" href="#">Employers Dashboard</a></li>
+                                </ul>
+                              </li>
+                        </ul>
+                    </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link text-dark text-uppercase py-2 px-2 ms-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        elements<small><i class="bi bi-chevron-down ms-2" id="none"></i></small></a>
+                    <ul class="dropdown-menu" id="element" aria-labelledby="navbarDropdownMenuLink">
+                        <div class="row  pt-4 pb-4 pe-4 ms-5">
+                            <div class="col-sm-12 col-md-3 col-lg-3 ">
+                                <span class="header text-dark text-uppercase ms-2">elements 01</span>
+                                <a href="" class="dropdown-item py-2 px-2 mt-3"><i class="bi bi-sliders me-2"></i> Accordian</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-bell me-2"></i>Alerts</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-exclude me-2"></i>Blockquote</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-link-45deg me-2"></i>Buttons</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-square me-2"></i>Call to Action</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-image me-2"></i>Carousel Slider</a>
+                            </div>
+                            <div class="col-sm-12 col-md-3 col-lg-3">
+                                <span class="header text-dark text-uppercase ms-2">elements 02</span>
+                                <a href="" class="dropdown-item py-2 px-2 mt-3"><i class="bi bi-flag me-2"></i>Count Down</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-lightning-charge-fill me-2"></i>Counters</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-badge-cc me-2"></i>Dropcaps</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-boxes me-2"></i>Form Elements</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-check-square me-2"></i>Font Icons</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-thermometer-high me-2"></i>Highlights</a>
+                            </div>
+                            <div class="col-sm-12 col-md-3 col-lg-3">
+                                <span class="header text-dark text-uppercase ms-3">elements 03</span>
+                                <a href="" class="dropdown-item py-2 px-2 mt-3"><i class="bi bi-arrows-move me-2"></i>Header Style 01</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-arrows-fullscreen me-2"></i>Header Style 02</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-file-font me-2"></i>Icons With Text</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-list-ul me-2"></i>List Styles</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-film me-2"></i>Media Object</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-bell me-2"></i>Modal</a>
+                            </div>
+                            <div class="col-sm-12 col-md-3 col-lg-3">
+                                <span class="header text-dark text-uppercase ms-3">elements 04</span>
+                                <a href="" class="dropdown-item py-2 px-2 mt-3"><i class="bi bi-caret-right-square me-2"></i>Pagination</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-list-check me-2"></i>Progress Bars</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-table me-2"></i>Tables</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-font me-2"></i>Tabs</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-fonts me-2"></i>Typography</a>
+                                <a href="" class="dropdown-item py-2 px-2"><i class="bi bi-camera-video-fill me-2"></i>Videos</a>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-dark text-uppercase py-2 px-2 ms-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    blog<small><i class="bi bi-chevron-down ms-2" id="none"></i></small>
+                    </a>
+                    <ul class="dropdown-menu pt-4 pb-4" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">Blog Grid</a></li>
+                        <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">Blog List</a></li>
+                        <li><a class="dropdown-item pt-3 pb-3 me-5" href="#">Blog Details</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div>
+          <a href="" class="link text-dark py-2 px-2 me-4"><i class="bi bi-search" id="icon2"></i></a>
+          <a href="" class="btn btn-lg btn-block text-white  me-4 pe-4 ps-4 pt-2 pb-2" id="btn1">Post a Job</a>
+        </div>
+      </nav>
+      <hr>
+      <div class="container-fluid">
+        <div class="row">
+            <div class=" col-sm-12 col-md-12 col-lg-3">
+                <div class="right-sidebar pt-4">
+                    <ul class="nav flex-column bg-white ">
+                    <li class="nav-item">
+                    <a  class="nav-link  text-white bg-success mt-2 md-2 py-3 px-2 sidebar-link " data-bs-toggle="collapse" href="#collapseEighty"
+                    role="button" aria-expanded="false" aria-controls="collapseEighty">Dashboard
+                    <span class="right-icon ms-auto">
+                        <i class="fa fa-angle-right"></i>
+                    </span></a>
+                    <div class="collapse" id="collapseEighty">
+                    <ul class="nav flex-column bg-white py-4 px-4 ps-4" id="flex">
+                        <li class="nav-item mb-2" id="flex1">
+                            <a href="empdash.html" class="link text-success"><i class="bi bi-house-door fs-4 me-3"></i>Dashboard</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="comapnyProfile.html" class="link"><i class="bi bi-person fs-4 me-3"></i>Company Profile</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="PostJob.html" class="link"><i class="bi bi-pencil fs-4 me-3"></i>Post New Job</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="ManageJob.html" class="link"><i class="bi bi-briefcase fs-4 me-3"></i>Manage Jobs</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="applicants.html" class="link"><i class="bi bi-file-earmark fs-4 me-3"></i>All Applicants</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="shortlisted.html" class="link"><i class="bi bi-bookmark fs-4 me-3"></i>Shortlisted Resumes</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="package.html" class="link"><i class="bi bi-house-door fs-4 me-3"></i>Packages</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="message.html" class="link"><i class="bi bi-chat-left-text fs-4 me-3"></i>Messages</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="Alert.html" class="link"><i class="bi bi-bell fs-4 me-3"></i>Resume Alerts</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="changePassword.html" class="link"><i class="bi bi-lock fs-4 me-3"></i>Change Password</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="logout.html" class="link"><i class="bi bi-power fs-4 me-3"></i>Logout</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="deleteProfile.html" class="link"><i class="bi bi-trash fs-4 me-3"></i>Delete Profile</a>
+                        </li>
+
+                        </ul>
+                    </li>
+                </ul>
+                    </div>
+                </div>
+            <div class="col-sm-12 col-md-12 col-lg-9 pe-5 ps-5" id="main-col">
+                <div class="pt-4 mt-4">
+                <h2 class="text-dark mb-4">All Applicants</h2>
+                <nav aria-label="breadcrumb mt-4">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="#" id="breadcrumb">Job Board</a></li>
+                      <li class="breadcrumb-item"><a href="#" id="breadcrumb">Dashboard</a></li>
+                      <li class="breadcrumb-item active text-success" aria-current="page">All Applicants</li>
+                    </ol>
+                  </nav>
+                  <!-- </div> -->
+                  <div class="card mt-5">
+                    <div class="card-header">
+                        <div class="row py-2 px-2">
+                        <div class="col-sm-12 col-md-6 col-lg-8">  <h5 class="text-dark  mt-2">Senior Product Designer</h5></div>
+                        <div class="col-sm-12 col-md-2 col-lg-2" id="show"> 
+                        <select class="form-select mt-2" aria-label="Default select example">
+                            <option selected>Show</option>
+                            <option value="1">Show 10</option>
+                            <option value="2">Show 20</option>
+                            <option value="3">Show 30</option>
+                            <option value="4">Show 40</option>
+                            <option value="5">Show 50</option>
+                            <option value="6">Show 60</option>
+                          </select>
+                          </div>
+                          <div class="col-sm-12 col-md-4 col-lg-2 mt-2" id="show1"> 
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Last 6 Months</option>
+                            <option value="1">Last 6 Months</option>
+                            <option value="2">Last 12 Months</option>
+                            <option value="3">Last 16 Months</option>
+                            <option value="3">Last 24 Months</option>
+                            <option value="3">Last 5 Months</option>
+                          </select>
+                        </div>
+                    </div>
+                </div>
+                    <div class="card-body py-4 px-4">
+                        <div class="row justify-content-center mt-3 mb-5">
+                            <div class=" col-sm-12 col-md-12 col-lg-9">
+                                <div class="row gx-4 gy-4" id="total">
+                                    <div class="col-sm-12 col-md-12 col-lg-4">
+                                        <a href="" class="btn btn-outline-success text-white bg-success">Total(s):06</a>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-4" id="total1">
+                                        <a href="" class="btn btn-outline-secondary text-success ">Approved(2)</a>
+                                    </div>
+                                    <div class="col-sm-12 col-md-12 col-lg-4" id="total2">
+                                        <a href="" class="btn btn-outline-secondary text-danger">Rejected(s):04</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row gx-4" id="applicant">
+                            <div class="col-sm-12 col-md-12 col-lg-6" id="col-1">
+                                <div class="card mb-4">
+                                    <div class="card-body py-4 px-4 mt-2 mb-2">
+                                       <div class="row" id="recent">
+                                        <div class=" col-sm-12 col-md-6 col-lg-7" >
+                                            <div class="d-flex">
+                                                <div class="image me-4">
+                                                <img class="rounded-circle" src="../assets/img/candidate/candidate-01.jpg">
+                                            </div>
+                                                <div class="text-3">
+                                                    <h5><a class="text-dark" href="">Olle Nurmi</a></h5>
+                                            <p class="mb-2 ">Sr. Java Developer</p>
+                                            <span class="text-dark"><i class="bi bi-geo-alt me-1" id="locate"></i>USA</span><br>
+                                                <span class="text-secondary mt-3" id="app">App</span>
+                                                <span class="text-secondary"id="app">Development</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-5">
+                                            <div class="eye">
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-eye"></i></a>
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-check2"></i></a>
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-x-lg"></i></a>
+                                                <a href="" id="eye"><i class="bi bi-trash"></i></a>
+                                            </div>
+                                        </div>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6" id="col-1">
+                                <div class="card mb-4">
+                                    <div class="card-body py-4 px-4 mt-2 mb-2">
+                                       <div class="row" id="recent">
+                                        <div class=" col-sm-12 col-md-6 col-lg-7">
+                                            <div class="d-flex">
+                                                <div class="image me-4">
+                                                <img class="rounded-circle" src="../assets/img/candidate/candidate-02.jpg">
+                                            </div>
+                                                <div class="text-3">
+                                            <h5><a class="text-dark" href="">Selma Kolkkala</a></h5>
+                                            <p class="mb-2 ">UI/UX Specialist</p>
+                                            <span class="text-dark"><i class="bi bi-geo-alt me-1" id="locate"></i>Australia</span><br>
+                                                <span class="text-secondary mt-3" id="app">App</span>
+                                                <span class="text-secondary"id="app">Design</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-5">
+                                            <div class="eye">
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-eye"></i></a>
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-check2"></i></a>
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-x-lg"></i></a>
+                                                <a href="" id="eye"><i class="bi bi-trash"></i></a>
+                                                </div>
+                                        </div>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6" id="col-1">
+                                <div class="card mb-4 mt-2">
+                                    <div class="card-body py-4 px-4 mt-2 mb-2">
+                                       <div class="row" id="recent">
+                                        <div class=" col-sm-12 col-md-6 col-lg-7">
+                                            <div class="d-flex">
+                                                <div class="image me-4">
+                                                <img class="rounded-circle" src="../assets/img/candidate/candidate-03.jpg">
+                                            </div>
+                                                <div class="text-3">
+                                            <h5><a class="text-dark" href="">Rens Westen</a></h5>
+                                            <p class="mb-2 ">Research Assistant</p>
+                                            <span class="text-dark"><i class="bi bi-geo-alt me-1" id="locate"></i>USA</span><br>
+                                                <span class="text-secondary mt-3" id="app">Research</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-5">
+                                            <div class="eye">
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-eye"></i></a>
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-check2"></i></a>
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-x-lg"></i></a>
+                                                <a href="" id="eye"><i class="bi bi-trash"></i></a>
+                                                </div>
+                                        </div>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6" id="col-1">
+                                <div class="card mb-4 mt-2">
+                                    <div class="card-body py-4 px-4 mt-2 mb-2">
+                                       <div class="row" id="recent">
+                                        <div class=" col-sm-12 col-md-6 col-lg-7">
+                                            <div class="d-flex">
+                                                <div class="image me-4">
+                                                <img class="rounded-circle" src="../assets/img/candidate/candidate-04.jpg">
+                                            </div>
+                                                <div class="text-3">
+                                            <h5><a class="text-dark" href=""> France Maheu</a></h5>
+                                            <p class="mb-2 ">Digital Marketer</p>
+                                            <span class="text-dark"><i class="bi bi-geo-alt me-1" id="locate"></i>UK</span><br>
+                                                <span class="text-secondary mt-3" id="app">Marketing</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-5">
+                                            <div class="eye">
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-eye"></i></a>
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-check2"></i></a>
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-x-lg"></i></a>
+                                                <a href="" id="eye"><i class="bi bi-trash"></i></a>
+                                                </div>
+                                        </div>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6" id="col-1">
+                                <div class="card mb-2 mt-2">
+                                    <div class="card-body py-4 px-4 mt-2 mb-2">
+                                       <div class="row" id="recent">
+                                        <div class=" col-sm-12 col-md-9 col-lg-7">
+                                            <div class="d-flex">
+                                                <div class="image me-4">
+                                                <img class="rounded-circle" src="../assets/img/candidate/candidate-05.jpg">
+                                            </div>
+                                                <div class="text-3">
+                                            <h5><a class="text-dark" href="">Richard Bureau</a></h5>
+                                            <p class="mb-2 ">Charted Accountant </p>
+                                            <span class="text-dark"><i class="bi bi-geo-alt me-1" id="locate"></i>Canada</span><br>
+                                                <span class="text-secondary mt-3" id="app">App</span>
+                                                <span class="text-secondary"id="app">Research</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-3 col-lg-5">
+                                            <div class="eye">
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-eye"></i></a>
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-check2"></i></a>
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-x-lg"></i></a>
+                                                <a href="" id="eye"><i class="bi bi-trash"></i></a>
+                                        </div>
+                                       </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6" id="col-1">
+                                <div class="card mb-2 mt-2">
+                                    <div class="card-body py-4 px-4 mt-2 mb-2">
+                                       <div class="row" id="recent">
+                                        <div class=" col-sm-12 col-md-6 col-lg-7">
+                                            <div class="d-flex">
+                                                <div class="image me-4">
+                                                <img class="rounded-circle" src="../assets/img/candidate/candidate-06.jpg">
+                                            </div>
+                                                <div class="text-3">
+                                            <h5><a class="text-dark" href="">Uta Fuerst</a></h5>
+                                            <p class="mb-2 ">Marketing Advisor</p>
+                                            <span class="text-dark"><i class="bi bi-geo-alt me-1" id="locate"></i>London</span><br>
+                                                <span class="text-secondary mt-3" id="app">App</span>
+                                                <span class="text-secondary"id="app">Marketing</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-5">
+                                            <div class="eye">
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-eye"></i></a>
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-check2"></i></a>
+                                                <a href="" class="me-1" id="eye"><i class="bi bi-x-lg"></i></a>
+                                                <a href="" id="eye"><i class="bi bi-trash"></i></a>
+                                                </div>
+                                        </div>
+                                       </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="text-center mt-4" id="board">
+                    <h6 class="text-dark">© 2023 Job Board Powered by <a href="" class="link">Chitrakoot Web</a> </h6>
+                  </div>
+                  </div>
+            </div>       
+    </div>
+    
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+    items:1,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+    });
+    </script>
+</body>
+</html>

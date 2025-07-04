@@ -1,0 +1,1297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <nav class="navbar bg-light navbar-expand-lg navbar-light py-2 px-2">
+        <a href="" class="navbar-brand me-2"><img src="../assets/jobhai/logo/logo.svg"><small class="text-dark">A Naukri Group company</small></a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end py-2 px-2" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item   py-2 px-2 me-2 ms-5">
+                <a href="" class="btn rounded-pill text-white" id="btn">Download App</a>
+            </li>
+            <li class="nav-item dropdown py-2 px-2 me-2 ms-3">
+                <a  href="#" class=" text-dark dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"  >
+                   <img class=" img-fluid rounded-pill" src="../assets/jobhai/logo/user_female_default.png" style="height: 40px;">
+                    <h7> Sanika khade</h7>
+                </a>
+                <ul class="dropdown-menu text-center py-2 px-2 ms-2 me-2" aria-labelledby="navbarDropdownMenuLink">
+                  <a href="" class="link text-dark">Sign Out</a> 
+                </ul>
+              </li>
+        </ul>
+    </div>
+    </nav> 
+
+    <div class="container py-4 px-4">
+        <div class="row">
+            <div class="col-sm-8 col-md-12 col-lg-8">
+                <div class="card rounded-corner bg-white rounded-corner">
+                    <div class="ptop">
+                        <div class="row">
+                            <div class="col-sm-3 col-md-3 col-lg-3">
+                                <div class="profile py-4 px-2 ms-5">
+                                    <img class="img-fluid rounded-pill" src="../assets/jobhai/logo/user_female_default.png">
+                                    <a href="" class="btn rounded-pill">
+                                        <label for="firstimg"><i class="bi bi-plus "></i></label>
+                                    <input type="file" name="" id="firstimg" style="display: none; visibility: none;"></a>
+                                    </div>
+                            </div>
+                        <div class="col-sm-9 col-md-9 col-lg-9">
+                            <a href="" class="pright py-4 px-2 me-5" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight"><i class="bi bi-pencil-fill fa-1x text-white"></i></a>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"></a>
+                        <div class="offcanvas-header ps-3 py-4 px-2 pt-5">
+                        <h4 id="offcanvasRightLabel">About Myself</h4>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <hr>
+                    <div class="offcanvas-body ms-4 me-5">
+                        <small>Profile Photo</small>
+                        <!-- <div class="img pt-2 pb-4">
+                            <img class="img-fluid rounded-pill" src="../assets/jobhai/logo/user_female_default.png">
+                        </div> -->
+                        <div class="add pt-2 pb-4">
+                            <img class="img-fluid rounded-pill" src="../assets/jobhai/logo/user_female_default.png">
+                            <a href="" class="btn rounded-pill">
+                                <label for="firstimg"><small>Add<i class="bi bi-plus "></i></small></label>
+                            <input type="file" name="" id="firstimg" style="display: none; visibility: none;"></a>
+                            </div>
+                        <form>
+                            <div class="form-group pb-4">
+                                <label for="fullname pb-2"><small>Full Name</small></label>
+                                <input type="text" class="form-control" id="fullname">
+                            </div>
+                            <div class="form-group pb-4">
+                                <label for="city pb-2"><small>Which city do you want to work in?</small></label>
+                                <!-- <input type="text" class="form-control" id="city"> -->
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Mumbai</option>
+                                    <option value="1">Mumbai Suburban</option>
+                                    <option value="2">Thane</option>
+                                    <option value="3">Palghar</option>
+                                    <option value="3">Pune</option>
+                                    <option value="3">Nashik</option>
+                                  </select>
+                            </div>
+                            <div class="form-group pb-4">
+                                <label for="locality pb-2"><small>Select Locality</small></label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Virar</option>
+                                    <option value="1">Andheri</option>
+                                    <option value="2">Bandra</option>
+                                    <option value="3">Dadar</option>
+                                    <option value="3">Vasai</option>
+                                    <option value="3">Bhayandar</option>
+                                  </select>
+                            </div>
+                            <div class="form-group pb-4">
+                                <label for="phone pb-2"><small>Phone Number</small></label>
+                                <input type="text" class="form-control" id="phone">
+                                <label for="verify pt-2 pb-4"><small>We will verify your number again when you change it</small></label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="offcanvas-footer mb-4">
+                        <hr>
+                        <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                        <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                    </div>
+                </div>
+                <div class="text-white text-start py-4 px-2 pb-4">
+                    <h4 class=" pb-2">Sanika Khade</h4>
+                    <h6 class=" me-2"><i class="bi bi-geo-alt"></i> Virar, Mumbai</h6>
+                    <h6 class="pt-1 me-2"><i class="bi bi-phone"></i> 8530809347</h6>
+                    <hr class="hr">
+                    <h7 class="text-light">Looking for jobs in Delivery, Security Guard</h7>
+                    <a href="" class="pright me-5" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2"
+                    aria-controls="offcanvasRight2"><i class="bi bi-pencil-fill fa-1x text-white"></i></a>
+                    <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel2">
+                    <div class="offcanvas-header ps-3 py-4 px-2 pt-5 text-dark">
+                    <h3 id="offcanvasRightLabel">Selected Catagories</h3>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <hr>
+                <div class="offcanvas-body">
+                    <input type="text" class="form-control pb-3 "  placeholder="Search Job roles, catagories, skills, etc">
+                
+                <div class="btn py-2 px-2 mt-3 ms-5" id="offbtn" >
+                    <img class="img-fluid py-2 px-2"id="offimg" src="../assets/jobhai/catagory/back_office_data_entry.webp">
+                    <h6 class="me-5 ms-2">Back Office</h6>
+                    <input type="checkbox" class="custom-control-input" id="customCheck1"></h6>   
+                </div>
+                <div class="btn py-2 px-2 mt-3 ms-5" id="offbtn" >
+                    <img class="img-fluid py-2 px-2"id="offimg" src="../assets/jobhai/catagory/sales_business_development.webp">
+                    <h6 class="me-3">Sales/Business Development</h6>
+                    <input type="checkbox" class="custom-control-input" id="customCheck1"></h6>   
+                </div>
+                <div class="btn py-2 px-2 mt-3 ms-5" id="offbtn" >
+                    <img class="img-fluid py-2 px-2"id="offimg" src="../assets/jobhai/catagory/customer_support_telecaller.webp">
+                    <h6 class="me-3">Customer Support Telecallar</h6>
+                    <input type="checkbox" class="custom-control-input" id="customCheck1"></h6>   
+                </div>
+                <div class="btn py-2 px-2 mt-3 ms-5" id="offbtn" >
+                    <img class="img-fluid py-2 px-2"id="offimg" src="../assets/jobhai/catagory/delivery.webp">
+                    <h6 class="me-5 ms-5">Delivery</h6>
+                    <input type="checkbox" class="custom-control-input" id="customCheck1"></h6>   
+                </div>
+                <div class="btn py-2 px-2 mt-3 ms-5" id="offbtn" >
+                    <img class="img-fluid py-2 px-2"id="offimg" src="../assets/jobhai/catagory/security_guard.webp">
+                    <h6 class="me-4 ms-5">Security Guard</h6>
+                    <input type="checkbox" class="custom-control-input" id="customCheck1"></h6>   
+                </div>
+                <div class="btn py-2 px-2 mt-3 ms-5" id="offbtn" >
+                    <img class="img-fluid py-2 px-2"id="offimg" src="../assets/jobhai/catagory/retail.webp">
+                    <h6 class="ms-3">Retail/Counter Sale</h6>
+                    <input type="checkbox" class="custom-control-input" id="customCheck1"></h6>   
+                </div>
+            </div>
+            <div class="offcanvas-footer mb-4">
+                <hr>
+                <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Next</a>
+                <small>You can select up to 4 job roles</small>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="ptop2 ps-5 pe-5 px-2 pt-4">
+    <h6><img class="img-fluid me-3" src="../assets/jobhai/catagory/resume.svg">
+        <b>If you have a resume, upload it here</b> <a href="" class="btn rounded-pill btn-outline-success" id="pbtn"> 
+            <label for="firstimg">Upload</label>
+            <input type="file" name="" id="firstimg" style="display: none; visibility: none;"></a></h6>
+    </div>
+    <hr class="hr me-4 ms-4 mt-4 mb-4">
+  
+ <!-- Work Experience -->
+    <div class="alert bg-light me-4 ms-4 mb-4 py-4 px-4" id="alert2">
+        <div class="a1">
+            <a href="" class="link text-dark" id="skill" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight3"
+            aria-controls="offcanvasRight3">Work Experience</a>
+            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight3" aria-labelledby="offcanvasRightLabel3">
+            <div class="offcanvas-header mt-4 ms-3 text-dark">
+            <h3 id="offcanvasRightLabel">Add New Work Experience</h3>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <hr>
+        <div class="offcanvas-body ms-2">
+            <form>
+                <div class="card py-4 px-4 me-5 ms-2 mb-5">
+                    <div class="form-group pb-4">
+                        <label for="job-2"><small>Job Title</small></label>
+                        <input type="text" class="form-control" id="job" placeholder="e.g. Associate Manager">
+                    </div>
+                    <div class="form-group pb-4">
+                        <label for="role pb-2"><small>Job Role</small></label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Back Office</option>
+                            <option value="1">Security Guard</option>
+                            <option value="2">Delivery Boy</option>
+                            <option value="3">Food Delivery</option>
+                            <option value="3">Company Driver</option>
+                            <option value="3">Retail/Counter Sales</option>
+                          </select>
+                    </div>
+                    <div class="form-group pb-4">
+                        <label for="company pb-2"><small>Comapany Name</small></label>
+                        <input type="text" class="form-control" id="company" placeholder="e.g Jeevansathi.com">
+                    </div>
+                    <div class="form-group ">
+                        <label for="experience pb-2"><small>Experience In the company</small></label>
+                        <div class="row">
+                            <div class="col-sm-3 col-md-6 col-lg-6">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Years</option>
+                            <option value="1">0 Years</option>
+                            <option value="2">1 Years</option>
+                            <option value="3">2 Years</option>
+                            <option value="3">3 Years</option>
+                            <option value="3">4 Years</option>
+                          </select>
+                          </div>
+                          <div class="col-sm-3 col-md-6 col-lg-6">
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>Months</option>
+                            <option value="1">0 Months</option>
+                            <option value="2">1 Months</option>
+                            <option value="3">2 Months</option>
+                            <option value="3">3 Months</option>
+                            <option value="3">4 Months</option>
+                          </select>
+                          </div>
+                          </div>
+                    </div>
+                    <div class="form-check mt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                           <small> I am currently working here</small>
+                        </label>
+                      </div>
+                                   </div>
+            </form>
+        </div>
+                            <div class="offcanvas-footer mb-4">
+                                <hr>
+                            <a href="" class=" btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                            <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                           </div>
+                           </div>
+            
+        </div>
+        <div class="a1">
+            <a href="" class="link text-dark" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight3"
+            aria-controls="offcanvasRight3"><small>HR view this information. As soon as you gain experience, add it here</small></a>
+            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight3" aria-labelledby="offcanvasRightLabel3">
+            <div class="offcanvas-header ps-3 py-4 px-2 pt-5 text-dark">
+            <h3 id="offcanvasRightLabel">Add New Work Experience</h3>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <hr>
+        <div class="offcanvas-body ms-2">
+            <form>
+                <div class="card py-4 px-4">
+                    <div class="form-group pb-4">
+                        <label for="job-2"><small>Job Title</small></label>
+                        <input type="text" class="form-control" id="job" placeholder="e.g. Associate Manager">
+                    </div>
+                    <div class="form-group pb-4">
+                        <label for="role pb-2"><small>Job Role</small></label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Back Office</option>
+                            <option value="1">Security Guard</option>
+                            <option value="2">Delivery Boy</option>
+                            <option value="3">Food Delivery</option>
+                            <option value="3">Company Driver</option>
+                            <option value="3">Retail/Counter Sales</option>
+                          </select>
+                    </div>
+                    <div class="form-group pb-4">
+                        <label for="company pb-2"><small>Comapany Name</small></label>
+                        <input type="text" class="form-control" id="company" placeholder="e.g Jeevansathi.com">
+                    </div>
+                    <div class="form-group ">
+                        <label for="experience pb-2"><small>Experience In the company</small></label>
+                        <select class="form-select"  style="width: 8px;" aria-label="Default select example">
+                            <option selected>Virar</option>
+                            <option value="1">Andheri</option>
+                            <option value="2">Bandra</option>
+                            <option value="3">Dadar</option>
+                            <option value="3">Vasai</option>
+                            <option value="3">Bhayandar</option>
+                          </select>
+                          <select class="form-select" style="width: 8px;" aria-label="Default select example">
+                            <option selected>Virar</option>
+                            <option value="1">Andheri</option>
+                            <option value="2">Bandra</option>
+                            <option value="3">Dadar</option>
+                            <option value="3">Vasai</option>
+                            <option value="3">Bhayandar</option>
+                          </select>
+                    </div>
+                    <div class="form-check mt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                           <small> I am currently working here</small>
+                        </label>
+                      </div>
+                                   </div>
+                                </form>
+                            </div>
+                            <div class="offcanvas-footer mb-4">
+                                <hr>
+                            <a href="" class=" btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                            <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                           </div>
+                           </div>
+
+            <a href="" class="pright text-success" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight3"
+            aria-controls="offcanvasRight3">Add<i class="bi bi-plus"></i></a>
+            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight3" aria-labelledby="offcanvasRightLabel3">
+            <div class="offcanvas-header ps-3 py-4 px-2 pt-5 text-dark">
+            <h3 id="offcanvasRightLabel">Add New Work Experience</h3>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <hr>
+        <div class="offcanvas-body ms-2">
+            <form>
+                <div class="card py-4 px-4">
+                    <div class="form-group pb-4">
+                        <label for="job-2"><small>Job Title</small></label>
+                        <input type="text" class="form-control" id="job" placeholder="e.g. Associate Manager">
+                    </div>
+                    <div class="form-group pb-4">
+                        <label for="role pb-2"><small>Job Role</small></label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Back Office</option>
+                            <option value="1">Security Guard</option>
+                            <option value="2">Delivery Boy</option>
+                            <option value="3">Food Delivery</option>
+                            <option value="3">Company Driver</option>
+                            <option value="3">Retail/Counter Sales</option>
+                          </select>
+                    </div>
+                    <div class="form-group pb-4">
+                        <label for="company pb-2"><small>Comapany Name</small></label>
+                        <input type="text" class="form-control" id="company" placeholder="e.g Jeevansathi.com">
+                    </div>
+                    <div class="form-group ">
+                        <label for="experience pb-2"><small>Experience In the company</small></label>
+                        <select class="form-select"  style="width: 8px;" aria-label="Default select example">
+                            <option selected>Virar</option>
+                            <option value="1">Andheri</option>
+                            <option value="2">Bandra</option>
+                            <option value="3">Dadar</option>
+                            <option value="3">Vasai</option>
+                            <option value="3">Bhayandar</option>
+                          </select>
+                          <select class="form-select" style="width: 8px;" aria-label="Default select example">
+                            <option selected>Virar</option>
+                            <option value="1">Andheri</option>
+                            <option value="2">Bandra</option>
+                            <option value="3">Dadar</option>
+                            <option value="3">Vasai</option>
+                            <option value="3">Bhayandar</option>
+                          </select>
+                    </div>
+                    <div class="form-check mt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                           <small> I am currently working here</small>
+                        </label>
+                      </div>
+                                   </div>
+                                </form>
+                            </div>
+                            <div class="offcanvas-footer mb-4">
+                                <hr>
+                            <a href="" class=" btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                            <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                           </div>
+                           </div>
+                            </div>
+                        </div>
+     <!--Skills -->
+                        <div class="alert bg-light me-4 ms-4 mb-4 py-4 px-4" id="alert2">
+                            <div class="a1">
+                                <a href="" class="link text-dark" id="skill" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4"
+                                aria-controls="offcanvasRight4">Skills</a>
+                                <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel4">
+                                   <div class="offcanvas-header mt-4 ms-3 text-dark">
+                                       <h3 id="offcanvasRightLabel">Skills</h3>
+                                       <button type="button" class="btn-close text-reset mb-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                   </div>
+                                   <hr>
+                                   <div class="offcanvas-body ms-3">
+                                    <div class="h7">
+                                    <h7 class="text-dark">Security Guard</h7>
+                                    </div>
+                                    <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Fire Inspection Procedure Knowledge<i class="bi bi-plus"></i></a><br>
+                                    <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Gun Lience<i class="bi bi-plus"></i></a><br>
+                                    <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Survillence System Understanding<i class="bi bi-plus"></i></a><br>
+                                    <a href="" class="btn rounded-pill btn-outline-secondary mt-2">None Of These</a>
+                                   </div>
+                                   <div class="offcanvas-footer mb-4">
+                                    <hr>
+                                <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                                <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                               </div>
+                               </div>
+                            </div>
+
+                            <a href="" class="pright text-success" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4"
+                            aria-controls="offcanvasRight4">Add<i class="bi bi-plus"></i></a>
+                            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel4">
+                               <div class="offcanvas-header mt-4 ms-3 text-dark">
+                                   <h3 id="offcanvasRightLabel">Skills</h3>
+                                   <button type="button" class="btn-close text-reset mb-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                               </div>
+                               <hr>
+                               <div class="offcanvas-body ms-3">
+                                <div class="h7">
+                                <h7>Security Guard</h7>
+                                </div>
+                                <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Fire Inspection Procedure Knowledge<i class="bi bi-plus"></i></a><br>
+                                <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Gun Lience<i class="bi bi-plus"></i></a><br>
+                                <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Survillence System Understanding<i class="bi bi-plus"></i></a><br>
+                                <a href="" class="btn rounded-pill btn-outline-secondary mt-2">None Of These</a>
+                               </div>
+                               <div class="offcanvas-footer mb-4">
+                                <hr>
+                            <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                            <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                           </div>
+                           </div>
+
+                            <div class="a1">
+                            <a href="" class="link text-dark" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4"
+                            aria-controls="offcanvasRight4"><small>Add your skills to help us match the right job for you!</small></a>
+                            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel4">
+                               <div class="offcanvas-header mt-4 ms-3 text-dark">
+                                   <h3 id="offcanvasRightLabel">Skills</h3>
+                                   <button type="button" class="btn-close text-reset mb-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                               </div>
+                               <hr>
+                               <div class="offcanvas-body ms-3">
+                                <div class="h7">
+                                <h7>Security Guard</h7>
+                                </div>
+                                <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Fire Inspection Procedure Knowledge<i class="bi bi-plus"></i></a><br>
+                                <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Gun Lience<i class="bi bi-plus"></i></a><br>
+                                <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Survillence System Understanding<i class="bi bi-plus"></i></a><br>
+                                <a href="" class="btn rounded-pill btn-outline-secondary mt-2">None Of These</a>
+                               </div>
+                               <div class="offcanvas-footer mb-4">
+                                <hr>
+                            <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                            <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                           </div>
+                           </div>
+                        </div>
+                        </div>
+<!-- Catagory Details -->
+                        <h5 class="me-4 ms-4  py-4 px-4"><b>Catagory Details</b>
+                            <a href="" class="pright text-success" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight5"
+                            aria-controls="offcanvasRight5"><i class="bi bi-pencil-fill fa-1x text-success "></i></a></h5>
+
+                            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight5" aria-labelledby="offcanvasRightLabel5">
+                               <div class="offcanvas-header mt-4 ms-3 text-dark">
+                                   <h4 id="offcanvasRightLabel">Catagory Details</h4>
+                                   <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                               </div>
+                               <hr>
+                               <div class="offcanvas-body ms-4">
+                                   <h7 class="text-secondary">Which of these do you have?</h7>
+                                   <div class="btn-group">
+                                    <a href="" class="btn rounded-pill btn-outline-secondary mt-2 me-2">Bike<i class="bi bi-plus"></i></a>
+                                    <a href="" class="btn rounded-pill btn-outline-secondary mt-2  me-2">Smartphone<i class="bi bi-plus"></i></a>
+                                    <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Cycle<i class="bi bi-plus"></i></a>
+                                   </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn rounded-pill btn-outline-secondary mt-2  me-2">Driving Lience<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn rounded-pill btn-outline-secondary mt-2" id="orange">None Of These</a>
+                                    </div>
+                                </div>
+                            <div class="offcanvas-footer mb-4">
+                                <hr>
+                            <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                            <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                           </div>
+                           </div>
+                        <hr class="hr me-4 ms-4">
+    <!-- Basic Details -->
+                        <h5 class="me-4 ms-4  py-4 px-4"><b>Basic Details</b>
+                        <a href="" class="pright text-success" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight6"
+                            aria-controls="offcanvasRight6"><i class="bi bi-pencil-fill fa-1x text-success "></i></a></h5>
+                                    
+                        <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight6" aria-labelledby="offcanvasRightLabel6">
+                        <div class="offcanvas-header mt-4 ms-3 text-dark">
+                            <h4 id="offcanvasRightLabel">Basic Details</h4>
+                             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                         </div>
+                        <hr>
+                        <div class="offcanvas-body ms-3">
+                            <div class="form-group pb-4">
+                                <label for="Salary pb-2">Current/Last Salary</label>
+                                <input type="text" class="form-control text-secondary mt-1" style="width: 45%;" id="salary" placeholder="₹ 15,000">
+                            </div>
+                            <div class="h7 mt-2 mb-1">
+                                <h7>Email ID</h7>
+                                </div>
+                                <a href="" class="link text-success"><i class="bi bi-plus"></i>Add Email ID</a>
+                                <div class="form-group mt-4">
+                                <label for="Salary pb-2">Age</label>
+                                <input type="text" class="form-control text-secondary mt-1" style="width: 30%;" id="salary" placeholder="21   years">
+                            </div>
+                            <div class="language mt-4 mb-2">
+                                <h7>What all languages do you know?</h7>
+                                </div>
+                                <div class="btn-group">
+                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English<i class="bi bi-plus"></i></a>
+                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi<i class="bi bi-plus"></i></a>
+                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Marathi<i class="bi bi-plus"></i></a>
+                                </div>
+                                <div class="btn-group">
+                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Bengali<i class="bi bi-plus"></i></a>
+                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Punjabi<i class="bi bi-plus"></i></a>
+                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Gujrati<i class="bi bi-plus"></i></a>
+                                </div>
+                                <div class="btn-group">
+                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Malalayam<i class="bi bi-plus"></i></a>
+                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Tamil<i class="bi bi-plus"></i></a>
+                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Telagu<i class="bi bi-plus"></i></a>
+                                </div>
+                                <div class="btn-group">
+                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Kannada<i class="bi bi-plus"></i></a>
+                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other<i class="bi bi-plus"></i></a>
+                                </div>
+                                <div class="language mt-4 mb-2">
+                                    <h7>Education Level</h7>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Below 10th<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2" id="orange">10th Pass<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">12th pass<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Diploma<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Graduate<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Post Graduate<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="form-group mt-4 mb-4">
+                                        <input type="text" class="form-control" id="text" placeholder="Discipline/Subject">
+                                    </div>
+                                    <div class="language mt-4 mb-2">
+                                        <h7>School Medium</h7>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English</a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi</a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other</a>
+                                        </div>
+                                        <div class="language mt-4 mb-2">
+                                            <h7>Gender</h7>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Male</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Female</a>
+                                            </div>
+                        </div>
+                        <div class="offcanvas-footer mb-4">
+                        <hr>
+                        <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                        <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                        </div>
+                        </div>
+    <!-- Current Salary -->
+                                <h7 class="text-secondary me-4 ms-4 py-2 px-4">Current/Last Salary</h7>
+                                <a href="" class="link text-success me-4 ms-4 mb-3 px-4" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight6"
+                                aria-controls="offcanvasRight6">Add</a>
+                                        
+                            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight6" aria-labelledby="offcanvasRightLabel6">
+                            <div class="offcanvas-headermt-4 ms-3 text-dark">
+                                <h4 id="offcanvasRightLabel">Basic Details</h4>
+                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                             </div>
+                            <hr>
+                            <div class="offcanvas-body ms-3">
+                                <div class="form-group pb-4">
+                                    <label for="Salary pb-2">Current/Last Salary</label>
+                                    <input type="text" class="form-control text-secondary mt-1" style="width: 45%;" id="salary" placeholder="₹ 15,000">
+                                </div>
+                                <div class="h7 mt-2 mb-1">
+                                    <h7>Email ID</h7>
+                                    </div>
+                                    <a href="" class="link text-success"><i class="bi bi-plus"></i>Add Email ID</a>
+                                <!-- </div> -->
+                                <div class="form-group mt-4">
+                                    <label for="Salary pb-2">Age</label>
+                                    <input type="text" class="form-control text-secondary mt-1" style="width: 30%;" id="salary" placeholder="21   years">
+                                </div>
+                                <div class="language mt-4 mb-2">
+                                    <h7>What all languages do you know?</h7>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Marathi<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Bengali<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Punjabi<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Gujrati<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Malalayam<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Tamil<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Telagu<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Kannada<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="language mt-4 mb-2">
+                                        <h7>Education Level</h7>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Below 10th<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2" id="orange">10th Pass<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">12th pass<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Diploma<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Graduate<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Post Graduate<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="form-group mt-4 mb-4">
+                                            <input type="text" class="form-control" id="text" placeholder="Discipline/Subject">
+                                        </div>
+                                        <div class="language mt-4 mb-2">
+                                            <h7>School Medium</h7>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other</a>
+                                            </div>
+                                            <div class="language mt-4 mb-2">
+                                                <h7>Gender</h7>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Male</a>
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Female</a>
+                                                </div>
+                            </div>
+                            <div class="offcanvas-footer mb-4">
+                            <hr>
+                            <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                            <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                            </div>
+                            </div>
+       <!-- Email ID sub -->
+                                <h7 class="text-secondary me-4 ms-4 py-2 px-4">Email ID</h7>
+                                <a href="" class="link text-success  me-4 ms-4 mb-3 px-4" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight6"
+                                aria-controls="offcanvasRight6">Add</a></h5>
+                                        
+                            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight6" aria-labelledby="offcanvasRightLabel6">
+                            <div class="offcanvas-headermt-4 ms-3 text-dark">
+                                <h4 id="offcanvasRightLabel">Basic Details</h4>
+                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                             </div>
+                            <hr>
+                            <div class="offcanvas-body ms-3">
+                                <div class="form-group pb-4">
+                                    <label for="Salary pb-2">Current/Last Salary</label>
+                                    <input type="text" class="form-control text-secondary mt-1" style="width: 45%;" id="salary" placeholder="₹ 15,000">
+                                </div>
+                                <div class="h7 mt-2 mb-1">
+                                    <h7>Email ID</h7>
+                                    </div>
+                                    <a href="" class="link text-success"><i class="bi bi-plus"></i>Add Email ID</a>
+                                <!-- </div> -->
+                                <div class="form-group mt-4">
+                                    <label for="Salary pb-2">Age</label>
+                                    <input type="text" class="form-control text-secondary mt-1" style="width: 30%;" id="salary" placeholder="21   years">
+                                </div>
+                                <div class="language mt-4 mb-2">
+                                    <h7>What all languages do you know?</h7>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Marathi<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Bengali<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Punjabi<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Gujrati<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Malalayam<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Tamil<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Telagu<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Kannada<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="language mt-4 mb-2">
+                                        <h7>Education Level</h7>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Below 10th<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2" id="orange">10th Pass<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">12th pass<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Diploma<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Graduate<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Post Graduate<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="form-group mt-4 mb-4">
+                                            <input type="text" class="form-control" id="text" placeholder="Discipline/Subject">
+                                        </div>
+                                        <div class="language mt-4 mb-2">
+                                            <h7>School Medium</h7>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other</a>
+                                            </div>
+                                            <div class="language mt-4 mb-2">
+                                                <h7>Gender</h7>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Male</a>
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Female</a>
+                                                </div>
+                            </div>
+                            <div class="offcanvas-footer mb-4">
+                            <hr>
+                            <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                            <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                            </div>
+                            </div>
+     <!-- Age sub -->
+                                <h7 class="text-secondary me-4 ms-4 py-2 px-4">Age & Gender</h7>
+                                <a href="" class="link text-success me-4 ms-4 mb-3 px-4" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight6"
+                                aria-controls="offcanvasRight6">Add</a></h5>
+                                        
+                            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight6" aria-labelledby="offcanvasRightLabel6">
+                            <div class="offcanvas-header mt-4 ms-3text-dark">
+                                <h4 id="offcanvasRightLabel">Basic Details</h4>
+                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                             </div>
+                            <hr>
+                            <div class="offcanvas-body ms-3">
+                                <div class="form-group pb-4">
+                                    <label for="Salary pb-2">Current/Last Salary</label>
+                                    <input type="text" class="form-control text-secondary mt-1" style="width: 45%;" id="salary" placeholder="₹ 15,000">
+                                </div>
+                                <div class="h7 mt-2 mb-1">
+                                    <h7>Email ID</h7>
+                                    </div>
+                                    <a href="" class="link text-success"><i class="bi bi-plus"></i>Add Email ID</a>
+                                <!-- </div> -->
+                                <div class="form-group mt-4">
+                                    <label for="Salary pb-2">Age</label>
+                                    <input type="text" class="form-control text-secondary mt-1" style="width: 30%;" id="salary" placeholder="21   years">
+                                </div>
+                                <div class="language mt-4 mb-2">
+                                    <h7>What all languages do you know?</h7>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Marathi<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Bengali<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Punjabi<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Gujrati<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Malalayam<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Tamil<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Telagu<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Kannada<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="language mt-4 mb-2">
+                                        <h7>Education Level</h7>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Below 10th<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2" id="orange">10th Pass<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">12th pass<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Diploma<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Graduate<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Post Graduate<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="form-group mt-4 mb-4">
+                                            <input type="text" class="form-control" id="text" placeholder="Discipline/Subject">
+                                        </div>
+                                        <div class="language mt-4 mb-2">
+                                            <h7>School Medium</h7>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other</a>
+                                            </div>
+                                            <div class="language mt-4 mb-2">
+                                                <h7>Gender</h7>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Male</a>
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Female</a>
+                                                </div>
+                            </div>
+                            <div class="offcanvas-footer mb-4">
+                            <hr>
+                            <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                            <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                            </div>
+                            </div>
+   <!-- Language Known sub -->
+                                <h7 class="text-secondary me-4 ms-4 py-2 px-4">Language Known</h7>
+                                <a href="" class="link text-success me-4 ms-4 mb-3 px-4" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight6"
+                                aria-controls="offcanvasRight6">Add</a></h5>
+                                        
+                            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight6" aria-labelledby="offcanvasRightLabel6">
+                            <div class="offcanvas-header mt-4 ms-3 text-dark">
+                                <h4 id="offcanvasRightLabel">Basic Details</h4>
+                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                             </div>
+                            <hr>
+                            <div class="offcanvas-body ms-3">
+                                <div class="form-group pb-4">
+                                    <label for="Salary pb-2">Current/Last Salary</label>
+                                    <input type="text" class="form-control text-secondary mt-1" style="width: 45%;" id="salary" placeholder="₹ 15,000">
+                                </div>
+                                <div class="h7 mt-2 mb-1">
+                                    <h7>Email ID</h7>
+                                    </div>
+                                    <a href="" class="link text-success"><i class="bi bi-plus"></i>Add Email ID</a>
+                                <!-- </div> -->
+                                <div class="form-group mt-4">
+                                    <label for="Salary pb-2">Age</label>
+                                    <input type="text" class="form-control text-secondary mt-1" style="width: 30%;" id="salary" placeholder="21   years">
+                                </div>
+                                <div class="language mt-4 mb-2">
+                                    <h7>What all languages do you know?</h7>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Marathi<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Bengali<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Punjabi<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Gujrati<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Malalayam<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Tamil<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Telagu<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Kannada<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="language mt-4 mb-2">
+                                        <h7>Education Level</h7>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Below 10th<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2" id="orange">10th Pass<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">12th pass<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Diploma<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Graduate<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Post Graduate<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="form-group mt-4 mb-4">
+                                            <input type="text" class="form-control" id="text" placeholder="Discipline/Subject">
+                                        </div>
+                                        <div class="language mt-4 mb-2">
+                                            <h7>School Medium</h7>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other</a>
+                                            </div>
+                                            <div class="language mt-4 mb-2">
+                                                <h7>Gender</h7>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Male</a>
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Female</a>
+                                                </div>
+                            </div>
+                            <div class="offcanvas-footer mb-4">
+                            <hr>
+                            <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                            <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                            </div>
+                            </div>
+
+                                <h7 class="text-secondary me-4 ms-4 py-2 px-4">Educational Qualification</h7>
+                                <h6 class="ms-5 mb-4">10th Pass</h6>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4 col-md-12 col-lg-4">
+                        <div class="card mt-4" id="orange">
+                            <div class="row py-4 px-4 mt-4 mb-4">
+                                <div class="col-sm-3 col-md-3 col-lg-3">
+                                    <img class="img-fluid ms-4" src="../assets/jobhai/catagory/view_resume.svg">
+                                </div>
+                                <div class="col-sm-9 col-md-9 col-lg-9">
+                                    <h5>Quickly add these missing details to unlock your free resume</h5>
+                                </div>
+                                <div class="btn-group mt-2 mb-2 ms-auto me-auto">
+            <!-- Skills btn -->
+                                    <a href="" class="btn rounded-pill btn-outline-success me-2" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight4"
+                                aria-controls="offcanvasRight4">Skills<i class="bi bi-plus"></i></a>
+                                <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight4" aria-labelledby="offcanvasRightLabel4">
+                                   <div class="offcanvas-header pt-5 ms-3 text-dark">
+                                       <h3 id="offcanvasRightLabel">Skills</h3>
+                                       <button type="button" class="btn-close text-reset mb-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                   </div>
+                                   <hr>
+                                   <div class="offcanvas-body ms-3">
+                                    <div class="h7">
+                                    <h7>Security Guard</h7>
+                                    </div>
+                                    <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Fire Inspection Procedure Knowledge<i class="bi bi-plus"></i></a><br>
+                                    <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Gun Lience<i class="bi bi-plus"></i></a><br>
+                                    <a href="" class="btn rounded-pill btn-outline-secondary mt-2">Survillence System Understanding<i class="bi bi-plus"></i></a><br>
+                                    <a href="" class="btn rounded-pill btn-outline-secondary mt-2">None Of These</a><br>
+                                </div>
+                                   <div class="offcanvas-footer mb-4">
+                                    <hr>
+                                <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                                <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                               </div>
+                               </div>
+
+            <!-- Language btn -->
+                               <a href="" class="btn rounded-pill btn-outline-success me-2" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight6"
+                                aria-controls="offcanvasRight6">Language<i class="bi bi-plus "></i></a></h5>
+                                        
+                            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight6" aria-labelledby="offcanvasRightLabel6">
+                            <div class="offcanvas-header ps-3 py-4 px-2 pt-5 pb-2 text-dark">
+                                <h4 id="offcanvasRightLabel">Basic Details</h4>
+                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                             </div>
+                            <hr>
+                            <div class="offcanvas-body ms-3">
+                                <div class="form-group pb-4">
+                                    <label for="Salary pb-2">Current/Last Salary</label>
+                                    <input type="text" class="form-control text-secondary mt-1" style="width: 45%;" id="salary" placeholder="₹ 15,000">
+                                </div>
+                                <div class="h7 mt-2 mb-1">
+                                    <h7>Email ID</h7>
+                                    </div>
+                                    <a href="" class="link text-success"><i class="bi bi-plus"></i>Add Email ID</a>
+                                    <div class="form-group mt-4">
+                                    <label for="Salary pb-2">Age</label>
+                                    <input type="text" class="form-control text-secondary mt-1" style="width: 30%;" id="salary" placeholder="21   years">
+                                </div>
+                                <div class="language mt-4 mb-2">
+                                    <h7>What all languages do you know?</h7>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Marathi<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Bengali<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Punjabi<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Gujrati<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Malalayam<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Tamil<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Telagu<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Kannada<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="language mt-4 mb-2">
+                                        <h7>Education Level</h7>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Below 10th<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2" id="orange">10th Pass<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">12th pass<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Diploma<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Graduate<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Post Graduate<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="form-group mt-4 mb-4">
+                                            <input type="text" class="form-control" id="text" placeholder="Discipline/Subject">
+                                        </div>
+                                        <div class="language mt-4 mb-2">
+                                            <h7>School Medium</h7>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other</a>
+                                            </div>
+                                            <div class="language mt-4 mb-2">
+                                                <h7>Gender</h7>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Male</a>
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Female</a>
+                                                </div>
+                            </div>
+                            <div class="offcanvas-footer mb-4">
+                            <hr>
+                            <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                            <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                            </div>
+                            </div>
+                <!-- Photo btn -->
+                                <a href="" class="btn btn-outline-success rounded-pill me-2">
+                                    <!-- <i class="bi bi-plus"></i> -->
+                                    <label for="firstimg">Photo+</label>
+                                        <input type="file" name="" id="firstimg" style="display: none; visibility: none;">
+                                    </a>
+                                </div>
+                                <div class="btn-group mt-1">
+                <!-- Email ID btn-->
+                                    <a href="" class="btn rounded-pill btn-outline-success me-2" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight6"
+                                    aria-controls="offcanvasRight6">Email ID<i class="bi bi-plus "></i></a></h5>
+                                            
+                                <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight6" aria-labelledby="offcanvasRightLabel6">
+                                <div class="offcanvas-header ps-3 py-4 px-2 pt-5 pb-2 text-dark">
+                                    <h4 id="offcanvasRightLabel">Basic Details</h4>
+                                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                 </div>
+                                <hr>
+                                <div class="offcanvas-body ms-3">
+                                    <div class="form-group pb-4">
+                                        <label for="Salary pb-2">Current/Last Salary</label>
+                                        <input type="text" class="form-control text-secondary mt-1" style="width: 40%;" id="salary" placeholder="₹ 15,000">
+                                    </div>
+                                    <div class="h7 mt-2 mb-1">
+                                        <h7>Email ID</h7>
+                                        </div>
+                                        <a href="" class="link text-success" id="email"><i class="bi bi-plus"></i>Add Email ID</a>
+                                        <div class="form-group mt-4">
+                                        <label for="Salary pb-2">Age</label>
+                                        <input type="text" class="form-control text-secondary mt-1" style="width: 30%;" id="salary" placeholder="21   years">
+                                    </div>
+                                    <div class="language mt-4 mb-2">
+                                        <h7>What all languages do you know?</h7>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Marathi<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Bengali<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Punjabi<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Gujrati<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Malalayam<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Tamil<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Telagu<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Kannada<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="language mt-4 mb-2">
+                                            <h7>Education Level</h7>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Below 10th<i class="bi bi-plus"></i></a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2" id="orange">10th Pass<i class="bi bi-plus"></i></a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">12th pass<i class="bi bi-plus"></i></a>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Diploma<i class="bi bi-plus"></i></a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Graduate<i class="bi bi-plus"></i></a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Post Graduate<i class="bi bi-plus"></i></a>
+                                            </div>
+                                            <div class="form-group mt-4 mb-4">
+                                                <input type="text" class="form-control" id="text" placeholder="Discipline/Subject">
+                                            </div>
+                                            <div class="language mt-4 mb-2">
+                                                <h7>School Medium</h7>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English</a>
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi</a>
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other</a>
+                                                </div>
+                                                <div class="language mt-4 mb-2">
+                                                    <h7>Gender</h7>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Male</a>
+                                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Female</a>
+                                                    </div>
+                                </div>
+                                <div class="offcanvas-footer mb-4">
+                                <hr>
+                                <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                                <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                                </div>
+                                </div>
+                               
+        <!-- Age btn -->
+                                <a href="" class="btn rounded-pill btn-outline-success me-2" type="link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight6"
+                                aria-controls="offcanvasRight6">Age<i class="bi bi-plus "></i></a></h5>
+                                        
+                            <div class="offcanvas offcanvas-end text-dark" tabindex="-1" id="offcanvasRight6" aria-labelledby="offcanvasRightLabel6">
+                            <div class="offcanvas-header ps-3 py-4 px-2 pt-5 pb-2 text-dark">
+                                <h4 id="offcanvasRightLabel">Basic Details</h4>
+                                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                             </div>
+                            <hr>
+                            <div class="offcanvas-body ms-3">
+                                <div class="form-group pb-4">
+                                    <label for="Salary pb-2">Current/Last Salary</label>
+                                    <input type="text" class="form-control text-secondary mt-1" style="width: 45%;" id="salary" placeholder="₹ 15,000">
+                                </div>
+                                <div class="h7 mt-2 mb-1">
+                                    <h7>Email ID</h7>
+                                    </div>
+                                    <a href="" class="link text-success"><i class="bi bi-plus"></i>Add Email ID</a>
+                               
+                                <div class="form-group mt-4">
+                                    <label for="Salary pb-2">Age</label>
+                                    <input type="text" class="form-control text-secondary mt-1" style="width: 30%;" id="salary" placeholder="21   years">
+                                </div>
+                                <div class="language mt-4 mb-2">
+                                    <h7>What all languages do you know?</h7>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Marathi<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Bengali<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Punjabi<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Gujrati<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Malalayam<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Tamil<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Telagu<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Kannada<i class="bi bi-plus"></i></a>
+                                        <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other<i class="bi bi-plus"></i></a>
+                                    </div>
+                                    <div class="language mt-4 mb-2">
+                                        <h7>Education Level</h7>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Below 10th<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2" id="orange">10th Pass<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">12th pass<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="btn-group">
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Diploma<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Graduate<i class="bi bi-plus"></i></a>
+                                            <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Post Graduate<i class="bi bi-plus"></i></a>
+                                        </div>
+                                        <div class="form-group mt-4 mb-4">
+                                            <input type="text" class="form-control" id="text" placeholder="Discipline/Subject">
+                                        </div>
+                                        <div class="language mt-4 mb-2">
+                                            <h7>School Medium</h7>
+                                            </div>
+                                            <div class="btn-group">
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">English</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Hindi</a>
+                                                <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Other</a>
+                                            </div>
+                                            <div class="language mt-4 mb-2">
+                                                <h7>Gender</h7>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Male</a>
+                                                    <a href="" class="btn btn-outline-secondary rounded-pill me-2 mt-2">Female</a>
+                                                </div>
+                            </div>
+                            <div class="offcanvas-footer mb-4">
+                            <hr>
+                            <a href="" class="btn rounded-pill bg-success text-white ms-4 me-4">Save</a>
+                            <a href="" class="btn rounded-pill btn-outline-success">Clear All</a>
+                            </div>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mt-4">
+                            <div class="row py-4 px-4 mt-4 mb-4">
+                                <div class="col-sm-8 col-md-8 col-lg-8">
+                                    <small>Get the <strong>'Job Hero'</strong>badge by sharing the Job Hai app with 3 friends!</small>
+                                </div>
+                                <div class="col-sm-4 col-md-4 col-lg-4">
+                                    <img class="img-fluid rounded-pill" style="height: 40%;" src="../assets/jobhai/logo/user_female_default.png">
+                                    <img class="img img-fluid" src="../assets/jobhai/catagory/jobHeroFront.svg" >
+                                </div>
+                            </div>
+                               
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-sm-8 col-md-8 col-lg-8 mb-3">
+                    <div class="card rounded-corner">
+                        <div class="prow me-4 ms-4 py-4 px-4">
+                        <h4 class="font-weight-bold mb-4"><b>SMS Preference</b></h4>
+                        <div class="pleft">
+                            <h6 class="mb-4"><img class="img me-2" src="../assets/jobhai/catagory/sms.svg">Get notified by Job Hai <div class=" pright form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                            </div></h6>
+                        </div>
+                        <hr>
+                        <div class="pleft mt-3 ">
+                            <h4 class="font-weight-bold mb-4"><b>Whatsapp Preference</b></h4>
+                            </div>
+                        <div class="pleft mt-4 mb-4">
+                            <h6><a href="" class="text me-2"><i class="bi bi-whatsapp fa-2x text-success"></i></a>Get notified by Job Hai
+                                 <div class=" pright form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                            </div></h6>
+                            </div>
+                            <div class="pleft mt-4 mb-4">
+                                <h6><a href="" class="text me-2"><i class="bi bi-whatsapp fa-2x text-success"></i></a>Get Direct messages from HR 
+                                    <div class=" pright form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                </div></h6>
+                                </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <a href class="link text-success py-4 ">Deactivate Account</a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-2 pb-4">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-bottom">
+            <div class="col-md-4 col-sm-4 col-lg-4 text-center">
+                <a href="jobhai.html" class="link">
+                    <img class="img-disabled" src="../assets/jobhai/logo/applies-active.svg">
+                    <br><small class="text-dark text-secondary text-uppercase">jobs</small></a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-lg-4 text-center">
+                <a href="applies.html" class="link">
+                    <img class="img-disabled" src="../assets/jobhai/logo/applies-active.svg">
+                    <br><small class="text-dark text-secondary text-uppercase">Applies</small></a>
+            </div>
+            <div class="col-md-4 col-sm-4 col-lg-4 text-center">
+                <a href="profile.html" class="link">
+                    <img class="img" src="../assets/jobhai/logo/profile-active.svg" style="height: 25px;">
+                    <br><small class="text-dark text-secondary text-uppercase">Profile</small></a>
+                
+            </div>
+        </nav>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

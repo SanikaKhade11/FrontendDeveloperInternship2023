@@ -1,0 +1,158 @@
+a{
+    text-decoration: none;
+}
+.card{
+    border-radius: 15px;
+}
+body{
+  font-size: 17px;
+}
+.navbar, .card{
+    box-shadow: 0px 2px 7px -2px rgba(3, 83, 148, 0.2);
+}
+.navbar-brand{
+    float:right;
+    /* width: 55%; */
+  }
+  #nav:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .container-fluid{
+    position: relative;
+  }
+  #banner-left{
+    left: 17%;
+    width: 300px;
+    bottom: 1;
+    position: absolute;
+  }
+  #banner-right{
+    right: 16.5%;
+    width: 300px;
+    bottom: 1;
+    position: absolute;
+  }
+  .nav-link, #btn1{
+    font-weight: 700;
+    font-size: 20px;
+  }
+  #h1{
+    font-weight: 700;
+    font-size: 40px;
+  }
+  #h2{
+    font-weight: 700;
+    font-size: 35px;
+  }
+  #btn2, #btn3{
+    padding: 12px 19px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  #verify{
+    margin-top: 60px;
+    background-color:  #F4F9FE;
+  }
+  #lakh{
+    font-weight: 700;
+    font-size: 21px;
+  }
+  #kind{
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  #img7{
+    height: 45px;
+  }
+  #top{
+    width: 250px;
+    height: 250px;
+    text-align: start;
+  }
+  #delivery{
+    font-weight: bold;
+    font-size: 19px;
+  }
+  #role{
+    margin-top: 8%;
+    background-color:  #F4F9FE;
+  }
+  #svg{
+    height: 50px;
+    width: 50px;
+  }
+  #icon{
+    float: right;
+  }
+  #below{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  #want{
+    margin-top: 10%;
+    font-weight: 700;
+    font-size: 35px;
+  }
+ 
+  #job{
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .form-group{
+    width: 80%;
+  }
+  .form-control{
+    padding: 15px;
+    text-align: center;
+  }
+  #img2{
+    height: 110%;
+  }
+  #img3{
+    height: 30px;
+    width: 95px;
+  }
+  #img4{
+    width:250px;
+    height: 400px;
+    position: relative;
+    border-radius: 8px
+  }
+ #img4 .btn{
+  top: 40%;
+    left: 0;
+    right: 0;
+    position: absolute;
+ }
+  #img5{
+    width: 35%;
+    text-align: start;
+  }
+  #img6{
+    width: 110px;
+  }
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white;
+}
+.accordion{
+  width: 80%;
+}
+/* .accordian-button{
+  font-size: 20px;
+  font-weight: 400;
+} */
+#color{
+  background-color: #F4F9FE;
+}
+#pink{
+  background-color: #FFF0F0;
+  margin-top: 10%;
+}
+
+#f1{
+  background-color: gainsboro;
+}

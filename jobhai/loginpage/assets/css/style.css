@@ -1,0 +1,53 @@
+a{
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+}
+.navbar, .card{
+    box-shadow: 0px 2px 7px -2px rgba(3, 83, 148, 0.2);
+}
+.card{
+    border-radius: 15px;
+}
+.navbar-brand{
+    float:right;
+    width: 80%;
+  }
+  #nav:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .nav-item{
+    font-weight: bold;
+   font-size: 17px;
+  }
+
+
+  #main{
+    background-color:#F2FDFF;
+  }
+  #card1{
+    font-weight:bold;
+    font-size: 42px;
+  }
+  #number{
+    width: 100%;
+    padding: 15px;
+  }
+  #btn{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 13px 20px;
+    background-color: gainsboro;
+  }
+  .btn{
+    text-align: start;
+  }
+  .end{
+    float: right;
+    /* margin-left: 5rem; */
+    margin-right: 7rem;
+  }
+  

@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/candidatesDash.css">
+    <link rel="stylesheet" href="../assets/css/superio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Candidates Dashboard</title>
+</head>
+<body>
+    <div class="container-fluid bg-dark py-4" id="buy">
+        <a href="" ><img width="160px" src="../assets/img/logo/envato-market.svg"></a>
+        <div class=" float-end"> <a href="" class="btn  text-white">Buy Now</a></div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container-fluid pe-4"> 
+          <a class="navbar-brand" href="#"><img src="../assets/img/image/logo.svg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item text-secondary me-4">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                     aria-expanded="false">
+                      Home<i class="bi bi-chevron-down ms-2"></i>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="listing">
+                        <div class="row py-4 px-4">
+                            <div class="col-lg-3"> 
+                                <ul class="list-unstyled">
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 01</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 02</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 03</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 04</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 05</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3"> 
+                                <ul class="list-unstyled">
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 06</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 07</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 08</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 09</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 10</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3"> 
+                                <ul class="list-unstyled">
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 11</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 12</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 13</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 14</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 15</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3"> 
+                                <ul class="list-unstyled">
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 16</a></li>
+                                    <li><a class="dropdown-item mb-3" href="#">Home Page 17</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                      </ul>
+            </li>
+            <li class="nav-item text-secondary me-4">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                 aria-expanded="false">
+                  Find Jobs<i class="bi bi-chevron-down ms-2"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="listing">
+                    <div class="row py-4 px-4">
+                        <div class="col-lg-3">
+                            <h6 class="text-dark mb-4 fw-bold">Jobs Listing</h6> 
+                            <ul class="list-unstyled">
+                                <li><a class="dropdown-item mb-3" href="#">Job List V1</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job List V2</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job List V3</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job List V4</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job List V5</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3"> 
+                            <h6 class="text-dark mb-4 fw-bold">Jobs Listing</h6> 
+                            <ul class="list-unstyled">
+                                <li><a class="dropdown-item mb-3" href="#">Job List V6</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job List V7</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job List V8</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job List V9</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job List V10</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <h6 class="text-dark mb-4 fw-bold">Jobs Listing</h6>  
+                            <ul class="list-unstyled">
+                                <li><a class="dropdown-item mb-3" href="#">Job List V11</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job List V12</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job List V13</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job List V14</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job List V15</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3"> 
+                            <h6 class="text-dark mb-4 fw-bold">Jobs Single</h6> 
+                            <ul class="list-unstyled">
+                                <li><a class="dropdown-item mb-3" href="#">Jobs Single V1</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job Single V2</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job Single V3</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job Single V4</a></li>
+                                <li><a class="dropdown-item mb-3" href="#">Job Single V5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                  </ul>
+        </li>
+        <li class="nav-item text-secondary dropdown me-4">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+             aria-expanded="false">
+              Employers <i class="bi bi-chevron-down ms-2"></i>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="dropdown-submenu">
+                    <a href="#">Employers List</a>
+                    <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                      <li><a class="dropdown-item" href="#">Employers List V1</a></li>
+                      <li><a class="dropdown-item" href="#">Employers List V2</a></li>
+                      <li><a class="dropdown-item" href="#">Employers List V3</a></li>
+                      <li><a class="dropdown-item" href="#">Employers List V4</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a href="#">Employers Single</a>
+                    <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                      <li><a class="dropdown-item" href="#">Employers Single V1</a></li>
+                      <li><a class="dropdown-item" href="#">Employers Single V2</a></li>
+                      <li><a class="dropdown-item" href="#">Employers Single V3</a></li>
+                      <li><a class="dropdown-item" href="#">Employers Single V4</a></li>
+                    </ul>
+                  </li>
+                <li><a class="dropdown-item mb-3" href="#">Employers Dashboard</a></li>
+              </ul>
+    </li>
+    <li class="nav-item text-secondary dropdown me-4">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+         aria-expanded="false">
+         Candidates <i class="bi bi-chevron-down ms-2"></i>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li class="dropdown-submenu">
+                <a href="#">Candidates List</a>
+                <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                  <li><a class="dropdown-item" href="#">Candidates List V1</a></li>
+                  <li><a class="dropdown-item" href="#">Candidates List V2</a></li>
+                  <li><a class="dropdown-item" href="#">Candidates List V3</a></li>
+                  <li><a class="dropdown-item" href="#">Candidates List V4</a></li>
+                  <li><a class="dropdown-item" href="#">Candidates List V5</a></li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a href="#">Candidates Single</a>
+                <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                  <li><a class="dropdown-item" href="#">Candidates Single V1</a></li>
+                  <li><a class="dropdown-item" href="#">Candidates Single V2</a></li>
+                  <li><a class="dropdown-item" href="#">Candidates Single V3</a></li>
+                </ul>
+              </li>
+            <li><a class="dropdown-item mb-3" href="#">Candidates Dashboard</a></li>
+          </ul>
+</li>
+<li class="nav-item text-secondary dropdown me-4">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+     aria-expanded="false">
+     Blog <i class="bi bi-chevron-down ms-2"></i>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item mb-3" href="#">Blog List V1</a></li>
+        <li><a class="dropdown-item mb-3" href="#">Blog List V2</a></li>
+        <li><a class="dropdown-item mb-3" href="#">Blog List V3</a></li>
+        <li><a class="dropdown-item mb-3" href="#">Blog Details</a></li>
+      </ul>
+      </li>
+      <li class="nav-item text-secondary dropdown me-4">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+         aria-expanded="false">
+        Pages <i class="bi bi-chevron-down ms-2"></i>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li class="dropdown-submenu">
+                <a href="#">Shop</a>
+                <ul class="dropdown-menu py-4 px-2 pe-4 ">
+                  <li><a class="dropdown-item" href="#">Shop List</a></li>
+                  <li><a class="dropdown-item" href="#">Shop Sigle</a></li>
+                  <li><a class="dropdown-item" href="#">Cart</a></li>
+                  <li><a class="dropdown-item" href="#">Checkout</a></li>
+                  <li><a class="dropdown-item" href="#">Order Completed</a></li>
+                  <li><a class="dropdown-item" href="#">Login</a></li>
+                  <li><a class="dropdown-item" href="#">Register</a></li>
+                </ul>
+              </li>
+            <li><a class="dropdown-item mb-3" href="#">About</a></li>
+            <li><a class="dropdown-item mb-3" href="#">Pricing</a></li>
+            <li><a class="dropdown-item mb-3" href="#">FAQ's</a></li>
+            <li><a class="dropdown-item mb-3" href="#">Terms</a></li>
+            <li><a class="dropdown-item mb-3" href="#">Invoice</a></li>
+            <li><a class="dropdown-item mb-3" href="#">Contact</a></li>
+            <li><a class="dropdown-item mb-3" href="#">404</a></li>
+          </ul>
+          </li>
+    </ul>
+          </div>
+         <div class="justify-content-end">
+            <a href="" class="text-primary me-3">Upload your CV</a>
+            <a href="" class=" me-3" id="login">Login / Register</a>
+            <a href="" class="btn text-white">Job Post</a>
+         </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-3">
+                <div class="right-sidebar">
+                    <ul class="nav flex-column bg-white ">
+                    <li class="nav-item">
+                    <a  class="nav-link  mt-2 md-2 py-3 px-2 sidebar-link text-secondary " data-bs-toggle="collapse" href="#collapseEighty"
+                    role="button" aria-expanded="false" aria-controls="collapseEighty">Dashboard</a>
+                    <div class="collapse collapse-show collapse-lg mb-4" id="collapseEighty">
+                    <ul class="nav flex-column bg-white py-4 px-4 ps-4" id="flex">
+                        <li class="nav-item mb-2">
+                            <a href="candidatesDash.html" class="link"><i class="bi bi-house-door me-3"></i>Dashboard</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="profile.html" class="link"><i class="bi bi-person me-3"></i>My Profile</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="" class="link"><i class="bi bi-file-earmark me-3"></i>My Resume</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="" class="link"><i class="bi bi-briefcase me-3"></i>Applied Jobs</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="" class="link"><i class="bi bi-bell me-3"></i>Job Alerts</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="" class="link"><i class="bi bi-bookmark me-3"></i>Shortlisted Jobs</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="" class="link"><i class="bi bi-file-earmark-text me-3"></i>CV Manager</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="" class="link"><i class="bi bi-box2 fs-4 me-3"></i>Packages</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="" class="link"><i class="bi bi-chat-square-text me-3"></i>Messages</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="" class="link"><i class="bi bi-lock me-3"></i>Change Password</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="" class="link"><i class="bi bi-power me-3"></i>Logout</a>
+                        </li>
+                        <li class="nav-item mb-2">
+                            <a href="" class="link"><i class="bi bi-trash me-3"></i>Delete Profile</a>
+                        </li>
+    
+                        </ul>
+                        
+                <h6 class="text-dark mt-3">Skills Percentage</h6>
+                <p class="text-secondary mt-3">Put value for <strong>Cover Image </strong>field to increase your skill up to <strong>85%`</strong></p>
+                <img class="mt-3" src="../assets/img/company/pie.png">
+                    </li>
+                </ul>
+                    </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-9" id="howdy">
+                <div class="mt-5">
+                    <h3 class="text-dark fw-bold">Howdy, Jerome!!</h3>
+                    <p class="text-secondary">Ready to jump back in?</p>
+                    <div class="row jump gx-4 gy-4 mt-5">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card bg-white">
+                                <div class="card-body d-flex justify-content-between">
+                                    <div>
+                                        <span class="briefcase">
+                                        <i class="bi bi-briefcase text-primary"></i>
+                                    </span>
+                                    </div>
+                                    <div>
+                                    <h4 class="text-primary text-end">22</h4>
+                                    <p class="text-dark">Applied Jobs</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card bg-white">
+                                <div class="card-body d-flex justify-content-between">
+                                    <div>
+                                        <span class="earmark">
+                                        <i class="bi bi-file-earmark text-danger"></i>
+                                    </span>
+                                    </div>
+                                    <div>
+                                    <h4 class="text-danger text-end">9382</h4>
+                                    <p class="text-dark">Job Alerts</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card bg-white">
+                                <div class="card-body d-flex justify-content-between">
+                                    <div>
+                                        <span class="chat">
+                                        <i class="bi bi-chat-square-text text-warning"></i>
+                                    </span>
+                                    </div>
+                                    <div>
+                                    <h4 class="text-warning text-end">74</h4>
+                                    <p class="text-dark">Messages</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3">
+                            <div class="card bg-white">
+                                <div class="card-body d-flex justify-content-between">
+                                    <div>
+                                        <span class="bookmark">
+                                        <i class="bi bi-bookmark text-success"></i>
+                                    </span>
+                                    </div>
+                                    <div>
+                                    <h4 class="text-success text-end">32</h4>
+                                    <p class="text-dark">Shortlist</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-sm-12 col-md-12 col-lg-7">
+                            <div class="card py-4 px-4" id="view">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <div>
+                                            <h6 class="text-dark mt-2">Your Profile Views</h6>
+                                        </div>
+                                        <div>
+                                            <select class="form-select1" aria-label="Default select example">
+                                                <option selected>Last 6 Months</option>
+                                                <option value="1">Last 12 Months</option>
+                                                <option value="1">Last 16 Months</option>
+                                                <option value="1">Last 24 Months</option>
+                                                <option value="1">5 years</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="img-graph mt-4">
+                                        <img class="card-img" src="../assets/img/company/download.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-5">
+                            <div class="card py-4 px-2" id="notification">
+                                <div class="card-body">
+                                    <h6 class="text-dark">Notifications</h6>
+                                    <div class="mt-4">
+                                        <div class="d-flex">
+                                            <div class="me-3 mt-4" id="primary">
+                                                <i class="bi bi-briefcase text-primary"></i>
+                                            </div>
+                                            <div class="text-secondary mt-4">
+                                                <strong class="text-dark">Henry Wilson </strong>
+                                                applied for a job 
+                                                <span class="text-primary"> Product Designer</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4">
+                                            <div class="me-3 mt-4" id="success">
+                                                <i class="bi bi-briefcase text-success"></i>
+                                            </div>
+                                            <div class="text-secondary mt-4">
+                                                <strong class="text-dark">Raul Costa </strong>
+                                                applied for a job 
+                                                <span class="text-success">  Product Manager, Risk</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4">
+                                            <div class="me-3 mt-4" id="primary">
+                                                <i class="bi bi-briefcase text-primary"></i>
+                                            </div>
+                                            <div class="text-secondary mt-4">
+                                                <strong class="text-dark">Jack Milk </strong>
+                                                applied for a job 
+                                                <span class="text-primary"> Technical Architect</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4">
+                                            <div class="me-3 mt-4" id="success">
+                                                <i class="bi bi-briefcase text-success"></i>
+                                            </div>
+                                            <div class="text-secondary mt-4">
+                                                <strong class="text-dark">Michel Arian </strong>
+                                                applied for a job 
+                                                <span class="text-success"> Software Engineer</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4">
+                                            <div class="me-3 mt-4" id="primary">
+                                                <i class="bi bi-briefcase text-primary"></i>
+                                            </div>
+                                            <div class="text-secondary mt-4">
+                                                <strong class="text-dark">Wade Warren  </strong>
+                                                applied for a job 
+                                                <span class="text-primary">  Web Developer</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4">
+                                            <div class="me-3 mt-4" id="success">
+                                                <i class="bi bi-briefcase text-success"></i>
+                                            </div>
+                                            <div class="text-secondary mt-4">
+                                                <strong class="text-dark">Michel Arian </strong>
+                                                applied for a job 
+                                                <span class="text-success"> Software Engineer</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card feature py-4 px-3 mt-5">
+                        <div class="card-body">
+                            <div class="row gx-4 gy-4">
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="card py-3 px-2">
+                                        <div class="card-body">
+                                                    <div class="d-flex">
+                                                        <div class="me-3">
+                                                            <img src="../assets/img/company/1-1.png">
+                                                        </div>
+                                                        <div class="me-4">
+                                                            <a href=""><h6 class="mb-2">Software Engineer (Android), Libraries</h6></a>
+                                                            <span class="text-secondary me-3"><i class="bi bi-briefcase me-2"></i>Segement</span>
+                                                            <span class="text-secondary me-3"><i class="bi bi-geo-alt me-2"></i>London, UK</span>
+                                                            <span class="text-secondary me-3"><i class="bi bi-clock me-2"></i>11 hours ago</span>
+                                                            <span class="text-secondary"><i class="bi bi-cash-stack me-2"></i>$35k-$45k</span>
+                                                            <div class="mt-3">
+                                                                <span class="part text-primary me-2">Full Time</span>
+                                                                <span class="private text-success me-2">Private</span>
+                                                                <span class="urgent text-warning">Urgent</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="float-end ">
+                                                            <a href=""><i class="bi bi-bookmark"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6">
+                                    <div class="card py-3 px-2">
+                                        <div class="card-body">
+                                                    <div class="d-flex">
+                                                        <div class="me-3">
+                                                            <img src="../assets/img/company/1-2.png">
+                                                        </div>
+                                                        <div class="me-4">
+                                                            <a href=""><h6 class="mb-2">Recruiting Coordinator</h6></a>
+                                                            <span class="text-secondary me-3"><i class="bi bi-briefcase me-2"></i>Catalyst</span>
+                                                            <span class="text-secondary me-3"><i class="bi bi-geo-alt me-2"></i>London, UK</span>
+                                                            <span class="text-secondary me-3"><i class="bi bi-clock me-2"></i>11 hours ago</span>
+                                                            <span class="text-secondary"><i class="bi bi-cash-stack me-2"></i>$35k-$45k</span>
+                                                            <div class="mt-3">
+                                                                <span class="part text-primary me-2">Freelancer</span>
+                                                                <span class="private text-success me-2">Private</span>
+                                                                <span class="urgent text-warning">Urgent</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="float-end ms-3">
+                                                            <a href=""><i class="bi bi-bookmark"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                </div>
+                               </div>
+                               <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="card py-3 px-2">
+                                    <div class="card-body">
+                                                <div class="d-flex">
+                                                    <div class="me-3">
+                                                        <img src="../assets/img/company/1-3.png">
+                                                    </div>
+                                                    <div class="me-4">
+                                                        <a href=""><h6 class="mb-2">Product Manager, Studio</h6></a>
+                                                        <span class="text-secondary me-3"><i class="bi bi-briefcase me-2"></i>Invision</span>
+                                                        <span class="text-secondary me-3"><i class="bi bi-geo-alt me-2"></i>London, UK</span>
+                                                        <span class="text-secondary me-3"><i class="bi bi-clock me-2"></i>11 hours ago</span>
+                                                        <span class="text-secondary"><i class="bi bi-cash-stack me-2"></i>$35k-$45k</span>
+                                                        <div class="mt-3">
+                                                            <span class="part text-primary me-2">Part Time</span>
+                                                            <span class="private text-success me-2">Private</span>
+                                                            <span class="urgent text-warning">Urgent</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="float-end ms-3">
+                                                        <a href=""><i class="bi bi-bookmark"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                            </div>
+                              </div>
+                               <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="card  py-3 px-2">
+                                    <div class="card-body">
+                                                <div class="d-flex">
+                                                    <div class="me-3">
+                                                        <img src="../assets/img/company/1-4.png">
+                                                    </div>
+                                                    <div class="me-4">
+                                                        <a href=""><h6 class="mb-2">Senior Product Designer</h6></a>
+                                                        <span class="text-secondary me-3"><i class="bi bi-briefcase me-2"></i>Upwork</span>
+                                                        <span class="text-secondary me-3"><i class="bi bi-geo-alt me-2"></i>London, UK</span>
+                                                        <span class="text-secondary me-3"><i class="bi bi-clock me-2"></i>11 hours ago</span>
+                                                        <span class="text-secondary"><i class="bi bi-cash-stack me-2"></i>$35k-$45k</span>
+                                                        <div class="mt-3">
+                                                            <span class="part text-primary me-2">Temporary</span>
+                                                            <span class="private text-success me-2">Private</span>
+                                                            <span class="urgent text-warning">Urgent</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="float-end ms-3">
+                                                        <a href=""><i class="bi bi-bookmark"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                            </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="card py-3 px-2">
+                                    <div class="card-body">
+                                                <div class="d-flex">
+                                                    <div class="me-3">
+                                                        <img src="../assets/img/company/1-5.png">
+                                                    </div>
+                                                    <div class="me-4">
+                                                        <a href=""><h6 class="mb-2">Senior Full Stack Engineer, Creator </h6></a>
+                                                        <span class="text-secondary me-3"><i class="bi bi-briefcase me-2"></i>Medium</span>
+                                                        <span class="text-secondary me-3"><i class="bi bi-geo-alt me-2"></i>London, UK</span>
+                                                        <span class="text-secondary me-3"><i class="bi bi-clock me-2"></i>11 hours ago</span>
+                                                        <span class="text-secondary"><i class="bi bi-cash-stack me-2"></i>$35k-$45k</span>
+                                                        <div class="mt-3">
+                                                            <span class="part text-primary me-2">Full Time</span>
+                                                            <span class="private text-success me-2">Private</span>
+                                                            <span class="urgent text-warning">Urgent</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="float-end ms-3">
+                                                        <a href=""><i class="bi bi-bookmark"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                            </div>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-6">
+                                <div class="card py-3 px-2">
+                                    <div class="card-body">
+                                                <div class="d-flex">
+                                                    <div class="me-3">
+                                                        <img src="../assets/img/company/1-6.png">
+                                                    </div>
+                                                    <div class="me-4">
+                                                        <a href=""><h6 class="mb-2">Software Engineer (Android), Libraries</h6></a>
+                                                        <span class="text-secondary me-3"><i class="bi bi-briefcase me-2"></i>Figma</span>
+                                                        <span class="text-secondary me-3"><i class="bi bi-geo-alt me-2"></i>London, UK</span>
+                                                        <span class="text-secondary me-3"><i class="bi bi-clock me-2"></i>11 hours ago</span>
+                                                        <span class="text-secondary"><i class="bi bi-cash-stack me-2"></i>$35k-$45k</span>
+                                                        <div class="mt-3">
+                                                            <span class="part text-primary me-2">Freelancer</span>
+                                                            <span class="private text-success me-2">Private</span>
+                                                            <span class="urgent text-warning">Urgent</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="float-end ms-3">
+                                                        <a href=""><i class="bi bi-bookmark"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                            </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <p class="text-secondary">© 2023 Superio by <a href="" class="text-primary"> ib-themes.</a> All Right Reserved.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+           <script>
+               AOS.init();
+           </script>
+</body>
+</html>

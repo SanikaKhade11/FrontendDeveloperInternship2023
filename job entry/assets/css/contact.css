@@ -1,0 +1,45 @@
+body{
+    font-size: var(--font-17);
+    font-weight: 500;
+    font-family: sans-serif;
+    background-color: rgb(239, 253, 245);
+}
+#street .d-flex{
+    background-color: rgb(239, 253, 245);
+}
+#street span, #map p{
+    font-size: 18px;
+}
+#map p a{
+    color: rgb(0, 176, 116);
+}
+#map p a:hover{
+    color: rgb(12, 124, 87);
+}
+@media only screen and (min-width:200px) and (max-width:567px){
+    #street span, #map p{
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width:568px) and (max-width:992px){
+    #street span, #map p{
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+    .map-area iframe{
+        height: 543px;
+    }
+}
+@media only screen and (min-width:993px) and (max-width:1200px){
+    #street span, #map p{
+        font-size: 15px;
+    }
+    .btn{
+        font-size: 16px;
+    }
+}

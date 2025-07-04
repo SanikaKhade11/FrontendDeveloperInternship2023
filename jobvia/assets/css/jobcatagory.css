@@ -1,0 +1,259 @@
+:root{
+    --bs-green:#02af74;
+    --bs-grey:grey;
+    --font-400: 400;
+    --font-500: 500;
+    --font-600: 600;
+    --font-700:700;
+    --font-14:14px;
+    --font-17: 17px;
+    --font-20:20px;
+    --font-22: 22px;
+    --font-35: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+.dropdown-item:hover{
+    margin-left: 10px;
+    color: var(--bs-green);
+    background: none;
+}
+.link:hover{
+    color: green;
+    cursor: pointer;
+}
+.nav-link , .navbar .d-flex,#over h6,.submenu .d-flex h6, #main{
+    font-size: var(--font-17);
+    font-weight: var(--font-500);
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.dropdown-item{
+    font-size: 15px;
+    font-weight: 500;
+}
+.dropdown-menu .link{
+    color: black;
+}
+#nav2{
+    box-shadow: 0px 0px 5px #bdbdbd;
+}
+#drop{
+    width: 600px;
+}
+#right-icon{
+    float: right;
+}
+.card .badge{
+    background-color: rgba(95,208,243,.15);
+    color: #5fd0f3;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* .page-link {
+    padding: 13px 22px;
+    color: black;
+    border-color: gainsboro;
+}
+.pagination .bi{
+    font-size: 12px;
+} */
+#feet{
+    background-color: #343c3f;
+}
+#feet .form-control{
+    padding: 10px;
+    border-radius:10px 0px 0px 10px;
+    color: white;
+}
+#feet .input-group-append .btn{
+    border-radius:0px 5px 5px 0px;
+    width: 120px;
+}
+
+ .card .link{
+    color: #314047;
+    font-size:  var(--font-17);
+ }
+ .card-body .card{
+    box-shadow: 0 0.75rem 1.5rem rgba(49,64,71,.03);
+ }
+ p{
+    font-size: var(--font-17);
+    font-weight: var(--font-400);
+}
+.container .text-center p, .text-center p{
+    font-size: 18px;
+    color: var(--bs-grey);
+ }
+ .btn{
+    font-size:18px;
+    font-weight: var(--font-500);
+}
+#main{
+    font-size: var(--font-17);
+    font-weight: var(--font-500);
+}
+#main h3{
+    font-size: 30px;
+    font-weight:var(--font-600);
+}
+.card-body .link :hover{
+    color: green;
+}
+.card-body .link:hover{
+    color: green;
+    cursor: pointer;
+}
+.text-center .badge{
+    font-size: var(--font-17);
+    font-weight: var(--font-500);
+}
+#wide{
+   max-width:600px;
+   margin: auto;
+}
+#wide1{
+    max-width:700px;
+    margin: auto;
+ }
+ h1{
+    font-size: var(--font-35);
+ }
+ h2{
+    font-size: 25px;
+    font-weight: var(--font-600);
+ }
+ #e2 .link{
+    color: var(--bs-grey);
+        font-size: 17px;
+        font-weight: 500;
+ }
+ #e2 .link:hover{
+    color: var(--bs-white);
+    margin-left: 2px;
+}
+#fbtn .btn{
+    color: var(--bs-grey);
+}
+#fbtn .btn:hover{
+    background-color: var(--bs-white);
+    color: var(--bs-green);
+    cursor: pointer;
+}
+
+
+
+
+ @media only screen and (min-width:200px) and (max-width:567px){
+    body{
+        padding: 20px;
+        width: 100%;
+    }
+    #none{
+        display: none;
+    }
+    .navbar-brand{
+        width: 200px;
+    }
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+    .navbar .d-flex img{
+        width: 40px;
+    }
+    .card .link{
+        color: #314047;
+        font-size: 15px;
+     }
+     .card .badge{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    #wide1, #wide, #feet .container .row p, #wide3 p{
+        font-size: 15px;
+        font-weight: 400;
+       }
+       #wide3 p , #wide3  .link{
+        font-size: 15px;
+        font-weight: 500;
+       }
+      #last{
+        /* width: 100%; */
+        font-size: 16px;
+        font-weight: 500;
+      }
+       #feet .input-group{
+        width: 100%;
+       }
+       /* #feet .container p{
+        font-size: 14px;
+       } */
+   #e2{
+    width: 50%;
+   }
+  
+}
+
+@media only screen and (min-width:568px) and (max-width:992px){
+    body{
+        padding: 20px;
+        width: 100%;
+    }
+    #none{
+        display: none;
+    }
+    .navbar-brand{
+        width: 200px;
+    }
+    .navbar-toggler-icon{
+        width: 20px;
+    }
+    .navbar .d-flex img{
+        width: 40px;
+    }
+    #row4 .col-sm-4{
+        width:100%;
+    }
+    .card .link{
+        color: #314047;
+        font-size: 16px;
+     }
+     .card .badge{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    #wide1, #wide3 p{
+        font-size: 15px;
+        font-weight: 400;
+       }
+       #wide3 p , #wide3  .link{
+        font-size: 15px;
+        font-weight: 500;
+       }
+      #last{
+        /* width: 100%; */
+        font-size: 16px;
+        font-weight: 500;
+      }
+      #feet .row .col-sm-6{
+        width: 100%;
+      }
+       #feet .input-group{
+        width: 100%;
+       }
+       #wide3 .col-sm-4{
+        width: 100%;
+       }
+       /* #feet .container p{
+        font-size: 14px;
+       } */
+   #e2{
+    width: 50%;
+   }
+  
+
+}
